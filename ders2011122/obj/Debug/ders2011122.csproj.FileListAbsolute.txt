@@ -1,0 +1,7 @@
+C:\Users\sevde\source\repos\ders2011122\bin\Debug\ders2011122.exe.config
+C:\Users\sevde\source\repos\ders2011122\bin\Debug\ders2011122.exe
+C:\Users\sevde\source\repos\ders2011122\bin\Debug\ders2011122.pdb
+C:\Users\sevde\source\repos\ders2011122\obj\Debug\ders2011122.csprojAssemblyReference.cache
+C:\Users\sevde\source\repos\ders2011122\obj\Debug\ders2011122.csproj.CoreCompileInputs.cache
+C:\Users\sevde\source\repos\ders2011122\obj\Debug\ders2011122.exe
+C:\Users\sevde\source\repos\ders2011122\obj\Debug\ders2011122.pdb
