@@ -11,7 +11,7 @@ namespace ders2011122
         static void Main(string[] args)
         {
 
-            #region Bölüm2
+            #region  Bölüm2 Tür Dönüşümü
 
             #region bilinçsiz tür dönüşümü
 
@@ -144,6 +144,16 @@ namespace ders2011122
             #endregion
 
             #region Örnek1
+            //Console.Write("Lütfen 1. sayıyı giriniz: ");
+            //byte toplam = 0;
+            //byte sayi1;
+            //sayi1 = Convert.ToByte(Console.ReadLine());
+            //Console.Write("Lütfen 2. sayıyı giriniz: ");
+            //byte sayi2;
+            //sayi2 = Convert.ToByte(Console.ReadLine());
+            //toplam = Convert.ToByte(sayi1 + sayi2);
+
+            //Console.WriteLine($"Toplam = {toplam}");
 
             #endregion
 
@@ -259,18 +269,17 @@ namespace ders2011122
 
             //Console.Write("Sayıyı giriniz : ");
             //byte x = Convert.ToByte(Console.ReadLine());
-            //byte sayac = 1;
 
-            //Console.Write($"{x} * {1} = " + (sayac++ * x) 
-            //            + $"\n{x} * {2} = " + (sayac++ * x)
-            //            + $"\n{x} * {3} = " + (sayac++ * x)
-            //            + $"\n{x} * {4} = " + (sayac++ * x)
-            //            + $"\n{x} * {5} = " + (sayac++ * x)
-            //    );
+            //Console.Write($"{x} * {1} = " + (1 * x)
+            //            + $"\n{x} * {2} = " + (2 * x)
+            //            + $"\n{x} * {3} = " + (3 * x)
+            //            + $"\n{x} * {4} = " + (4 * x)
+            //            + $"\n{x} * {5} = " + (5 * x)
+            // );
 
             #endregion
 
-            #region örnek5
+            #region örnek5 iki sayıdan negatif veya pozitif kontrolü
 
             //girilen 2 sayının negatif pozitif kontrolü
             //iki sayı ya pozitif ya da negatif olacak
@@ -285,7 +294,109 @@ namespace ders2011122
             //sbyte sayi2;
             //sayi2 = Convert.ToSByte(Console.ReadLine());
 
-            //Console.WriteLine(sayi1 < 0 || sayi2 < 0 || sayi1 > 0 || sayi2 > 0);
+            //Console.WriteLine((sayi1 < 0 && sayi2 > 0) || (sayi1 > 0 && sayi2 < 0));
+
+            #endregion
+
+            #region bool kontrolü
+
+            //bool a = 4 < 6;
+            //bool b = 6 > 5;
+            //bool c = 7 <= 7;
+            //bool d = 9 >= 12;
+            //bool e = 10 == 12;
+            //bool f = 1 != 8;
+
+            //Console.WriteLine($"a : {a}");
+            //Console.WriteLine($"b : {b}");
+            //Console.WriteLine($"c : {c}");
+            //Console.WriteLine($"d : {d}");
+            //Console.WriteLine($"e : {e}");
+            //Console.WriteLine($"f : {f}");
+
+            #endregion
+
+            #region As operatörü kullanımı
+            //as operatörü ile nesne başka bir tipe dönüştürülebilir.
+            //veya bir tip nesneye as operatörü ile dönüşüm yapabilir.
+            //nesne(object) bir alt tipe dönüştürülemiyor.
+            //object i = 50;
+            //string s = i as string;
+            //Console.WriteLine("s : " + s);
+
+            //int ss = 50;
+            //object oo = ss as object;
+            //Console.WriteLine("oo : " + oo);//çıktı 50 olur
+
+            //object ten küçüğü dönüştürülebilir
+            //object i tek başına bu şekilde kullanmıyoruz
+
+            //using kullanınca aa değişkeni çalışmaz
+
+            #endregion
+
+            #region is komutuyla kontrol
+
+            //int i = 50;
+            //byte a = 12;
+            //bool b1 = i is int;
+            //bool b2 = i is double;
+            //bool b3 = 15.3 is double;
+            //bool b4 = "ceyhan" is string;
+            //bool b5 = 12f + 7 is float;
+            //bool b6 = a is byte;
+            //bool b7 = 'c' is char;
+            //bool b8 = "ceyhan" is char;
+
+            //Console.WriteLine($"b1 : {b1}");
+            //Console.WriteLine($"b2 : {b2}");
+            //Console.WriteLine($"b3 : {b3}");
+            //Console.WriteLine($"b4 : {b4}");
+            //Console.WriteLine($"b5 : {b5}");
+            //Console.WriteLine($"b6 : {b6}");
+            //Console.WriteLine($"b7 : {b7}");
+            //Console.WriteLine($"b8 : {b8}");
+
+            #endregion
+
+            #region ?: tenary operatörü
+
+            //koşul ? true : false mantığında çalışır
+            //Console.Write("Bu serdar hoca iyi mi? (e,h) : ");
+            //string cevap = Console.ReadLine();
+            //Console.WriteLine((cevap == "e" || cevap == "E") ? "Teşekkürler bunu sizden duymak güzel" : "Sağlık olsun");
+            #endregion
+
+            #region örnek 03112022
+
+            //tenary kullanarak tek satırda yap
+            //sınav notunu giriniz
+            //100-85 ise A
+            //80-70 ise B
+            //70-55 ise C
+            //55-45 ise D
+            //45< ise F
+
+            //byte not;
+            //Console.Write("Ekrana sınav notunu yazınız : ");
+            //not = Convert.ToByte(Console.ReadLine());
+            //Console.WriteLine((not < 100 && not > 85) ? "A" : 
+            //                  (not < 85 && not > 70) ? "B" : 
+            //                  (not < 70 && not > 55) ? "C" :
+            //                  (not < 100 && not > 85) ? "D" : "F");
+
+            #endregion
+
+            #region ?? operatörü
+
+            //double? num1 = null;
+            //double? num2 = 3.14;
+            //double? num3;
+
+            //num3 = num1 ?? 5.34; //num1 null ise sağ tarafındakini atıyoruz
+            //Console.WriteLine($"num3 değişkeni : {num3}");
+            //num3 = num2 ?? 3.14; //num2 null değilse sol taraf çalışır
+            //Console.WriteLine($"num3 değişkeni : {num3}");
 
             #endregion
 
