@@ -1430,8 +1430,6 @@ namespace ders2011122
 
             #endregion
 
-
-           
             #region 09.11 - ornek
 
             //1 ile 100 arasındaki tek ve çift sayıları ayrı ayrı toplayan ornek
@@ -1569,8 +1567,187 @@ namespace ders2011122
 
             #endregion
 
+            #region girilen sayıların rakamları toplamı
 
-           Console.ReadLine();
+            //Console.Write("Sayı giriniz : ");
+            //int sayi;
+            //sayi = Convert.ToInt32(Console.ReadLine());
+
+            //int toplam = 0;
+
+            //while (sayi>0)
+            //{
+            //    toplam += sayi % 10;
+            //    sayi = sayi / 10;
+            //}
+            //Console.WriteLine($"Girilen sayının rakamları toplamı : {toplam}");
+
+            #endregion
+
+            #region girilen kelimeyi tersten yazdırma
+
+            //Console.Write("Metin giriniz : ");
+            //string metin;
+            //metin = Console.ReadLine();
+            //int metin2 = metin.Length;
+            //int i = metin2;
+
+            //Console.Write("Girilen metnin tersten yazılmış hali : ");
+            //while (i > 0)
+            //{
+            //    Console.Write(metin.Substring(i-1,1));
+            //    i--;
+            //}
+
+            #endregion
+
+            #region while örnek
+
+            /*
+            1 2 3 4 5 6 
+            2 4 6 8 10 12
+            4 8 12 16 20 24
+            */
+
+            //int i = 1, j = 1;
+            ////satır ve sütun olduğu için 2 adet while olacak
+            ////her satırda 2. dögüyü sıfırlıyorum
+
+            ////satır için while
+            //while (i<4)
+            //{
+            //    //sütun için while
+            //    while (j<7) //1 ile 6 arasında aldık
+            //    {
+            //        if (i<3)
+            //            Console.Write(j * i + " ");
+            //        else
+            //            Console.Write(j * (i+1) + " ");
+            //        j++;
+            //    }
+            //    j = 1;//her sütun bittiğinde j yi başa aldık
+            //    Console.WriteLine();
+            //    i++;
+            //}
+
+            #endregion
+
+            #region while örnek2
+
+            //while döngüleri koşula bağlı olarak çalışır for döngüsü gibi herhangi başlangıç ve bitiş değeri yoktur
+            //değişken artırım değerleri döngü içerisinde kullanılır
+
+            //int x = 0;
+            //while (x++ < 10)
+            //{
+            //    Console.WriteLine("X değişkeninin değerleri : {0}", x); //çıktı 1 den 10 a kadar olur
+            //}
+
+            #endregion
+
+            #region while örnek3
+
+            //int z = 2;
+            //while (++z < 6)
+            //{
+            //    Console.WriteLine("Z değişkeninin değerleri : {0}", z);//Çıktıda sadece 3 4 ve 5 çıkar
+            //}
+
+            #endregion
+
+            #region do-while
+            //Koşula bakmadan her durumda 1 kere döngü içi çalışır
+
+            //int i = 1, n = 5, sonuc1;
+            //do
+            //{
+            //    sonuc1 = n * i;
+            //    Console.WriteLine($"{n} * {i} = {sonuc1}");
+            //    i++;
+            //} while (i<=10);
+
+            #endregion
+
+            #region kütle indeksi ve koşu
+
+            //kütle indeksini bul
+            //kütle indeksini girdiği zaman 35 dk koş
+            //örneğin sürem 30 dk, 20 dk da bir duracak
+            //örneği sürem 30 dk, 10 dk da durduğunda desin ki 25 dk daha koş
+
+            //kişi boyu, kilosu indeksini girdiği zaman 
+
+            /*
+             18, 5 kg/m² ‘nin altındaki sonuçlar: İdeal kilonun altında
+             18, 5 kg/m² ile 24, 9 kg/m² arasındaki sonuçlar: İdeal kiloda
+             25 kg/m² ile 29, 9 kg/m² arasındaki sonuçlar: İdeal kilonun üstünde
+             30 kg/m² ile 39, 9 kg/m² arasındaki sonuçlar: İdeal kilonun çok üstünde (obez)
+             40 kg/m² üzerindeki sonuçlar: İdeal kilonun çok üstünde (morbid obez)
+             */
+
+            Console.Write("Kilonuzu giriniz : ");
+            float kilo;
+            kilo = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("Boyunuzu giriniz : ");
+            float boy;
+            boy = Convert.ToSingle(Console.ReadLine());
+
+            float indeks = kilo / (boy * boy);
+            Console.WriteLine($"{indeks} k/m²");
+            float sure1 = 0;
+            float sure2 = 20;
+            int sayac = 699999950;
+
+
+            if (indeks < 18.5)
+            {
+                Console.WriteLine("Kilonuz ideal kilonun altında");
+                Console.WriteLine($"Koşmanız gereken süre {sure2} dk");
+
+                while (sure2 > sure1)
+                {
+                    for (int i = 1; i <= sayac; i++)
+                    {
+                        //Console.WriteLine("Koş")
+                    }
+
+                    sure1 += 10;
+                    Console.WriteLine("10 dk koştunuz, 10 dk daha koşmalısınız");
+                    Console.WriteLine("Koşmaya devam etmek istiyor musunuz ? : ");
+                    string cevap;
+                    cevap = Console.ReadLine();
+
+                    if (cevap == "e" || cevap == "E")
+                    {
+                        //sure2 -= 10;
+                        Console.WriteLine("Koşmaya devam ediyorsunuz...");
+
+                        Console.WriteLine($"Koşmanız gereken kalan süre {sure2 - sure1}");
+
+                        for (int i = 1; i <= sayac; i++)
+                        {
+                            //Console.WriteLine("Koş");
+                        }
+
+                        sure1 += 10;
+                        if (sure1==20)
+                        {
+                            Console.WriteLine("Koşunuz bitti!");
+                        }
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Koşunuz bitti!");
+                    }
+                }
+            }
+
+            #endregion
+
+
+            Console.ReadLine();
         }
     }
 }
