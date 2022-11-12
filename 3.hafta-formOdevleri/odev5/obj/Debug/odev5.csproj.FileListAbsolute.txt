@@ -1,0 +1,10 @@
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\bin\Debug\odev5.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\bin\Debug\odev5.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\bin\Debug\odev5.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.csprojAssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.Form1.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\3.hafta-formOdevleri\odev5\obj\Debug\odev5.pdb

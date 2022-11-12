@@ -19,3 +19,10 @@ C:\Users\sevde\Downloads\ilkformuygulamam1111-20221111T184446Z-001\ilkformuygula
 C:\Users\sevde\Downloads\ilkformuygulamam1111-20221111T184446Z-001\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.csproj.CoreCompileInputs.cache
 C:\Users\sevde\Downloads\ilkformuygulamam1111-20221111T184446Z-001\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.exe
 C:\Users\sevde\Downloads\ilkformuygulamam1111-20221111T184446Z-001\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.csprojAssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.Form1.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\ilkformuygulamam1111\ilkformuygulamam1111\obj\Debug\ilkformuygulamam1111.pdb
