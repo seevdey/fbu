@@ -1668,7 +1668,7 @@ namespace ders2011122
 
             #endregion
 
-            #region kütle indeksi ve koşu
+            #region kütle indeksi hesaplama
 
             //kütle indeksini bul
             //kütle indeksini girdiği zaman 35 dk koş
@@ -1685,64 +1685,62 @@ namespace ders2011122
              40 kg/m² üzerindeki sonuçlar: İdeal kilonun çok üstünde (morbid obez)
              */
 
-            Console.Write("Kilonuzu giriniz : ");
-            float kilo;
-            kilo = Convert.ToSingle(Console.ReadLine());
+            //Console.Write("Kilonuzu giriniz : ");
+            //float kilo;
+            //kilo = Convert.ToSingle(Console.ReadLine());
 
-            Console.Write("Boyunuzu giriniz : ");
-            float boy;
-            boy = Convert.ToSingle(Console.ReadLine());
+            //Console.Write("Boyunuzu giriniz : ");
+            //float boy;
+            //boy = Convert.ToSingle(Console.ReadLine());
 
-            float indeks = kilo / (boy * boy);
-            Console.WriteLine($"{indeks} k/m²");
-            float sure1 = 0;
-            float sure2 = 20;
-            int sayac = 699999950;
+            //float indeks = kilo / (boy * boy);
+            //Console.WriteLine($"{indeks} k/m²");
+            //float sure1 = 0;
+            //float sure2 = 20;
+            //int sayac = 999999990;
 
+            //if (indeks < 18.5)
+            //{
+            //    Console.WriteLine("Kilonuz ideal kilonun altında");
+            //    Console.WriteLine($"Koşmanız gereken süre {sure2} dk");
 
-            if (indeks < 18.5)
-            {
-                Console.WriteLine("Kilonuz ideal kilonun altında");
-                Console.WriteLine($"Koşmanız gereken süre {sure2} dk");
+            //    while (sure2 > sure1)
+            //    {
+            //        for (int i = 1; i <= sayac; i++)
+            //        {
+            //            //Console.WriteLine("Koş");
+            //        }
+            //        sure1 += 10;
+            //        Console.WriteLine("10 dk koştunuz, 10 dk daha koşmalısınız");
 
-                while (sure2 > sure1)
-                {
-                    for (int i = 1; i <= sayac; i++)
-                    {
-                        //Console.WriteLine("Koş")
-                    }
+            //        Console.WriteLine("Koşmaya devam etmek istiyor musunuz ? : ");
+            //        string cevap;
+            //        cevap = Console.ReadLine();
 
-                    sure1 += 10;
-                    Console.WriteLine("10 dk koştunuz, 10 dk daha koşmalısınız");
-                    Console.WriteLine("Koşmaya devam etmek istiyor musunuz ? : ");
-                    string cevap;
-                    cevap = Console.ReadLine();
+            //        if (cevap == "e" || cevap == "E")
+            //        {
+            //            sure2 -= 10;
 
-                    if (cevap == "e" || cevap == "E")
-                    {
-                        //sure2 -= 10;
-                        Console.WriteLine("Koşmaya devam ediyorsunuz...");
+            //            Console.WriteLine("Koşmaya devam ediyorsunuz...");
+            //            Console.WriteLine($"Koşmanız gereken kalan süre {sure2 - sure1}");
+            //            for (int i = 1; i <= sayac; i++)
+            //            {
+            //                //Console.WriteLine("Koş");
+            //            }
 
-                        Console.WriteLine($"Koşmanız gereken kalan süre {sure2 - sure1}");
-
-                        for (int i = 1; i <= sayac; i++)
-                        {
-                            //Console.WriteLine("Koş");
-                        }
-
-                        sure1 += 10;
-                        if (sure1==20)
-                        {
-                            Console.WriteLine("Koşunuz bitti!");
-                        }
-
-                    }
-                    else
-                    {
-                        Console.WriteLine("Koşunuz bitti!");
-                    }
-                }
-            }
+            //            sure1 += 10;
+            //            if (sure1 == 20)
+            //            {
+            //                Console.WriteLine("Toplam 20 dk koştunuz");
+            //                Console.WriteLine("Koşunuz bitti!");
+            //            }
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Koşunuz bitti!");
+            //        }
+            //    }
+            //}
 
             #endregion
 
