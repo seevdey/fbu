@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(212, 248);
+            this.button1.Location = new System.Drawing.Point(284, 278);
             this.button1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(146, 62);
@@ -48,7 +48,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(154, 107);
+            this.label1.Location = new System.Drawing.Point(226, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 29);
             this.label1.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // sayitxt
             // 
-            this.sayitxt.Location = new System.Drawing.Point(293, 100);
+            this.sayitxt.Location = new System.Drawing.Point(365, 130);
             this.sayitxt.Name = "sayitxt";
             this.sayitxt.Size = new System.Drawing.Size(130, 36);
             this.sayitxt.TabIndex = 2;
@@ -66,7 +66,7 @@
             // sonuclbl
             // 
             this.sonuclbl.AutoSize = true;
-            this.sonuclbl.Location = new System.Drawing.Point(207, 186);
+            this.sonuclbl.Location = new System.Drawing.Point(279, 216);
             this.sonuclbl.Name = "sonuclbl";
             this.sonuclbl.Size = new System.Drawing.Size(133, 29);
             this.sonuclbl.TabIndex = 3;

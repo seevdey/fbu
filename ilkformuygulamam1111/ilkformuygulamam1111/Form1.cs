@@ -53,7 +53,7 @@ namespace ilkformuygulamam1111
         private void sayi1txt_Leave(object sender, EventArgs e)
         {
            
-            if (!Int32.TryParse(sayi1txt.Text, out sayi1)){
+            if (!Int32.TryParse(sayi1txt.Text, out int c)){
                 sayi1txt.Select();
                 sayi1txt.Clear();
             }

@@ -1,0 +1,10 @@
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.csprojAssemblyReference.cache
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.Form1.resources
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.Properties.Resources.resources
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.csproj.GenerateResource.cache
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.csproj.CoreCompileInputs.cache
+C:\Users\sevde\source\repos\odev6\bin\Debug\odev6.exe.config
+C:\Users\sevde\source\repos\odev6\bin\Debug\odev6.exe
+C:\Users\sevde\source\repos\odev6\bin\Debug\odev6.pdb
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.exe
+C:\Users\sevde\source\repos\odev6\obj\Debug\odev6.pdb
