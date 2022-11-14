@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\bin\Debug\odev16.exe.config
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\bin\Debug\odev16.exe
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\bin\Debug\odev16.pdb
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.Form1.resources
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.exe
+C:\Users\sevdenur.yilmaz\source\repos\odev16\odev16\obj\Debug\odev16.pdb
