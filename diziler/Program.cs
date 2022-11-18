@@ -231,19 +231,19 @@ namespace diziler
                 if (not[j + 1] == "100")
                 {
                     sayac++;
-                    Console.WriteLine($"{sayac} kişi A aldı");
                 }
                 else if (not[j + 1] == "80")
                 {
                     sayac1++;
-                    Console.WriteLine($"{sayac1} kişi B aldı");
                 }
                 else  if (not[j + 1] == "70")
                 {
                     sayac2++;
-                    Console.WriteLine($"{sayac2} kişi C aldı");
                 }
             }
+            Console.WriteLine($"{sayac} kişi A aldı");
+            Console.WriteLine($"{sayac1} kişi B aldı");
+            Console.WriteLine($"{sayac2} kişi C aldı");
 
             #endregion
 
