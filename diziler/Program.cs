@@ -168,14 +168,14 @@ namespace diziler
             #region for ve foreach döngüsü
 
             /* 
-             
+
             foreach sadece okur yani listeler --> içinde dizi elemanını değiştiremem
             foreach kullanılan yerler : 
                 1) diziler,
                 2) koleksiyonlar,
                 3) nesneler
             for hem okur hem yazar --> içinde dizi elemanını değiştirebilirim
-             
+
             */
 
             ////int[] sayilar = { 1, 2, 3 };
@@ -204,49 +204,422 @@ namespace diziler
 
             #endregion
 
-
-            #region foreach örnek
+            #region for ile dizi örneği
 
             //14 öğrencinin adı ve notlarını klavyeden al. Ekrana bu sınıfta kaç kişi A aldı, B aldı, C aldı yazacak
 
-            int sayac = 0, sayac1=0, sayac2=0;
-            int boyut = 3;
-            string [] not = new string[boyut * 2];
+            //int sayac = 0, sayac1=0, sayac2=0;
+            //int boyut = 3;
+            //string [] not = new string[boyut * 2];
 
-            int x = boyut * 2;
+            //int x = boyut * 2;
 
-            for (int i = 0; i < x; i+=2)
+            //for (int i = 0; i < x; i+=2)
+            //{
+            //    Console.Write("Ad giriniz : ");
+            //    string adi = Console.ReadLine();
+            //    not[i] = adi;
+
+            //    Console.Write("Not giriniz : ");
+            //    string not2 = Console.ReadLine();
+            //    not[i + 1] = not2;
+            //}
+
+            //for (int j = 0; j < x; j+=2)
+            //{
+            //    if (not[j + 1] == "100")
+            //    {
+            //        sayac++;
+            //    }
+            //    else if (not[j + 1] == "80")
+            //    {
+            //        sayac1++;
+            //    }
+            //    else  if (not[j + 1] == "70")
+            //    {
+            //        sayac2++;
+            //    }
+            //}
+            //Console.WriteLine($"{sayac} kişi A aldı");
+            //Console.WriteLine($"{sayac1} kişi B aldı");
+            //Console.WriteLine($"{sayac2} kişi C aldı");
+
+            #endregion
+
+            #region foreach
+
+            //string [] ss = {"x", "40", "y", "50", "z", "52" };
+            //int val;
+            //int sayacf = 0, sayacd = 0, sayacc = 0, sayacb = 0;
+
+            //foreach (string s in ss)
+            //{
+            //    if (int.TryParse(s, out val))
+            //    {
+            //        if (int.Parse(s) < 45)
+            //            sayacf++;
+
+            //        else if (int.Parse(s) > 45 || int.Parse(s) < 55)
+            //            sayacd++;
+            //    }
+            //}
+
+            //Console.WriteLine($"F : {sayacf}");
+            //Console.WriteLine($"D : {sayacd}");
+
+            #endregion
+
+            #region forech döngüsü örnek
+
+            //int sayacf = 0, sayacd = 0, sayacc = 0;
+            //int boyut = 3;
+            //string[] not = new string[boyut * 2];
+            //int x = boyut * 2;
+
+            //for (int i = 0; i < x; i+=2)
+            //{
+            //    Console.Write("Ad giriniz : ");
+            //    string adi = Console.ReadLine();
+            //    not[i] = adi;
+
+            //    Console.Write("Not giriniz : ");
+            //    string not2 = Console.ReadLine();
+            //    not[i + 1] = not2;
+            //}
+
+            //int val;
+            //foreach (string s in not)
+            //{
+            //    if (Int32.TryParse(s, out val))//girilen değerin int e dönüşüp dönüşmediğini kontrol ediyoruz
+            //    {
+            //        if (int.Parse(s) < 45)
+            //            sayacf++;
+
+            //        else if (int.Parse(s) >= 45 && int.Parse(s) < 55)
+            //            sayacd++;
+
+            //        else if (int.Parse(s) >= 55 && int.Parse(s) < 65)
+            //            sayacc++;
+            //    }
+            //}
+
+            //Console.WriteLine($"{sayacf} kişi F aldı");
+            //Console.WriteLine($"{sayacd} kişi D aldı");
+            //Console.WriteLine($"{sayacc} kişi C aldı");
+
+            #endregion
+
+            //dizinin boyutunu öğrenmek için Rank metodunu kullanırız
+
+            #region 18.11 - örnek
+            //Notları girdi soru sorsun sınıftaki en yüksek mi en düşük notu mu getirmek istiyorsun?
+            //yüksek seçerse en yükseği, düşük seçerse en düşük not görünsün
+
+            //menu:
+            //    int buyuk = 0, kucuk = 0;
+            //    int sayacf = 0, sayacd = 0, sayacc = 0;
+            //    int boyut = 3;
+            //    string[] not = new string[boyut * 2];
+            //    int x = boyut * 2;
+
+            //    for (int i = 0; i < x; i += 2)
+            //    {
+            //        Console.Write("Ad giriniz : ");
+            //        string adi = Console.ReadLine();
+            //        not[i] = adi;
+
+            //        Console.Write("Not giriniz : ");
+            //        string not2 = Console.ReadLine();
+            //        not[i + 1] = not2;
+            //    }
+
+            //    Console.WriteLine("Sınıftaki en yüksek mi en düşük notu mu getirmek istiyorsun? (Yüksek / Düşük)");
+            //    string cevap = Console.ReadLine();
+
+            //    for (int i = 0; i < x; i+=2)
+            //    {
+            //        int sayi = int.Parse(not[i + 1]);
+            //        if (i==0)
+            //        {
+            //            buyuk = sayi;
+            //            kucuk = sayi;
+            //        }
+
+            //        if (sayi > buyuk)
+            //            buyuk = sayi;
+
+            //        if (sayi < kucuk)
+            //            kucuk = sayi;
+            //    }
+
+            //    if (cevap == "Yüksek")
+            //    {
+            //        Console.Write($"En yüksek not : {buyuk}");
+            //    }
+            //    else if (cevap == "Düşük")
+            //    {
+            //        Console.Write($"En düşük not : {kucuk}");
+            //    }
+
+            //    Console.WriteLine("\nYeniden işlem yapmak istiyor musunuz ? (e/h)");
+            //    string cevap2 = Console.ReadLine();
+            //    if (cevap2 == "e" || cevap2 == "E")
+            //    {
+            //        Console.Clear();
+            //        goto menu;
+            //    }
+
+            #endregion
+
+            #region Diziler
+
+            //int[] array = new int[5] { 1,4,2,3,5 };
+            //Console.WriteLine("Dizinin başlangıç değerleri : ");
+            //foreach(int i in array)
+            //    Console.WriteLine(i);
+
+            //Array.Sort(array);
+
+
+            //Console.WriteLine("Dizinin sıralanmış değerleri : ");
+            //foreach (int i in array)
+            //    Console.WriteLine(i);
+
+            //Array.Reverse(array);
+
+
+            //Console.WriteLine("Dizinin tersten sıralanmış değerleri : ");
+            //foreach (int i in array)
+            //    Console.WriteLine(i);
+
+            #endregion
+
+            #region İki Boyutlu Diziler
+
+            //dizi1[satır, sütun]-- > GetLength(0) dersem satırı, GetLength(1) sütunu alır
+
+            //int[,] dizi1 = new int[2, 3]; //2 boyutlu dizi --> 2 satır 3 sütun 
+            //int[,] dizi2 = new int[2, 3];
+            //int[,] dizi3 = new int[2, 3];
+
+            //Console.WriteLine("Dizi1 olan A matrisinin elemanlarını giriniz");
+
+            //for (int i = 0; i < dizi1.GetLength(0); i++) //i --> satır
+            //{
+            //    for (int j = 0; j < dizi1.GetLength(1); j++) //sütun
+            //    {
+            //        Console.Write($"A matrisinin {i + 1}. satır {j + 1}. sütun değerini giriniz : ");
+            //        dizi1[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //Console.WriteLine("\nDizi1 olan A matrisinin elemanlarını listeleyiniz");
+            //for (int i = 0; i < dizi1.GetLength(0); i++) //satır
+            //{
+            //    for (int j = 0; j < dizi1.GetLength(1); j++) //sütun
+            //    {
+            //        Console.Write(dizi1[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+
+            #region İki Boyutlu Dizi Örneği
+
+            //int[,] dizi4 = new int[2, 3]; //2 boyutlu dizi --> 2 satır 3 sütun 
+            //int[,] dizi5 = new int[2, 3];
+            //int[,] sonuc = new int[2, 3];
+
+
+            ////A matrisi
+            //Console.WriteLine("Dizi1 olan A matrisinin elemanlarını giriniz");
+
+            //for (int i = 0; i < dizi4.GetLength(0); i++) //i --> satır
+            //{
+            //    for (int j = 0; j < dizi4.GetLength(1); j++) //sütun
+            //    {
+            //        Console.Write($"A matrisinin {i + 1}. satır {j + 1}. sütun değerini giriniz : ");
+            //        dizi4[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //Console.WriteLine("\nDizi1 olan A matrisinin elemanlarını listeleyiniz");
+            //for (int i = 0; i < dizi4.GetLength(0); i++) //satır
+            //{
+            //    for (int j = 0; j < dizi4.GetLength(1); j++) //sütun
+            //    {
+            //        Console.Write(dizi4[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //    Console.WriteLine();
+            //}
+
+            //Console.WriteLine();
+            ////B matrisi
+            //Console.WriteLine("Dizi2 olan B matrisinin elemanlarını giriniz");
+
+            //for (int k = 0; k < dizi5.GetLength(0); k++) //i --> satır
+            //{
+            //    for (int l = 0; l < dizi5.GetLength(1); l++) //sütun
+            //    {
+            //        Console.Write($"B matrisinin {k + 1}. satır {l + 1}. sütun değerini giriniz : ");
+            //        dizi5[k, l] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //Console.WriteLine("\nDizi2 olan B matrisinin elemanlarını listeleyiniz");
+            //for (int i = 0; i < dizi5.GetLength(0); i++) //satır
+            //{
+            //    for (int j = 0; j < dizi5.GetLength(1); j++) //sütun
+            //    {
+            //        Console.Write(dizi5[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //    Console.WriteLine();
+            //}
+
+            //Console.WriteLine("\nC matrisi : ");
+            ////C matrisi
+
+            //for (int i = 0; i < sonuc.GetLength(0); i++) //satır
+            //{
+            //    for (int j = 0; j < sonuc.GetLength(1); j++) //sütun
+            //    {
+            //        sonuc[i, j] = dizi4[i, j] + dizi5[i, j];
+
+            //        Console.Write(sonuc[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+
+            //4. hafta ÖÖDEV
+
+            #region 1 ile 1000 arasında 5 e bölünebilen sayıların listesi ve adedi
+
+            //short sayac = 0;
+
+            //Console.WriteLine("1 ile 1000 arasında 5 e bölünebilen sayıların listesi : ");
+
+            //int [] dizi  = new int[60];
+
+            //for (short i = 1; i < dizi.Length; i++)
+            //{
+            //    if (i % 5 == 0)
+            //    {
+            //        dizi[i] = i;
+            //        Console.WriteLine(dizi[i]);
+            //        sayac++;
+            //    }
+            //}
+
+            //Console.WriteLine($"\n5 e bölünebilen sayıların adedi : {sayac}");
+
+            #endregion
+
+            #region 5 e bölünebilen 7 ye bölünemeyen sayıların listesi ve adetleri 
+
+            //int sayac2 = 0;
+
+            //int[] dizi2 = new int[60];
+
+
+            //for (int i = 1; i < dizi2.Length; i++)
+            //{
+            //    if (i % 5 == 0 && i % 7 != 0)
+            //    {
+            //        dizi2[i] = i;
+            //        Console.WriteLine(i);
+            //        sayac2++;
+            //    }
+            //}
+
+            //Console.WriteLine($"5'e tam bölünebilen 7'ye bölünemeyen sayıların adedi :  {sayac2}");
+
+            #endregion
+
+
+            #region Kullanıcı Girişi - Faz 1
+
+            //faz1 kullanıcı adını kendin gir
+            //form adı : kullanıcı adı , şifre
+            //dizinin ismi: kullanıcı ismi
+
+            string [,] kullanici_ismi = { {"0", "user", "pass" }, { "1", "usern", "passw"} };
+
+            //string[] giris = new string[1];
+            //Console.Write("Kullanıcı adı giriniz : ");
+            //string kadi = Console.ReadLine();
+
+            //string[] giris2 = new string[1];
+            //Console.Write("Şifre giriniz : ");
+            //string sifre = Console.ReadLine();
+
+            //string[,] giris = new string[1, 1];
+
+            //for (int i = 0; i < giris.GetLength(0); i++)
+            //{
+            //    Console.Write("Kullanıcı adı giriniz : ");
+            //    string kadi = Console.ReadLine();
+
+            //    for (int j = 0; j < giris.GetLength(1); j++)
+            //    {
+            //        Console.Write("Şifre giriniz : ");
+            //        string sifre = Console.ReadLine();
+            //    }
+
+            //}
+
+
+            string[] not = new string [1];
+            int x = not.Length;
+
+            for (int i = 0; i < x ; i++)
             {
-                Console.Write("Ad giriniz : ");
+                Console.Write("Kullanıcı adı giriniz : ");
                 string adi = Console.ReadLine();
                 not[i] = adi;
 
-                Console.Write("Not giriniz : ");
+                Console.Write("Şifre giriniz : ");
                 string not2 = Console.ReadLine();
                 not[i + 1] = not2;
             }
 
-            for (int j = 0; j < x; j+=2)
+
+            for (int i = 0; i < kullanici_ismi.GetLength(0); i++) //satır
             {
-                if (not[j + 1] == "100")
+                for (int j = 0; j < kullanici_ismi.GetLength(1); j++) //sütun
                 {
-                    sayac++;
-                }
-                else if (not[j + 1] == "80")
-                {
-                    sayac1++;
-                }
-                else  if (not[j + 1] == "70")
-                {
-                    sayac2++;
+                    if (not[i] == kullanici_ismi[i, j + 1] && not[i] == kullanici_ismi[i, j+2])
+                    {
+                        Console.WriteLine("Kullanıcı girişi başarılı");
+                    }
+                    else
+                        Console.WriteLine("Kullanıcı girişi başarısız");
                 }
             }
-            Console.WriteLine($"{sayac} kişi A aldı");
-            Console.WriteLine($"{sayac1} kişi B aldı");
-            Console.WriteLine($"{sayac2} kişi C aldı");
+
+
+
+            //if (kullanici_ismi[i + 1, j + 1] == "username2" && kullanici_ismi[i + 1, j + 2] == "password2")
+            //{
+            //    Console.WriteLine("Kullanıcı girişi başarılı");
+            //}
+
+            //if (kullanici_ismi[i, j + 1] == "username1" && kullanici_ismi[i, j + 2] == "password1")
+            //{
+            //    Console.WriteLine("Kullanıcı girişi başarılı");
+            //}
+
+
 
             #endregion
-
 
             Console.ReadLine();
         }
