@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formdiziler", "formdiziler\formdiziler.csproj", "{B1CB4796-6995-4CB1-AADD-7423B9F94A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CB4796-6995-4CB1-AADD-7423B9F94A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CB4796-6995-4CB1-AADD-7423B9F94A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CB4796-6995-4CB1-AADD-7423B9F94A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CB4796-6995-4CB1-AADD-7423B9F94A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2CE9D1D-91CA-4B70-B5D5-8B1C51D41770}
+	EndGlobalSection
+EndGlobal
