@@ -19,3 +19,13 @@ C:\Users\sevde\OneDrive\Masaüstü\formdiziler\formdiziler\obj\Debug\formdiziler
 C:\Users\sevde\OneDrive\Masaüstü\formdiziler\formdiziler\obj\Debug\formdiziler.csproj.CoreCompileInputs.cache
 C:\Users\sevde\OneDrive\Masaüstü\formdiziler\formdiziler\obj\Debug\formdiziler.exe
 C:\Users\sevde\OneDrive\Masaüstü\formdiziler\formdiziler\obj\Debug\formdiziler.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\bin\Debug\formdiziler.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\bin\Debug\formdiziler.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\bin\Debug\formdiziler.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.csprojAssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.Form1.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\formdiziler\formdiziler\obj\Debug\formdiziler.pdb

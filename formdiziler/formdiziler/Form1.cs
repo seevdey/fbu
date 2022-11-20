@@ -32,8 +32,9 @@ namespace formdiziler
             groupBox2.Visible = true;
             groupBox3.Visible = false;
             groupBox4.Visible = false;
+            groupBox5.Visible = false;
             groupBox6.Visible = false;
-
+            groupBox7.Visible = false;
         }
 
         private void nothesaplabtn_Click(object sender, EventArgs e)
@@ -46,7 +47,7 @@ namespace formdiziler
             listBox1.Items.Add($"{sayacc / 6} kişi C aldı");
         }
 
-        int sayac = 0;   
+        int sayac = 0;
 
         private void eklebtn_Click(object sender, EventArgs e)
         {
@@ -108,7 +109,7 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-
+            groupBox7.Visible = false;
         }
 
         private void yuksekbtn_Click(object sender, EventArgs e)
@@ -122,7 +123,7 @@ namespace formdiziler
             yukseklbl.Text = $"{buyuk}";
         }
 
-       
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -205,14 +206,14 @@ namespace formdiziler
             groupBox4.Visible = true;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-
+            groupBox7.Visible = false;
 
         }
 
         private void hesaplabtn3_Click(object sender, EventArgs e)
         {
             short sayac = 0;
-            int [] dizi  = new int[60];
+            int[] dizi = new int[60];
 
 
             for (short i = 1; i < dizi.Length; i++)
@@ -244,9 +245,11 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = true;
             groupBox6.Visible = false;
+            groupBox7.Visible = false;
+
         }
 
-        
+
 
         private void hesaplabtn4_Click(object sender, EventArgs e)
         {
@@ -267,7 +270,7 @@ namespace formdiziler
             adetlbl4.Text = $"{sayac2}";
         }
 
-        
+
 
         #endregion
 
@@ -280,6 +283,7 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = true;
+            groupBox7.Visible = false;
 
         }
 
@@ -329,14 +333,211 @@ namespace formdiziler
             sifretxt.Clear();
         }
 
+
+
         private void evetbtn_Click(object sender, EventArgs e)
         {
+
+            yenigirislbl.Visible = true;
+            evetbtn.Visible = true;
+            hayirbtn.Visible = true;
+            kaditxt.Enabled = true;
+            sifretxt.Enabled = true;
             // Restart current application, with same arguments/parameters
-            Application.Exit();
-            System.Diagnostics.Process.Start(Application.ExecutablePath);
+            //Application.Exit();
+            //System.Diagnostics.Process.Start(Application.ExecutablePath);
         }
 
+
+
         private void hayirbtn_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        #endregion
+
+
+        #region Kullanıcı Girişi - Faz 2
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox2.Visible = false;
+            groupBox3.Visible = false;
+            groupBox4.Visible = false;
+            groupBox5.Visible = false;
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+        }
+
+        string name1, name2, pass1, pass2, name3, pass3, name4, pass4;
+        int sayac1 = 0, sayac2 = 0, sayac3 = 0;
+
+        int j = 0;
+
+        string[,] veritabani = new string[2, 3];
+
+        private void girisbtn2_Click(object sender, EventArgs e)
+        {
+            sayac3++;
+
+            veritabani[0, 0] = "1";
+            veritabani[1, 0] = "2";
+
+            for (int i = 0; i < veritabani.GetLength(0); i++)
+            {
+                if (j == 0)
+                {
+                    name1 = kadi2txt.Text;
+                    veritabani[i, j + 1] = name1;
+
+                    pass1 = sifre2txt.Text;
+                    veritabani[i, j + 2] = pass1;
+                    j++;
+                    sayac1++;
+                    sayac2++;
+                }
+            }
+
+            MessageBox.Show("Kullanıcı kaydı başarılı");
+
+            girisbtn2.Visible = false;
+            girisbtn3.Visible = true;
+            kadi2txt.Clear();
+            sifre2txt.Clear();
+            girisyaplbl.Visible = true;
+            kayitollbl.Visible = false;
+
+        }
+
+        private void girisbtn3_Click(object sender, EventArgs e)
+        {
+            name3 = kadi2txt.Text;
+            pass3 = sifre2txt.Text;
+
+            if (name3 == name1 && pass3 == pass1)
+            {
+                MessageBox.Show("Giriş başarılı");
+
+                kadi2txt.Clear();
+                sifre2txt.Clear();
+
+                kadi2txt.Enabled = false;
+                sifre2txt.Enabled = false;
+
+                yenikayitlbl.Visible = true;
+                evet2btn.Visible = true;
+                hayir2btn.Visible = true;
+       
+            }
+            else
+            {
+                MessageBox.Show("Giriş Başarısız");
+                kadi2txt.Clear();
+                sifre2txt.Clear();
+
+
+                yenigiris2lbl.Visible = true;
+                evet3btn.Visible = true;
+                hayir3btn.Visible = true;
+
+                kadi2txt.Enabled = false;
+                sifre2txt.Enabled = false;
+            }
+
+        }
+
+        private void evet3btn_Click(object sender, EventArgs e)
+        {
+            kadi2txt.Enabled = true;
+            sifre2txt.Enabled = true;
+
+            yenigiris2lbl.Visible = false;
+            evet3btn.Visible = false;
+            hayir3btn.Visible = false;
+        }
+
+        private void hayir3btn_Click(object sender, EventArgs e)
+        {
+            yenikayitlbl.Visible = true;
+            evet2btn.Visible = true;
+            hayir2btn.Visible = true;
+
+            yenigiris2lbl.Visible = false;
+            evet3btn.Visible = false;
+            hayir3btn.Visible = false;
+        }
+
+        
+        private void evet2btn_Click(object sender, EventArgs e)
+        {
+            sayac3++;
+
+            girisyaplbl.Visible = false;
+            kayitollbl.Visible = true;
+
+            kadi2txt.Enabled = true;
+            sifre2txt.Enabled = true;
+            girisbtn3.Visible = false;
+            girisbtn2.Visible = true;
+
+
+            for (int i = 0; i < veritabani.GetLength(0); i++)
+            {
+                //sayac3++;
+
+                if (j == 1)
+                {
+                    if (sayac == 1)
+                    {
+                        name2 = Console.ReadLine();
+                        name2 = veritabani[i, j];
+
+                        pass2 = Console.ReadLine();
+                        pass2 = veritabani[i, j + 1];
+                        sayac++;
+                        sayac2++;
+
+                        name4 = Console.ReadLine();
+
+                        Console.WriteLine("Şifre giriniz : ");
+                        pass4 = Console.ReadLine();
+
+                        if (name4 == name2 && pass4 == pass2)
+                        {
+                            MessageBox.Show("Kullanıcı girişi başarılı");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Kullanıcı girişi başarısız");
+                        }
+                    }
+
+                    if (sayac3 == 3)
+                    {
+                        MessageBox.Show("Kayıt doldu artık kayıt yapılamaz");
+                        //girisbtn2.Visible = false;
+
+                    }
+
+                }
+
+                //else
+                //    Environment.Exit(0);
+            }
+
+            if (sayac3 == 3)
+            {
+                MessageBox.Show("Kayıt doldu artık kayıt yapılamaz");
+                //girisbtn2.Visible = false;
+            }
+
+
+
+
+        }
+
+        private void hayir2btn_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }

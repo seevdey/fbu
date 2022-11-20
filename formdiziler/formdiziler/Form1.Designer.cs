@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -72,17 +73,34 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.girisbtn = new System.Windows.Forms.Button();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.sifre2txt = new System.Windows.Forms.TextBox();
+            this.kadi2txt = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.girisbtn2 = new System.Windows.Forms.Button();
+            this.girisbtn3 = new System.Windows.Forms.Button();
+            this.kayitollbl = new System.Windows.Forms.Label();
+            this.girisyaplbl = new System.Windows.Forms.Label();
+            this.yenikayitlbl = new System.Windows.Forms.Label();
+            this.evet2btn = new System.Windows.Forms.Button();
+            this.hayir2btn = new System.Windows.Forms.Button();
+            this.evet3btn = new System.Windows.Forms.Button();
+            this.hayir3btn = new System.Windows.Forms.Button();
+            this.yenigiris2lbl = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.MistyRose;
+            this.groupBox1.Controls.Add(this.radioButton6);
             this.groupBox1.Controls.Add(this.radioButton5);
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
@@ -92,16 +110,29 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(411, 350);
+            this.groupBox1.Size = new System.Drawing.Size(411, 404);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Uygulamalar";
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton6.Location = new System.Drawing.Point(33, 313);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(196, 24);
+            this.radioButton6.TabIndex = 5;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Kullanıcı Girişi - Faz 2";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton5.Location = new System.Drawing.Point(27, 263);
+            this.radioButton5.Location = new System.Drawing.Point(33, 267);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(196, 24);
             this.radioButton5.TabIndex = 4;
@@ -113,7 +144,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton4.Location = new System.Drawing.Point(27, 198);
+            this.radioButton4.Location = new System.Drawing.Point(33, 201);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(333, 44);
             this.radioButton4.TabIndex = 3;
@@ -126,7 +157,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton3.Location = new System.Drawing.Point(27, 133);
+            this.radioButton3.Location = new System.Drawing.Point(33, 135);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(298, 44);
             this.radioButton3.TabIndex = 2;
@@ -138,7 +169,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton2.Location = new System.Drawing.Point(27, 88);
+            this.radioButton2.Location = new System.Drawing.Point(33, 89);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(220, 24);
@@ -152,7 +183,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton1.Location = new System.Drawing.Point(27, 43);
+            this.radioButton1.Location = new System.Drawing.Point(33, 43);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(298, 24);
@@ -602,11 +633,183 @@
             this.girisbtn.UseVisualStyleBackColor = true;
             this.girisbtn.Click += new System.EventHandler(this.girisbtn_Click);
             // 
+            // groupBox7
+            // 
+            this.groupBox7.BackColor = System.Drawing.Color.Beige;
+            this.groupBox7.Controls.Add(this.yenigiris2lbl);
+            this.groupBox7.Controls.Add(this.hayir3btn);
+            this.groupBox7.Controls.Add(this.evet3btn);
+            this.groupBox7.Controls.Add(this.hayir2btn);
+            this.groupBox7.Controls.Add(this.evet2btn);
+            this.groupBox7.Controls.Add(this.yenikayitlbl);
+            this.groupBox7.Controls.Add(this.girisyaplbl);
+            this.groupBox7.Controls.Add(this.kayitollbl);
+            this.groupBox7.Controls.Add(this.girisbtn3);
+            this.groupBox7.Controls.Add(this.sifre2txt);
+            this.groupBox7.Controls.Add(this.kadi2txt);
+            this.groupBox7.Controls.Add(this.label9);
+            this.groupBox7.Controls.Add(this.label8);
+            this.groupBox7.Controls.Add(this.girisbtn2);
+            this.groupBox7.Location = new System.Drawing.Point(497, 30);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(622, 624);
+            this.groupBox7.TabIndex = 7;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Kullanıcı Girişi Faz 2";
+            this.groupBox7.Visible = false;
+            // 
+            // sifre2txt
+            // 
+            this.sifre2txt.Location = new System.Drawing.Point(284, 186);
+            this.sifre2txt.Name = "sifre2txt";
+            this.sifre2txt.Size = new System.Drawing.Size(100, 22);
+            this.sifre2txt.TabIndex = 4;
+            // 
+            // kadi2txt
+            // 
+            this.kadi2txt.Location = new System.Drawing.Point(284, 143);
+            this.kadi2txt.Name = "kadi2txt";
+            this.kadi2txt.Size = new System.Drawing.Size(100, 22);
+            this.kadi2txt.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.Location = new System.Drawing.Point(190, 181);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(62, 24);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Şifre : ";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(129, 145);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(123, 24);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Kullanıcı Adı: ";
+            // 
+            // girisbtn2
+            // 
+            this.girisbtn2.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.girisbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.girisbtn2.Location = new System.Drawing.Point(287, 245);
+            this.girisbtn2.Name = "girisbtn2";
+            this.girisbtn2.Size = new System.Drawing.Size(109, 46);
+            this.girisbtn2.TabIndex = 0;
+            this.girisbtn2.Text = "Kayıt Ol";
+            this.girisbtn2.UseVisualStyleBackColor = false;
+            this.girisbtn2.Click += new System.EventHandler(this.girisbtn2_Click);
+            // 
+            // girisbtn3
+            // 
+            this.girisbtn3.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.girisbtn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.girisbtn3.Location = new System.Drawing.Point(285, 297);
+            this.girisbtn3.Name = "girisbtn3";
+            this.girisbtn3.Size = new System.Drawing.Size(111, 40);
+            this.girisbtn3.TabIndex = 5;
+            this.girisbtn3.Text = "Giriş";
+            this.girisbtn3.UseVisualStyleBackColor = false;
+            this.girisbtn3.Visible = false;
+            this.girisbtn3.Click += new System.EventHandler(this.girisbtn3_Click);
+            // 
+            // kayitollbl
+            // 
+            this.kayitollbl.AutoSize = true;
+            this.kayitollbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kayitollbl.Location = new System.Drawing.Point(128, 68);
+            this.kayitollbl.Name = "kayitollbl";
+            this.kayitollbl.Size = new System.Drawing.Size(119, 26);
+            this.kayitollbl.TabIndex = 6;
+            this.kayitollbl.Text = "KAYIT OL";
+            // 
+            // girisyaplbl
+            // 
+            this.girisyaplbl.AutoSize = true;
+            this.girisyaplbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.girisyaplbl.Location = new System.Drawing.Point(275, 66);
+            this.girisyaplbl.Name = "girisyaplbl";
+            this.girisyaplbl.Size = new System.Drawing.Size(133, 26);
+            this.girisyaplbl.TabIndex = 7;
+            this.girisyaplbl.Text = "GİRİŞ YAP";
+            this.girisyaplbl.Visible = false;
+            // 
+            // yenikayitlbl
+            // 
+            this.yenikayitlbl.AutoSize = true;
+            this.yenikayitlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yenikayitlbl.Location = new System.Drawing.Point(117, 490);
+            this.yenikayitlbl.Name = "yenikayitlbl";
+            this.yenikayitlbl.Size = new System.Drawing.Size(368, 25);
+            this.yenikayitlbl.TabIndex = 8;
+            this.yenikayitlbl.Text = "Yeni Kayıt Oluşturmak İstiyor Musunuz ? ";
+            this.yenikayitlbl.Visible = false;
+            // 
+            // evet2btn
+            // 
+            this.evet2btn.Location = new System.Drawing.Point(238, 542);
+            this.evet2btn.Name = "evet2btn";
+            this.evet2btn.Size = new System.Drawing.Size(44, 47);
+            this.evet2btn.TabIndex = 9;
+            this.evet2btn.Text = "E";
+            this.evet2btn.UseVisualStyleBackColor = true;
+            this.evet2btn.Visible = false;
+            this.evet2btn.Click += new System.EventHandler(this.evet2btn_Click);
+            // 
+            // hayir2btn
+            // 
+            this.hayir2btn.Location = new System.Drawing.Point(288, 540);
+            this.hayir2btn.Name = "hayir2btn";
+            this.hayir2btn.Size = new System.Drawing.Size(45, 49);
+            this.hayir2btn.TabIndex = 10;
+            this.hayir2btn.Text = "H";
+            this.hayir2btn.UseVisualStyleBackColor = true;
+            this.hayir2btn.Visible = false;
+            this.hayir2btn.Click += new System.EventHandler(this.hayir2btn_Click);
+            // 
+            // evet3btn
+            // 
+            this.evet3btn.Location = new System.Drawing.Point(227, 422);
+            this.evet3btn.Name = "evet3btn";
+            this.evet3btn.Size = new System.Drawing.Size(47, 42);
+            this.evet3btn.TabIndex = 11;
+            this.evet3btn.Text = "E3";
+            this.evet3btn.UseVisualStyleBackColor = true;
+            this.evet3btn.Visible = false;
+            this.evet3btn.Click += new System.EventHandler(this.evet3btn_Click);
+            // 
+            // hayir3btn
+            // 
+            this.hayir3btn.Location = new System.Drawing.Point(280, 420);
+            this.hayir3btn.Name = "hayir3btn";
+            this.hayir3btn.Size = new System.Drawing.Size(53, 44);
+            this.hayir3btn.TabIndex = 12;
+            this.hayir3btn.Text = "H3";
+            this.hayir3btn.UseVisualStyleBackColor = true;
+            this.hayir3btn.Visible = false;
+            this.hayir3btn.Click += new System.EventHandler(this.hayir3btn_Click);
+            // 
+            // yenigiris2lbl
+            // 
+            this.yenigiris2lbl.AutoSize = true;
+            this.yenigiris2lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yenigiris2lbl.Location = new System.Drawing.Point(117, 373);
+            this.yenigiris2lbl.Name = "yenigiris2lbl";
+            this.yenigiris2lbl.Size = new System.Drawing.Size(352, 25);
+            this.yenigiris2lbl.TabIndex = 13;
+            this.yenigiris2lbl.Text = "Yeniden Giriş Yapmak İstiyor Musunuz ";
+            this.yenigiris2lbl.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 768);
+            this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.label2);
@@ -631,6 +834,8 @@
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -682,6 +887,22 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button girisbtn;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.TextBox sifre2txt;
+        private System.Windows.Forms.TextBox kadi2txt;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button girisbtn2;
+        private System.Windows.Forms.Button girisbtn3;
+        private System.Windows.Forms.Label girisyaplbl;
+        private System.Windows.Forms.Label kayitollbl;
+        private System.Windows.Forms.Label yenikayitlbl;
+        private System.Windows.Forms.Button hayir2btn;
+        private System.Windows.Forms.Button evet2btn;
+        private System.Windows.Forms.Label yenigiris2lbl;
+        private System.Windows.Forms.Button hayir3btn;
+        private System.Windows.Forms.Button evet3btn;
     }
 }
 
