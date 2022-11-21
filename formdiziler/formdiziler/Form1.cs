@@ -34,7 +34,7 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
+            groupBox8.Visible = false;
         }
 
         private void nothesaplabtn_Click(object sender, EventArgs e)
@@ -109,7 +109,7 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
+            groupBox8.Visible = false;
         }
 
         private void yuksekbtn_Click(object sender, EventArgs e)
@@ -206,7 +206,7 @@ namespace formdiziler
             groupBox4.Visible = true;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
+            groupBox8.Visible = false;
 
         }
 
@@ -245,7 +245,7 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = true;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
+            groupBox8.Visible = false;
 
         }
 
@@ -283,61 +283,102 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = true;
-            groupBox7.Visible = false;
-
+            groupBox8.Visible = false;
         }
+
+        string[,] kullanicilar2 = { { "0", "serdar", "123" }, { "1", "haluk", "456" } };
 
         private void girisbtn_Click(object sender, EventArgs e)
         {
-            string[,] kullanici_ismi = new string[,] { { "0", "user", "pass" }, { "1", "usern", "passw" } };
+            string kullanici_adi = kaditxt.Text;
+            string sifre = sifretxt.Text;
 
-            int boyut = 1;
-            string[] dizi = new string[boyut * 2];
-            int x = boyut * 2;
+            bool found = false;
 
-            for (int i = 0; i < x; i += 2)
+            for (int i = 0; !found && i < kullanicilar2.GetLength(0); ++i) // if not found and row size < 2
             {
-                string kadi = kaditxt.Text;
-                dizi[i] = kadi;
-
-                string sifre = sifretxt.Text;
-                dizi[i + 1] = sifre;
-            }
-
-
-            bool isFound = false;
-
-            for (int i = 0; i < kullanici_ismi.GetLength(0); i += 2) //satır
-            {
-                for (int j = 0; j < kullanici_ismi.GetLength(0); j += 2)
+                for (int j = 0; j < kullanicilar2.GetLength(1); ++j)  // if column size < 3
                 {
-                    if (dizi[i] == kullanici_ismi[i, j + 1] && dizi[i + 1] == kullanici_ismi[i, j + 2])
+                    if (kullanici_adi == kullanicilar2[i, j] && sifre == kullanicilar2[i, j + 1])   // access the element like this
                     {
-                        MessageBox.Show("Kullanıcı girişi başarılı");
-                        isFound = true;
+                        label13.Visible = true;
+                        label13.Text = "Kullanıcı Girişi Başarılı";
+                        kaditxt.Clear();
+                        sifretxt.Clear();
+                        found = true;
+
+                        yenigirislbl.Visible = false;
+                        evetbtn.Visible = false;
+                        hayirbtn.Visible = false;
+
                         break;
                     }
-                    else
+                    if (kullanici_adi != kullanicilar2[i, j] || sifre != kullanicilar2[i, j + 1])
                     {
-                        MessageBox.Show("Kullanıcı girişi başarısız");
+                        label13.Visible = true;
+                        label13.Text = "Kullanıcı Girişi Başarısız";
+
+
                         yenigirislbl.Visible = true;
                         evetbtn.Visible = true;
                         hayirbtn.Visible = true;
                         kaditxt.Enabled = false;
                         sifretxt.Enabled = false;
+
                     }
                 }
             }
 
-            kaditxt.Clear();
-            sifretxt.Clear();
+            //string[,] kullanici_ismi = new string[,] { { "0", "user", "pass" }, { "1", "usern", "passw" } };
+
+            //int boyut = 1;
+            //string[] dizi = new string[boyut * 2];
+            //int x = boyut * 2;
+
+            //for (int i = 0; i < x; i += 2)
+            //{
+            //    string kadi = kaditxt.Text;
+            //    dizi[i] = kadi;
+
+            //    string sifre = sifretxt.Text;
+            //    dizi[i + 1] = sifre;
+            //}
+
+
+            //bool isFound = false;
+
+            //for (int i = 0; i < kullanici_ismi.GetLength(0); i += 2) //satır
+            //{
+            //    for (int j = 0; j < kullanici_ismi.GetLength(0); j += 2)
+            //    {
+            //        if (dizi[i] == kullanici_ismi[i, j + 1] && dizi[i + 1] == kullanici_ismi[i, j + 2])
+            //        {
+            //            MessageBox.Show("Kullanıcı girişi başarılı");
+            //            isFound = true;
+            //            break;
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Kullanıcı girişi başarısız");
+            //            yenigirislbl.Visible = true;
+            //            evetbtn.Visible = true;
+            //            hayirbtn.Visible = true;
+            //            kaditxt.Enabled = false;
+            //            sifretxt.Enabled = false;
+            //        }
+            //    }
+            //}
+
+            //kaditxt.Clear();
+            //sifretxt.Clear();
         }
 
 
 
         private void evetbtn_Click(object sender, EventArgs e)
         {
-
+            kaditxt.Clear();
+            sifretxt.Clear();
             yenigirislbl.Visible = true;
             evetbtn.Visible = true;
             hayirbtn.Visible = true;
@@ -357,7 +398,6 @@ namespace formdiziler
 
         #endregion
 
-
         #region Kullanıcı Girişi - Faz 2
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
@@ -367,10 +407,11 @@ namespace formdiziler
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = true;
+            groupBox8.Visible = true;
         }
 
         string name1, name2, pass1, pass2, name3, pass3, name4, pass4;
+
         int sayac1 = 0, sayac2 = 0, sayac3 = 0;
 
         int j = 0;
@@ -428,7 +469,7 @@ namespace formdiziler
                 yenikayitlbl.Visible = true;
                 evet2btn.Visible = true;
                 hayir2btn.Visible = true;
-       
+
             }
             else
             {
@@ -468,7 +509,7 @@ namespace formdiziler
             hayir3btn.Visible = false;
         }
 
-        
+
         private void evet2btn_Click(object sender, EventArgs e)
         {
             sayac3++;
@@ -532,9 +573,6 @@ namespace formdiziler
                 //girisbtn2.Visible = false;
             }
 
-
-
-
         }
 
         private void hayir2btn_Click(object sender, EventArgs e)
@@ -543,5 +581,93 @@ namespace formdiziler
         }
 
         #endregion
+
+        #region Kullanıcı Girişi Faz 2 - SON
+
+        string[,] kullanicilar = new string[2, 3];
+
+        int faz2sayacc = 0;
+
+        private void button1_Click(object sender, EventArgs e) //giriş yap butonu
+        {
+            //faz2sayacc++;
+            string kullanici_adi = textBox1.Text;
+            string sifre = textBox2.Text;
+
+            //bool f = false;
+
+            for (int i = 0; i < kullanicilar.GetLength(0); ++i)
+            {
+                for (int j = 0; j < kullanicilar.GetLength(1); ++j)
+                {
+                    if (kullanici_adi == kullanicilar[i,j] && sifre == kullanicilar[i, j+1])
+                    {
+                        ciktilbl.Visible = true;
+                        ciktilbl.Text = "Kullanıcı Girişi Başarılı";
+
+                        textBox1.Clear();
+                        textBox2.Clear();
+
+                        //f = true;
+                        return;
+                    }
+                    if (kullanici_adi != kullanicilar[i, j] || sifre != kullanicilar[i, j + 1])
+                    {
+                        ciktilbl.Visible = true;
+                        ciktilbl.Text = "Böyle bir Kullanıcı yok. Üye Olun";
+
+                        textBox1.Clear();
+                        textBox2.Clear();
+
+                        button2.Visible = true;
+                        button1.Visible = false;
+                    }
+                }
+            }
+
+            if (faz2sayacc == 2)
+            {
+                label14.Visible = true;
+                label14.Text = "Kayıt Alanı Doldu Kayıt Yapılamaz";
+
+                button1.Visible = false;
+                button2.Enabled = false;
+
+                textBox1.Enabled = false;
+                textBox2.Enabled = false;
+
+                ciktilbl.Visible = false;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e) //kayıt ol butonu
+        {
+            faz2sayacc++;
+
+            bool found = false;
+
+            for (int i = 0; i < kullanicilar.GetLength(0); i++)
+            {
+                for (int j = 0; j < kullanicilar.GetLength(1); j++)
+                {
+
+                    kullanicilar[i, j] = textBox1.Text;
+                    kullanicilar[i, j+1] = textBox2.Text;
+                    break;
+                }
+            }
+
+            textBox1.Clear();
+            textBox2.Clear();
+            ciktilbl.Visible = false;
+
+            button2.Visible = false;
+            button1.Visible = true;
+        }
+
+
+        #endregion
+
+
     }
 }

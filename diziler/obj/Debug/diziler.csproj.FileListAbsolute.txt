@@ -12,3 +12,11 @@ C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\diziler\obj\Debug\diziler.csprojAsse
 C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\diziler\obj\Debug\diziler.csproj.CoreCompileInputs.cache
 C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\diziler\obj\Debug\diziler.exe
 C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\diziler\obj\Debug\diziler.pdb
+C:\Users\sevdenur.yilmaz\Desktop\diziler\obj\Debug\diziler.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\diziler\obj\Debug\diziler.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\diziler\obj\Debug\diziler.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\diziler\obj\Debug\diziler.exe
+C:\Users\sevdenur.yilmaz\Desktop\diziler\obj\Debug\diziler.pdb
+C:\Users\sevdenur.yilmaz\Desktop\diziler\bin\Debug\diziler.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\diziler\bin\Debug\diziler.exe
+C:\Users\sevdenur.yilmaz\Desktop\diziler\bin\Debug\diziler.pdb

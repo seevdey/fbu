@@ -506,7 +506,7 @@ namespace diziler
 
             //Console.WriteLine("1 ile 1000 arasında 5 e bölünebilen sayıların listesi : ");
 
-            //int [] dizi  = new int[60];
+            //int[] dizi = new int[60];
 
             //for (short i = 1; i < dizi.Length; i++)
             //{
@@ -543,6 +543,11 @@ namespace diziler
 
             #endregion
 
+
+            //Kullanıcı adı ve şifre için ilk önce giriş gelecek giriş yapınca böyle bir kullanıcı adı şifre yok diyip kayıt ol ekranı gelecek
+            //Kaydetmek istiyor musunuz diye soracak evet dersem kaydedecek hayır dersem kaydetmeyecek
+
+
             #region Kullanıcı Girişi - Faz 1
 
             //faz1 kullanıcı adını kendin gir
@@ -568,11 +573,11 @@ namespace diziler
 
             //    bool st = false;
 
-            //    for (int i = 0; i < kullanici_ismi.GetLength(0); i+=2) //satır
+            //    for (int i = 0; i < kullanici_ismi.GetLength(0); i += 2) //satır
             //    {
-            //        for (int j = 0; j < kullanici_ismi.GetLength(0); j+=2)
+            //        for (int j = 0; j < kullanici_ismi.GetLength(0); j += 2)
             //        {
-            //            if (dizi[i] == kullanici_ismi[i, j+1] && dizi[i + 1] == kullanici_ismi[i, j+2])
+            //            if (dizi[i] == kullanici_ismi[i, j + 1] && dizi[i + 1] == kullanici_ismi[i, j + 2])
             //            {
             //                Console.WriteLine("Kullanıcı girişi başarılı");
             //                st = true;
@@ -588,6 +593,8 @@ namespace diziler
             //                    Console.Clear();
             //                    goto menu;
             //                }
+            //                else
+            //                    Environment.Exit(0);
             //            }
             //        }
             //    }
@@ -636,7 +643,7 @@ namespace diziler
                     pass3 = Console.ReadLine();
 
                     bool st = false;
-                   
+
                     if (name3 == name1 && pass3 == pass1)
                     {
                         Console.WriteLine("Kullanıcı girişi başarılı");
@@ -658,25 +665,25 @@ namespace diziler
 
                 Console.Clear();
 
-                menu:
-                    Console.Write("\nYeni kullanıcı girmek ister misiniz ? (e/h) : ");
-                    string cevap = Console.ReadLine();
+            menu:
+                Console.Write("\nYeni kullanıcı girmek ister misiniz ? (e/h) : ");
+                string cevap = Console.ReadLine();
 
-                    if (j == 1)
+                if (j == 1)
+                {
+                    if (cevap == "e" || cevap == "E")
                     {
-                        if (cevap == "e" || cevap == "E")
+                        if (sayac == 1)
                         {
-                            if (sayac == 1)
-                            {
-                                Console.Write("Kullanıcı adı giriniz : ");
-                                name2 = Console.ReadLine();
-                                name2 = veritabani[i, j];
+                            Console.Write("Kullanıcı adı giriniz : ");
+                            name2 = Console.ReadLine();
+                            name2 = veritabani[i, j];
 
-                                Console.Write("Şifre giriniz : ");
-                                pass2 = Console.ReadLine();
-                                pass2 = veritabani[i, j + 1];
-                                sayac++;
-                                sayac2++;
+                            Console.Write("Şifre giriniz : ");
+                            pass2 = Console.ReadLine();
+                            pass2 = veritabani[i, j + 1];
+                            sayac++;
+                            sayac2++;
 
                         menu3:
                             Console.Clear();
@@ -702,7 +709,7 @@ namespace diziler
 
                                 Console.Clear();
 
-                                Console.Write("\nYeniden giriş yapmak istiyor musunuz ? (e/h) : " );
+                                Console.Write("\nYeniden giriş yapmak istiyor musunuz ? (e/h) : ");
                                 string cevap2 = Console.ReadLine();
                                 if (cevap2 == "e" || cevap2 == "E")
                                 {
@@ -714,16 +721,16 @@ namespace diziler
 
                         }
 
-                            if (sayac2 == 2)
-                            {
-                                Console.WriteLine("Kayıt doldu artık kayıt yapılamaz");
-                                break;
-                            }
+                        if (sayac2 == 2)
+                        {
+                            Console.WriteLine("Kayıt doldu artık kayıt yapılamaz");
+                            break;
                         }
-                        else
-                            Environment.Exit(0);
-
                     }
+                    else
+                        Environment.Exit(0);
+
+                }
 
             }
 
