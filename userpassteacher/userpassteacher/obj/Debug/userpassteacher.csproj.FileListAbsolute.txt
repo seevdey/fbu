@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\bin\Debug\userpassteacher.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\bin\Debug\userpassteacher.exe
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\bin\Debug\userpassteacher.pdb
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.exe
+C:\Users\sevdenur.yilmaz\Desktop\userpassteacher\userpassteacher\obj\Debug\userpassteacher.pdb
