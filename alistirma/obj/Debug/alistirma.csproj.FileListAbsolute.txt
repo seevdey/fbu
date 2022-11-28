@@ -1,0 +1,7 @@
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\bin\Debug\alistirma.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\bin\Debug\alistirma.exe
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\bin\Debug\alistirma.pdb
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\obj\Debug\alistirma.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\obj\Debug\alistirma.exe
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\obj\Debug\alistirma.pdb
+C:\Users\sevde\OneDrive\Masaüstü\alistirma\obj\Debug\alistirma.csprojAssemblyReference.cache
