@@ -58,19 +58,83 @@
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.sonuclbl13 = new System.Windows.Forms.Label();
+            this.hesaplabtn13 = new System.Windows.Forms.Button();
+            this.paratxt = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.dparabirimicmbx = new System.Windows.Forms.ComboBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.parabirimicmbx = new System.Windows.Forms.ComboBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.sonuclbl11 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.sayitxt11 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.hesaplabtn11 = new System.Windows.Forms.Button();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.sonuclbl12 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.metintxt = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.hesaplabtn12 = new System.Windows.Forms.Button();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.sonuclbl14 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.sayitxt14 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.hesaplabtn14 = new System.Windows.Forms.Button();
+            this.label42 = new System.Windows.Forms.Label();
+            this.yontemcmbx = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.sifirlabtn = new System.Windows.Forms.Button();
             this.sonuclbl3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.kenar3txt = new System.Windows.Forms.TextBox();
+            this.kenar2txt = new System.Windows.Forms.TextBox();
+            this.kenar1txt = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.hesaplabtn3 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.changebtn = new System.Windows.Forms.Button();
             this.nobtn = new System.Windows.Forms.Button();
             this.yesbtn = new System.Windows.Forms.Button();
+            this.changelbl = new System.Windows.Forms.Label();
+            this.passwordtxt = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.usernametxt = new System.Windows.Forms.TextBox();
+            this.passwordlbl = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.girisbtn = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label31 = new System.Windows.Forms.Label();
             this.hesaplabtn10 = new System.Windows.Forms.Button();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.sonlbl = new System.Windows.Forms.Label();
+            this.hayirbtn = new System.Windows.Forms.Button();
+            this.evetbtn = new System.Windows.Forms.Button();
+            this.metinlbl = new System.Windows.Forms.Label();
+            this.sonuclbl8 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.tahmintxt = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.tahminbtn = new System.Windows.Forms.Button();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.sonuclbl9 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.sayitxt9 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.hesaplabtn9 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.root21lbl = new System.Windows.Forms.Label();
             this.root22lbl = new System.Windows.Forms.Label();
@@ -86,48 +150,7 @@
             this.number2txt = new System.Windows.Forms.TextBox();
             this.number1txt = new System.Windows.Forms.TextBox();
             this.calcbtn = new System.Windows.Forms.Button();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.sonlbl = new System.Windows.Forms.Label();
-            this.hayirbtn = new System.Windows.Forms.Button();
-            this.evetbtn = new System.Windows.Forms.Button();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.sonuclbl9 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.sayitxt9 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.hesaplabtn9 = new System.Windows.Forms.Button();
-            this.metinlbl = new System.Windows.Forms.Label();
-            this.sonuclbl8 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.tahmintxt = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.tahminbtn = new System.Windows.Forms.Button();
-            this.changelbl = new System.Windows.Forms.Label();
-            this.passwordtxt = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.usernametxt = new System.Windows.Forms.TextBox();
-            this.passwordlbl = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.girisbtn = new System.Windows.Forms.Button();
-            this.kenar2txt = new System.Windows.Forms.TextBox();
-            this.kenar1txt = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.hesaplabtn3 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.sonuclbl14 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.sayitxt14 = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.hesaplabtn14 = new System.Windows.Forms.Button();
-            this.label42 = new System.Windows.Forms.Label();
-            this.yontemcmbx = new System.Windows.Forms.ComboBox();
             this.sonuclbl4 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.saattxt = new System.Windows.Forms.TextBox();
@@ -140,48 +163,25 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.hesaplabtn7 = new System.Windows.Forms.Button();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.sonuclbl13 = new System.Windows.Forms.Label();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.sonuclbl12 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.metintxt = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.hesaplabtn12 = new System.Windows.Forms.Button();
-            this.hesaplabtn13 = new System.Windows.Forms.Button();
-            this.paratxt = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.dparabirimicmbx = new System.Windows.Forms.ComboBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.parabirimicmbx = new System.Windows.Forms.ComboBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.sonuclbl11 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.sayitxt11 = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.hesaplabtn11 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.normalradiobtn = new System.Windows.Forms.RadioButton();
-            this.metodradiobtn = new System.Windows.Forms.RadioButton();
             this.oopradiobtn = new System.Windows.Forms.RadioButton();
+            this.metodradiobtn = new System.Windows.Forms.RadioButton();
+            this.normalradiobtn = new System.Windows.Forms.RadioButton();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox15.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox11.SuspendLayout();
-            this.groupBox7.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            this.groupBox15.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            this.groupBox13.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -198,11 +198,9 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox2.Location = new System.Drawing.Point(909, 128);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(625, 106);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(667, 429);
+            this.groupBox2.Size = new System.Drawing.Size(500, 349);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Örnek1";
@@ -212,10 +210,9 @@
             this.label6.AutoSize = true;
             this.label6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(44, 50);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(33, 41);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(554, 50);
+            this.label6.Size = new System.Drawing.Size(452, 40);
             this.label6.TabIndex = 20;
             this.label6.Text = "Klavyeden girilen a ve b sayısı 50’den büyük olduğunda \r\nc=a+b işlemi yapan değil" +
     "se bu sayılar uygun değil yazdır\r\n";
@@ -225,9 +222,10 @@
             this.sonuclbl.AutoSize = true;
             this.sonuclbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sonuclbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl.Location = new System.Drawing.Point(328, 250);
+            this.sonuclbl.Location = new System.Drawing.Point(246, 203);
+            this.sonuclbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.sonuclbl.Name = "sonuclbl";
-            this.sonuclbl.Size = new System.Drawing.Size(103, 25);
+            this.sonuclbl.Size = new System.Drawing.Size(74, 20);
             this.sonuclbl.TabIndex = 19;
             this.sonuclbl.Text = "-------------";
             // 
@@ -236,9 +234,10 @@
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(203, 250);
+            this.label3.Location = new System.Drawing.Point(152, 203);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 25);
+            this.label3.Size = new System.Drawing.Size(59, 20);
             this.label3.TabIndex = 18;
             this.label3.Text = "Sonuç:";
             // 
@@ -248,10 +247,10 @@
             this.hesaplabtn.FlatAppearance.BorderSize = 4;
             this.hesaplabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hesaplabtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn.Location = new System.Drawing.Point(269, 322);
-            this.hesaplabtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hesaplabtn.Location = new System.Drawing.Point(202, 262);
+            this.hesaplabtn.Margin = new System.Windows.Forms.Padding(2);
             this.hesaplabtn.Name = "hesaplabtn";
-            this.hesaplabtn.Size = new System.Drawing.Size(100, 42);
+            this.hesaplabtn.Size = new System.Drawing.Size(75, 34);
             this.hesaplabtn.TabIndex = 17;
             this.hesaplabtn.Text = "Hesapla";
             this.hesaplabtn.UseVisualStyleBackColor = true;
@@ -260,19 +259,19 @@
             // btxt
             // 
             this.btxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.btxt.Location = new System.Drawing.Point(325, 192);
-            this.btxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btxt.Location = new System.Drawing.Point(244, 156);
+            this.btxt.Margin = new System.Windows.Forms.Padding(2);
             this.btxt.Name = "btxt";
-            this.btxt.Size = new System.Drawing.Size(100, 22);
+            this.btxt.Size = new System.Drawing.Size(76, 20);
             this.btxt.TabIndex = 16;
             // 
             // atxt
             // 
             this.atxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.atxt.Location = new System.Drawing.Point(325, 134);
-            this.atxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.atxt.Location = new System.Drawing.Point(244, 109);
+            this.atxt.Margin = new System.Windows.Forms.Padding(2);
             this.atxt.Name = "atxt";
-            this.atxt.Size = new System.Drawing.Size(100, 22);
+            this.atxt.Size = new System.Drawing.Size(76, 20);
             this.atxt.TabIndex = 15;
             // 
             // label2
@@ -280,9 +279,10 @@
             this.label2.AutoSize = true;
             this.label2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(196, 192);
+            this.label2.Location = new System.Drawing.Point(147, 156);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 25);
+            this.label2.Size = new System.Drawing.Size(64, 20);
             this.label2.TabIndex = 13;
             this.label2.Text = "b sayisi:";
             // 
@@ -291,9 +291,10 @@
             this.label1.AutoSize = true;
             this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(196, 134);
+            this.label1.Location = new System.Drawing.Point(147, 109);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 25);
+            this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 14;
             this.label1.Text = "a sayisi:";
             // 
@@ -307,11 +308,9 @@
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Cursor = System.Windows.Forms.Cursors.Default;
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox3.Location = new System.Drawing.Point(899, 128);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Location = new System.Drawing.Point(788, 123);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(659, 456);
+            this.groupBox3.Size = new System.Drawing.Size(494, 370);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Örnek2";
@@ -322,10 +321,9 @@
             this.label7.AutoSize = true;
             this.label7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(36, 38);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(27, 31);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(548, 100);
+            this.label7.Size = new System.Drawing.Size(454, 80);
             this.label7.TabIndex = 21;
             this.label7.Text = "Klavyeden girilen bir sayı eğer 5-10 arasında ise\r\ngirilen sayının karesini alıp " +
     "gösteren, \r\neğer 5’ten küçük ise faktöriyelini alan, 10’dan büyük ise \r\nsayıyı 2" +
@@ -336,20 +334,18 @@
             this.label4.AutoSize = true;
             this.label4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(248, 236);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(186, 192);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 26);
+            this.label4.Size = new System.Drawing.Size(100, 22);
             this.label4.TabIndex = 7;
             this.label4.Text = "---------------";
             // 
             // sayitxt
             // 
             this.sayitxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sayitxt.Location = new System.Drawing.Point(317, 177);
-            this.sayitxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sayitxt.Location = new System.Drawing.Point(238, 144);
             this.sayitxt.Name = "sayitxt";
-            this.sayitxt.Size = new System.Drawing.Size(172, 22);
+            this.sayitxt.Size = new System.Drawing.Size(130, 20);
             this.sayitxt.TabIndex = 6;
             // 
             // label5
@@ -357,10 +353,9 @@
             this.label5.AutoSize = true;
             this.label5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(173, 177);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(130, 144);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 29);
+            this.label5.Size = new System.Drawing.Size(93, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "Sayı gir : ";
             // 
@@ -368,10 +363,10 @@
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(253, 294);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.button1.Location = new System.Drawing.Point(190, 239);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 47);
+            this.button1.Size = new System.Drawing.Size(96, 38);
             this.button1.TabIndex = 4;
             this.button1.Text = "Hesapla";
             this.button1.UseVisualStyleBackColor = true;
@@ -384,10 +379,9 @@
             this.radioButton1.Checked = true;
             this.radioButton1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton1.Location = new System.Drawing.Point(31, 52);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Location = new System.Drawing.Point(23, 42);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(197, 24);
+            this.radioButton1.Size = new System.Drawing.Size(167, 21);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Girilen 2 Sayı Kontrolü";
@@ -400,10 +394,9 @@
             this.radioButton2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton2.Location = new System.Drawing.Point(32, 98);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton2.Location = new System.Drawing.Point(24, 80);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(371, 44);
+            this.radioButton2.Size = new System.Drawing.Size(317, 38);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Girilen sayı 5-10 arasında, 5\'ten küçükse veya\r\n10 dan büyükse olduğunda yapılaca" +
@@ -417,10 +410,9 @@
             this.radioButton8.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton8.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton8.Location = new System.Drawing.Point(29, 306);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton8.Location = new System.Drawing.Point(22, 249);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(361, 24);
+            this.radioButton8.Size = new System.Drawing.Size(302, 21);
             this.radioButton8.TabIndex = 1;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "İkinci Dereceden Denklemin Köklerini Bulma";
@@ -433,10 +425,9 @@
             this.radioButton3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton3.Location = new System.Drawing.Point(31, 166);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton3.Location = new System.Drawing.Point(23, 135);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(183, 24);
+            this.radioButton3.Size = new System.Drawing.Size(152, 21);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Üçgen Çeşidi Bulma";
@@ -449,10 +440,9 @@
             this.radioButton5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton5.Location = new System.Drawing.Point(29, 213);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton5.Location = new System.Drawing.Point(22, 173);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(196, 24);
+            this.radioButton5.Size = new System.Drawing.Size(166, 21);
             this.radioButton5.TabIndex = 1;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Otopark Ücret Tarifesi";
@@ -465,10 +455,9 @@
             this.radioButton10.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton10.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton10.Location = new System.Drawing.Point(29, 353);
-            this.radioButton10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton10.Location = new System.Drawing.Point(22, 287);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(297, 24);
+            this.radioButton10.Size = new System.Drawing.Size(249, 21);
             this.radioButton10.TabIndex = 2;
             this.radioButton10.TabStop = true;
             this.radioButton10.Text = "Girilen Not ile Geçti - Kaldı Kontrolü";
@@ -481,10 +470,9 @@
             this.radioButton6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton6.Location = new System.Drawing.Point(29, 260);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton6.Location = new System.Drawing.Point(22, 211);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(138, 24);
+            this.radioButton6.Size = new System.Drawing.Size(114, 21);
             this.radioButton6.TabIndex = 2;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Kullanıcı Girişi";
@@ -497,10 +485,9 @@
             this.radioButton11.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton11.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton11.Location = new System.Drawing.Point(29, 400);
-            this.radioButton11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton11.Location = new System.Drawing.Point(22, 325);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(175, 24);
+            this.radioButton11.Size = new System.Drawing.Size(150, 21);
             this.radioButton11.TabIndex = 1;
             this.radioButton11.TabStop = true;
             this.radioButton11.Text = "Sayı Tahmin Oyunu";
@@ -513,10 +500,9 @@
             this.radioButton12.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton12.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton12.Location = new System.Drawing.Point(29, 447);
-            this.radioButton12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton12.Location = new System.Drawing.Point(22, 363);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(238, 24);
+            this.radioButton12.Size = new System.Drawing.Size(201, 21);
             this.radioButton12.TabIndex = 2;
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "Sayıyı İkilik Tabana Çevirme";
@@ -541,11 +527,9 @@
             this.groupBox1.Controls.Add(this.radioButton8);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox1.Location = new System.Drawing.Point(13, 111);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(10, 90);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(430, 817);
+            this.groupBox1.Size = new System.Drawing.Size(322, 664);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Uygulamalar";
@@ -556,10 +540,9 @@
             this.radioButton14.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton14.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton14.Location = new System.Drawing.Point(25, 681);
-            this.radioButton14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton14.Location = new System.Drawing.Point(19, 553);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(192, 24);
+            this.radioButton14.Size = new System.Drawing.Size(162, 21);
             this.radioButton14.TabIndex = 7;
             this.radioButton14.TabStop = true;
             this.radioButton14.Text = "Faktöriyel Hesaplama";
@@ -572,10 +555,9 @@
             this.radioButton13.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton13.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton13.Location = new System.Drawing.Point(25, 634);
-            this.radioButton13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton13.Location = new System.Drawing.Point(19, 515);
             this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(215, 24);
+            this.radioButton13.Size = new System.Drawing.Size(179, 21);
             this.radioButton13.TabIndex = 6;
             this.radioButton13.TabStop = true;
             this.radioButton13.Text = "Para Birimi Dönüştürücü";
@@ -588,10 +570,9 @@
             this.radioButton4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton4.Location = new System.Drawing.Point(25, 494);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton4.Location = new System.Drawing.Point(19, 401);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(291, 24);
+            this.radioButton4.Size = new System.Drawing.Size(250, 21);
             this.radioButton4.TabIndex = 3;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "1\'den 50\'ye Kadar Olan Tek Sayılar";
@@ -604,10 +585,9 @@
             this.radioButton9.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton9.Location = new System.Drawing.Point(25, 587);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton9.Location = new System.Drawing.Point(19, 477);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(172, 24);
+            this.radioButton9.Size = new System.Drawing.Size(144, 21);
             this.radioButton9.TabIndex = 5;
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Sesli Harf Kontrolü";
@@ -620,15 +600,430 @@
             this.radioButton7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.radioButton7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton7.Location = new System.Drawing.Point(25, 540);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton7.Location = new System.Drawing.Point(19, 439);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(215, 24);
+            this.radioButton7.Size = new System.Drawing.Size(181, 21);
             this.radioButton7.TabIndex = 4;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Mükemmel Sayı Kontrolü";
             this.radioButton7.UseVisualStyleBackColor = false;
             this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged_1);
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.BackColor = System.Drawing.Color.Olive;
+            this.groupBox14.Controls.Add(this.label25);
+            this.groupBox14.Controls.Add(this.sonuclbl13);
+            this.groupBox14.Controls.Add(this.hesaplabtn13);
+            this.groupBox14.Controls.Add(this.paratxt);
+            this.groupBox14.Controls.Add(this.label37);
+            this.groupBox14.Controls.Add(this.dparabirimicmbx);
+            this.groupBox14.Controls.Add(this.label38);
+            this.groupBox14.Controls.Add(this.parabirimicmbx);
+            this.groupBox14.Controls.Add(this.label39);
+            this.groupBox14.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.groupBox14.Location = new System.Drawing.Point(400, 474);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(551, 347);
+            this.groupBox14.TabIndex = 26;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Örnek 13";
+            this.groupBox14.Visible = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label25.Location = new System.Drawing.Point(211, 193);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(67, 20);
+            this.label25.TabIndex = 16;
+            this.label25.Text = "Sonuç : ";
+            // 
+            // sonuclbl13
+            // 
+            this.sonuclbl13.AutoSize = true;
+            this.sonuclbl13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonuclbl13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuclbl13.Location = new System.Drawing.Point(300, 193);
+            this.sonuclbl13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonuclbl13.Name = "sonuclbl13";
+            this.sonuclbl13.Size = new System.Drawing.Size(54, 20);
+            this.sonuclbl13.TabIndex = 15;
+            this.sonuclbl13.Text = "---------";
+            // 
+            // hesaplabtn13
+            // 
+            this.hesaplabtn13.BackColor = System.Drawing.Color.Gold;
+            this.hesaplabtn13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hesaplabtn13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hesaplabtn13.Location = new System.Drawing.Point(304, 233);
+            this.hesaplabtn13.Margin = new System.Windows.Forms.Padding(2);
+            this.hesaplabtn13.Name = "hesaplabtn13";
+            this.hesaplabtn13.Size = new System.Drawing.Size(79, 37);
+            this.hesaplabtn13.TabIndex = 14;
+            this.hesaplabtn13.Text = "Hesapla";
+            this.hesaplabtn13.UseVisualStyleBackColor = false;
+            this.hesaplabtn13.Click += new System.EventHandler(this.hesaplabtn13_Click);
+            // 
+            // paratxt
+            // 
+            this.paratxt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.paratxt.Location = new System.Drawing.Point(304, 76);
+            this.paratxt.Margin = new System.Windows.Forms.Padding(2);
+            this.paratxt.Name = "paratxt";
+            this.paratxt.Size = new System.Drawing.Size(92, 20);
+            this.paratxt.TabIndex = 13;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label37.Location = new System.Drawing.Point(82, 151);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(208, 20);
+            this.label37.TabIndex = 12;
+            this.label37.Text = "Dönüştürülecek Para Birimi :";
+            // 
+            // dparabirimicmbx
+            // 
+            this.dparabirimicmbx.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.dparabirimicmbx.FormattingEnabled = true;
+            this.dparabirimicmbx.Items.AddRange(new object[] {
+            "USD",
+            "EURO",
+            "STERLIN",
+            "TL"});
+            this.dparabirimicmbx.Location = new System.Drawing.Point(304, 151);
+            this.dparabirimicmbx.Margin = new System.Windows.Forms.Padding(2);
+            this.dparabirimicmbx.Name = "dparabirimicmbx";
+            this.dparabirimicmbx.Size = new System.Drawing.Size(92, 21);
+            this.dparabirimicmbx.TabIndex = 9;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label38.Location = new System.Drawing.Point(227, 76);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(50, 20);
+            this.label38.TabIndex = 11;
+            this.label38.Text = "Para :";
+            // 
+            // parabirimicmbx
+            // 
+            this.parabirimicmbx.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.parabirimicmbx.FormattingEnabled = true;
+            this.parabirimicmbx.Items.AddRange(new object[] {
+            "USD",
+            "EURO",
+            "STERLIN",
+            "TL"});
+            this.parabirimicmbx.Location = new System.Drawing.Point(304, 114);
+            this.parabirimicmbx.Margin = new System.Windows.Forms.Padding(2);
+            this.parabirimicmbx.Name = "parabirimicmbx";
+            this.parabirimicmbx.Size = new System.Drawing.Size(92, 21);
+            this.parabirimicmbx.TabIndex = 10;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label39.Location = new System.Drawing.Point(143, 114);
+            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(141, 20);
+            this.label39.TabIndex = 8;
+            this.label39.Text = "Girilen Para Birimi :";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.BackColor = System.Drawing.Color.MistyRose;
+            this.groupBox12.Controls.Add(this.sonuclbl11);
+            this.groupBox12.Controls.Add(this.label32);
+            this.groupBox12.Controls.Add(this.sayitxt11);
+            this.groupBox12.Controls.Add(this.label33);
+            this.groupBox12.Controls.Add(this.hesaplabtn11);
+            this.groupBox12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBox12.Location = new System.Drawing.Point(513, 106);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(463, 300);
+            this.groupBox12.TabIndex = 24;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Örnek 11";
+            this.groupBox12.Visible = false;
+            // 
+            // sonuclbl11
+            // 
+            this.sonuclbl11.AutoSize = true;
+            this.sonuclbl11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonuclbl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuclbl11.Location = new System.Drawing.Point(178, 163);
+            this.sonuclbl11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonuclbl11.Name = "sonuclbl11";
+            this.sonuclbl11.Size = new System.Drawing.Size(69, 20);
+            this.sonuclbl11.TabIndex = 9;
+            this.sonuclbl11.Text = "------------";
+            this.sonuclbl11.Visible = false;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label32.ForeColor = System.Drawing.Color.Maroon;
+            this.label32.Location = new System.Drawing.Point(84, 49);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(295, 25);
+            this.label32.TabIndex = 8;
+            this.label32.Text = "MÜKEMMEL SAYI KONTROLÜ";
+            // 
+            // sayitxt11
+            // 
+            this.sayitxt11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sayitxt11.Location = new System.Drawing.Point(206, 124);
+            this.sayitxt11.Margin = new System.Windows.Forms.Padding(2);
+            this.sayitxt11.Name = "sayitxt11";
+            this.sayitxt11.Size = new System.Drawing.Size(106, 20);
+            this.sayitxt11.TabIndex = 7;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label33.Location = new System.Drawing.Point(138, 124);
+            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(51, 20);
+            this.label33.TabIndex = 6;
+            this.label33.Text = "Sayı : ";
+            // 
+            // hesaplabtn11
+            // 
+            this.hesaplabtn11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hesaplabtn11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hesaplabtn11.Location = new System.Drawing.Point(186, 219);
+            this.hesaplabtn11.Margin = new System.Windows.Forms.Padding(2);
+            this.hesaplabtn11.Name = "hesaplabtn11";
+            this.hesaplabtn11.Size = new System.Drawing.Size(83, 32);
+            this.hesaplabtn11.TabIndex = 5;
+            this.hesaplabtn11.Text = "Hesapla";
+            this.hesaplabtn11.UseVisualStyleBackColor = true;
+            this.hesaplabtn11.Click += new System.EventHandler(this.hesaplabtn11_Click);
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.BackColor = System.Drawing.Color.NavajoWhite;
+            this.groupBox13.Controls.Add(this.label36);
+            this.groupBox13.Controls.Add(this.sonuclbl12);
+            this.groupBox13.Controls.Add(this.label34);
+            this.groupBox13.Controls.Add(this.metintxt);
+            this.groupBox13.Controls.Add(this.label35);
+            this.groupBox13.Controls.Add(this.hesaplabtn12);
+            this.groupBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.groupBox13.Location = new System.Drawing.Point(338, 103);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(286, 255);
+            this.groupBox13.TabIndex = 25;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Örnek 12";
+            this.groupBox13.Visible = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Goldenrod;
+            this.label36.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label36.Location = new System.Drawing.Point(52, 34);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(179, 22);
+            this.label36.TabIndex = 10;
+            this.label36.Text = "Sesli Harf Kontrolü";
+            // 
+            // sonuclbl12
+            // 
+            this.sonuclbl12.AutoSize = true;
+            this.sonuclbl12.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonuclbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuclbl12.Location = new System.Drawing.Point(136, 118);
+            this.sonuclbl12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonuclbl12.Name = "sonuclbl12";
+            this.sonuclbl12.Size = new System.Drawing.Size(59, 20);
+            this.sonuclbl12.TabIndex = 9;
+            this.sonuclbl12.Text = "----------";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label34.Location = new System.Drawing.Point(62, 118);
+            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(63, 20);
+            this.label34.TabIndex = 8;
+            this.label34.Text = "Sonuç :";
+            // 
+            // metintxt
+            // 
+            this.metintxt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.metintxt.Location = new System.Drawing.Point(140, 78);
+            this.metintxt.Margin = new System.Windows.Forms.Padding(2);
+            this.metintxt.Name = "metintxt";
+            this.metintxt.Size = new System.Drawing.Size(95, 20);
+            this.metintxt.TabIndex = 7;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label35.Location = new System.Drawing.Point(62, 78);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(60, 20);
+            this.label35.TabIndex = 6;
+            this.label35.Text = "Metin : ";
+            // 
+            // hesaplabtn12
+            // 
+            this.hesaplabtn12.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hesaplabtn12.Location = new System.Drawing.Point(116, 159);
+            this.hesaplabtn12.Margin = new System.Windows.Forms.Padding(2);
+            this.hesaplabtn12.Name = "hesaplabtn12";
+            this.hesaplabtn12.Size = new System.Drawing.Size(79, 40);
+            this.hesaplabtn12.TabIndex = 5;
+            this.hesaplabtn12.Text = "Hesapla";
+            this.hesaplabtn12.UseVisualStyleBackColor = true;
+            this.hesaplabtn12.Click += new System.EventHandler(this.hesaplabtn12_Click);
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.groupBox15.Controls.Add(this.label43);
+            this.groupBox15.Controls.Add(this.sonuclbl14);
+            this.groupBox15.Controls.Add(this.label40);
+            this.groupBox15.Controls.Add(this.sayitxt14);
+            this.groupBox15.Controls.Add(this.label41);
+            this.groupBox15.Controls.Add(this.hesaplabtn14);
+            this.groupBox15.Controls.Add(this.label42);
+            this.groupBox15.Controls.Add(this.yontemcmbx);
+            this.groupBox15.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.groupBox15.Location = new System.Drawing.Point(409, 91);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(345, 323);
+            this.groupBox15.TabIndex = 27;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "Örnek 14";
+            this.groupBox15.Visible = false;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Gold;
+            this.label43.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label43.Location = new System.Drawing.Point(110, 30);
+            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(132, 22);
+            this.label43.TabIndex = 14;
+            this.label43.Text = "FAKTÖRİYEL";
+            // 
+            // sonuclbl14
+            // 
+            this.sonuclbl14.AutoSize = true;
+            this.sonuclbl14.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonuclbl14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuclbl14.Location = new System.Drawing.Point(158, 162);
+            this.sonuclbl14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonuclbl14.Name = "sonuclbl14";
+            this.sonuclbl14.Size = new System.Drawing.Size(53, 18);
+            this.sonuclbl14.TabIndex = 13;
+            this.sonuclbl14.Text = "---------";
+            this.sonuclbl14.Visible = false;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label40.Location = new System.Drawing.Point(76, 162);
+            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(63, 18);
+            this.label40.TabIndex = 12;
+            this.label40.Text = "Sonuç : ";
+            // 
+            // sayitxt14
+            // 
+            this.sayitxt14.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sayitxt14.Location = new System.Drawing.Point(161, 75);
+            this.sayitxt14.Margin = new System.Windows.Forms.Padding(2);
+            this.sayitxt14.Name = "sayitxt14";
+            this.sayitxt14.Size = new System.Drawing.Size(102, 20);
+            this.sayitxt14.TabIndex = 11;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label41.Location = new System.Drawing.Point(91, 73);
+            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(48, 18);
+            this.label41.TabIndex = 10;
+            this.label41.Text = "Sayı : ";
+            // 
+            // hesaplabtn14
+            // 
+            this.hesaplabtn14.BackColor = System.Drawing.Color.Salmon;
+            this.hesaplabtn14.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hesaplabtn14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hesaplabtn14.Location = new System.Drawing.Point(122, 209);
+            this.hesaplabtn14.Margin = new System.Windows.Forms.Padding(2);
+            this.hesaplabtn14.Name = "hesaplabtn14";
+            this.hesaplabtn14.Size = new System.Drawing.Size(72, 37);
+            this.hesaplabtn14.TabIndex = 9;
+            this.hesaplabtn14.Text = "Hesapla";
+            this.hesaplabtn14.UseVisualStyleBackColor = false;
+            this.hesaplabtn14.Click += new System.EventHandler(this.hesaplabtn14_Click);
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label42.Location = new System.Drawing.Point(69, 114);
+            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(71, 18);
+            this.label42.TabIndex = 8;
+            this.label42.Text = "Yöntem : ";
+            // 
+            // yontemcmbx
+            // 
+            this.yontemcmbx.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.yontemcmbx.FormattingEnabled = true;
+            this.yontemcmbx.Items.AddRange(new object[] {
+            "For",
+            "While"});
+            this.yontemcmbx.Location = new System.Drawing.Point(161, 118);
+            this.yontemcmbx.Margin = new System.Windows.Forms.Padding(2);
+            this.yontemcmbx.Name = "yontemcmbx";
+            this.yontemcmbx.Size = new System.Drawing.Size(102, 21);
+            this.yontemcmbx.TabIndex = 7;
             // 
             // groupBox4
             // 
@@ -646,11 +1041,9 @@
             this.groupBox4.Controls.Add(this.hesaplabtn3);
             this.groupBox4.Cursor = System.Windows.Forms.Cursors.Default;
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox4.Location = new System.Drawing.Point(660, 128);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Location = new System.Drawing.Point(709, 131);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox4.Size = new System.Drawing.Size(588, 511);
+            this.groupBox4.Size = new System.Drawing.Size(441, 415);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Örnek3";
@@ -662,10 +1055,10 @@
             this.sifirlabtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sifirlabtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sifirlabtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.sifirlabtn.Location = new System.Drawing.Point(228, 441);
-            this.sifirlabtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sifirlabtn.Location = new System.Drawing.Point(171, 358);
+            this.sifirlabtn.Margin = new System.Windows.Forms.Padding(2);
             this.sifirlabtn.Name = "sifirlabtn";
-            this.sifirlabtn.Size = new System.Drawing.Size(97, 34);
+            this.sifirlabtn.Size = new System.Drawing.Size(73, 28);
             this.sifirlabtn.TabIndex = 21;
             this.sifirlabtn.Text = "Sıfırla";
             this.sifirlabtn.UseVisualStyleBackColor = false;
@@ -676,9 +1069,10 @@
             this.sonuclbl3.AutoSize = true;
             this.sonuclbl3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sonuclbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl3.Location = new System.Drawing.Point(264, 302);
+            this.sonuclbl3.Location = new System.Drawing.Point(198, 245);
+            this.sonuclbl3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.sonuclbl3.Name = "sonuclbl3";
-            this.sonuclbl3.Size = new System.Drawing.Size(149, 29);
+            this.sonuclbl3.Size = new System.Drawing.Size(131, 25);
             this.sonuclbl3.TabIndex = 20;
             this.sonuclbl3.Text = "-----------------";
             // 
@@ -687,9 +1081,10 @@
             this.label9.AutoSize = true;
             this.label9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(125, 302);
+            this.label9.Location = new System.Drawing.Point(94, 245);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(117, 29);
+            this.label9.Size = new System.Drawing.Size(96, 25);
             this.label9.TabIndex = 19;
             this.label9.Text = "SONUÇ :";
             // 
@@ -697,11 +1092,95 @@
             // 
             this.kenar3txt.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.kenar3txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kenar3txt.Location = new System.Drawing.Point(269, 239);
-            this.kenar3txt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.kenar3txt.Location = new System.Drawing.Point(202, 194);
+            this.kenar3txt.Margin = new System.Windows.Forms.Padding(2);
             this.kenar3txt.Name = "kenar3txt";
-            this.kenar3txt.Size = new System.Drawing.Size(137, 26);
+            this.kenar3txt.Size = new System.Drawing.Size(104, 23);
             this.kenar3txt.TabIndex = 18;
+            // 
+            // kenar2txt
+            // 
+            this.kenar2txt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.kenar2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kenar2txt.Location = new System.Drawing.Point(202, 143);
+            this.kenar2txt.Margin = new System.Windows.Forms.Padding(2);
+            this.kenar2txt.Name = "kenar2txt";
+            this.kenar2txt.Size = new System.Drawing.Size(104, 23);
+            this.kenar2txt.TabIndex = 17;
+            // 
+            // kenar1txt
+            // 
+            this.kenar1txt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.kenar1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kenar1txt.Location = new System.Drawing.Point(202, 92);
+            this.kenar1txt.Margin = new System.Windows.Forms.Padding(2);
+            this.kenar1txt.Name = "kenar1txt";
+            this.kenar1txt.Size = new System.Drawing.Size(104, 23);
+            this.kenar1txt.TabIndex = 16;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(94, 194);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(98, 25);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "3. kenar : ";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(94, 143);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(98, 25);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "2. kenar : ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label12.Location = new System.Drawing.Point(94, 92);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(98, 25);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "1. kenar : ";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.Location = new System.Drawing.Point(62, 37);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(289, 31);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "ÜÇGEN ÇEŞİTİ BULMA";
+            // 
+            // hesaplabtn3
+            // 
+            this.hesaplabtn3.BackColor = System.Drawing.Color.Goldenrod;
+            this.hesaplabtn3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hesaplabtn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hesaplabtn3.Location = new System.Drawing.Point(160, 297);
+            this.hesaplabtn3.Margin = new System.Windows.Forms.Padding(2);
+            this.hesaplabtn3.Name = "hesaplabtn3";
+            this.hesaplabtn3.Size = new System.Drawing.Size(93, 42);
+            this.hesaplabtn3.TabIndex = 11;
+            this.hesaplabtn3.Text = "Hesapla";
+            this.hesaplabtn3.UseVisualStyleBackColor = false;
+            this.hesaplabtn3.Click += new System.EventHandler(this.hesaplabtn3_Click);
             // 
             // groupBox6
             // 
@@ -717,11 +1196,9 @@
             this.groupBox6.Controls.Add(this.label17);
             this.groupBox6.Controls.Add(this.girisbtn);
             this.groupBox6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox6.Location = new System.Drawing.Point(544, 128);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Location = new System.Drawing.Point(645, 123);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox6.Size = new System.Drawing.Size(749, 482);
+            this.groupBox6.Size = new System.Drawing.Size(562, 392);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Örnek 5";
@@ -733,10 +1210,10 @@
             this.changebtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.changebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.changebtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.changebtn.Location = new System.Drawing.Point(299, 281);
-            this.changebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.changebtn.Location = new System.Drawing.Point(224, 228);
+            this.changebtn.Margin = new System.Windows.Forms.Padding(2);
             this.changebtn.Name = "changebtn";
-            this.changebtn.Size = new System.Drawing.Size(139, 48);
+            this.changebtn.Size = new System.Drawing.Size(104, 39);
             this.changebtn.TabIndex = 19;
             this.changebtn.Text = "Change";
             this.changebtn.UseVisualStyleBackColor = false;
@@ -749,10 +1226,10 @@
             this.nobtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.nobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.nobtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.nobtn.Location = new System.Drawing.Point(504, 370);
-            this.nobtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nobtn.Location = new System.Drawing.Point(378, 301);
+            this.nobtn.Margin = new System.Windows.Forms.Padding(2);
             this.nobtn.Name = "nobtn";
-            this.nobtn.Size = new System.Drawing.Size(45, 34);
+            this.nobtn.Size = new System.Drawing.Size(34, 28);
             this.nobtn.TabIndex = 18;
             this.nobtn.Text = "N";
             this.nobtn.UseVisualStyleBackColor = false;
@@ -765,15 +1242,100 @@
             this.yesbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.yesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yesbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.yesbtn.Location = new System.Drawing.Point(444, 370);
-            this.yesbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.yesbtn.Location = new System.Drawing.Point(333, 301);
+            this.yesbtn.Margin = new System.Windows.Forms.Padding(2);
             this.yesbtn.Name = "yesbtn";
-            this.yesbtn.Size = new System.Drawing.Size(45, 34);
+            this.yesbtn.Size = new System.Drawing.Size(34, 28);
             this.yesbtn.TabIndex = 17;
             this.yesbtn.Text = "Y";
             this.yesbtn.UseVisualStyleBackColor = false;
             this.yesbtn.Visible = false;
             this.yesbtn.Click += new System.EventHandler(this.yesbtn_Click);
+            // 
+            // changelbl
+            // 
+            this.changelbl.AutoSize = true;
+            this.changelbl.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.changelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.changelbl.Location = new System.Drawing.Point(70, 308);
+            this.changelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.changelbl.Name = "changelbl";
+            this.changelbl.Size = new System.Drawing.Size(58, 17);
+            this.changelbl.TabIndex = 16;
+            this.changelbl.Text = "----------";
+            // 
+            // passwordtxt
+            // 
+            this.passwordtxt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.passwordtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.passwordtxt.Location = new System.Drawing.Point(322, 167);
+            this.passwordtxt.Margin = new System.Windows.Forms.Padding(2);
+            this.passwordtxt.Name = "passwordtxt";
+            this.passwordtxt.Size = new System.Drawing.Size(105, 26);
+            this.passwordtxt.TabIndex = 15;
+            this.passwordtxt.UseSystemPasswordChar = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Beige;
+            this.label8.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(227, 50);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(104, 31);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "LOGIN";
+            // 
+            // usernametxt
+            // 
+            this.usernametxt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.usernametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.usernametxt.Location = new System.Drawing.Point(322, 124);
+            this.usernametxt.Margin = new System.Windows.Forms.Padding(2);
+            this.usernametxt.Name = "usernametxt";
+            this.usernametxt.Size = new System.Drawing.Size(105, 26);
+            this.usernametxt.TabIndex = 13;
+            // 
+            // passwordlbl
+            // 
+            this.passwordlbl.AutoSize = true;
+            this.passwordlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.passwordlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.passwordlbl.Location = new System.Drawing.Point(125, 169);
+            this.passwordlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.passwordlbl.Name = "passwordlbl";
+            this.passwordlbl.Size = new System.Drawing.Size(114, 25);
+            this.passwordlbl.TabIndex = 12;
+            this.passwordlbl.Text = "Password : ";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(125, 126);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(118, 25);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "Username : ";
+            // 
+            // girisbtn
+            // 
+            this.girisbtn.BackColor = System.Drawing.Color.SlateBlue;
+            this.girisbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.girisbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.girisbtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.girisbtn.Location = new System.Drawing.Point(224, 228);
+            this.girisbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.girisbtn.Name = "girisbtn";
+            this.girisbtn.Size = new System.Drawing.Size(104, 39);
+            this.girisbtn.TabIndex = 10;
+            this.girisbtn.Text = "Login";
+            this.girisbtn.UseVisualStyleBackColor = false;
+            this.girisbtn.Click += new System.EventHandler(this.girisbtn_Click);
             // 
             // groupBox11
             // 
@@ -781,13 +1343,10 @@
             this.groupBox11.Controls.Add(this.listBox1);
             this.groupBox11.Controls.Add(this.label31);
             this.groupBox11.Controls.Add(this.hesaplabtn10);
-            this.groupBox11.Controls.Add(this.groupBox9);
             this.groupBox11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox11.Location = new System.Drawing.Point(1094, 757);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox11.Location = new System.Drawing.Point(543, 103);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox11.Size = new System.Drawing.Size(745, 478);
+            this.groupBox11.Size = new System.Drawing.Size(544, 406);
             this.groupBox11.TabIndex = 23;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Örnek 10";
@@ -797,11 +1356,9 @@
             // 
             this.listBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(144, 166);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Location = new System.Drawing.Point(108, 135);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(256, 228);
+            this.listBox1.Size = new System.Drawing.Size(193, 186);
             this.listBox1.TabIndex = 11;
             // 
             // label31
@@ -809,9 +1366,10 @@
             this.label31.AutoSize = true;
             this.label31.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label31.Location = new System.Drawing.Point(139, 111);
+            this.label31.Location = new System.Drawing.Point(104, 90);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(332, 26);
+            this.label31.Size = new System.Drawing.Size(277, 22);
             this.label31.TabIndex = 9;
             this.label31.Text = "1\'den 50\'ye kadar olan tek sayılar";
             // 
@@ -819,14 +1377,260 @@
             // 
             this.hesaplabtn10.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.hesaplabtn10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn10.Location = new System.Drawing.Point(435, 239);
-            this.hesaplabtn10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hesaplabtn10.Location = new System.Drawing.Point(326, 194);
+            this.hesaplabtn10.Margin = new System.Windows.Forms.Padding(2);
             this.hesaplabtn10.Name = "hesaplabtn10";
-            this.hesaplabtn10.Size = new System.Drawing.Size(99, 42);
+            this.hesaplabtn10.Size = new System.Drawing.Size(74, 34);
             this.hesaplabtn10.TabIndex = 6;
             this.hesaplabtn10.Text = "Hesapla";
             this.hesaplabtn10.UseVisualStyleBackColor = true;
             this.hesaplabtn10.Click += new System.EventHandler(this.hesaplabtn10_Click);
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.Color.RosyBrown;
+            this.groupBox9.Controls.Add(this.label22);
+            this.groupBox9.Controls.Add(this.sonlbl);
+            this.groupBox9.Controls.Add(this.hayirbtn);
+            this.groupBox9.Controls.Add(this.evetbtn);
+            this.groupBox9.Controls.Add(this.metinlbl);
+            this.groupBox9.Controls.Add(this.sonuclbl8);
+            this.groupBox9.Controls.Add(this.label26);
+            this.groupBox9.Controls.Add(this.tahmintxt);
+            this.groupBox9.Controls.Add(this.label27);
+            this.groupBox9.Controls.Add(this.tahminbtn);
+            this.groupBox9.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.groupBox9.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.groupBox9.Location = new System.Drawing.Point(606, 106);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(756, 474);
+            this.groupBox9.TabIndex = 10;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Örnek 8";
+            this.groupBox9.Visible = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label22.Location = new System.Drawing.Point(159, 115);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(345, 25);
+            this.label22.TabIndex = 19;
+            this.label22.Text = "1 ile 10 arasında tutulan sayıyı bulunuz";
+            // 
+            // sonlbl
+            // 
+            this.sonlbl.AutoSize = true;
+            this.sonlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonlbl.ForeColor = System.Drawing.Color.Maroon;
+            this.sonlbl.Location = new System.Drawing.Point(232, 306);
+            this.sonlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonlbl.Name = "sonlbl";
+            this.sonlbl.Size = new System.Drawing.Size(58, 18);
+            this.sonlbl.TabIndex = 18;
+            this.sonlbl.Text = "----------";
+            this.sonlbl.Visible = false;
+            // 
+            // hayirbtn
+            // 
+            this.hayirbtn.BackColor = System.Drawing.Color.DarkKhaki;
+            this.hayirbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hayirbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hayirbtn.Location = new System.Drawing.Point(350, 391);
+            this.hayirbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.hayirbtn.Name = "hayirbtn";
+            this.hayirbtn.Size = new System.Drawing.Size(42, 31);
+            this.hayirbtn.TabIndex = 17;
+            this.hayirbtn.Text = "H";
+            this.hayirbtn.UseVisualStyleBackColor = false;
+            this.hayirbtn.Visible = false;
+            this.hayirbtn.Click += new System.EventHandler(this.hayirbtn_Click);
+            // 
+            // evetbtn
+            // 
+            this.evetbtn.BackColor = System.Drawing.Color.DarkKhaki;
+            this.evetbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.evetbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.evetbtn.Location = new System.Drawing.Point(294, 391);
+            this.evetbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.evetbtn.Name = "evetbtn";
+            this.evetbtn.Size = new System.Drawing.Size(39, 31);
+            this.evetbtn.TabIndex = 16;
+            this.evetbtn.Text = "E";
+            this.evetbtn.UseVisualStyleBackColor = false;
+            this.evetbtn.Visible = false;
+            this.evetbtn.Click += new System.EventHandler(this.evetbtn_Click);
+            // 
+            // metinlbl
+            // 
+            this.metinlbl.AutoSize = true;
+            this.metinlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.metinlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.metinlbl.Location = new System.Drawing.Point(221, 350);
+            this.metinlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metinlbl.Name = "metinlbl";
+            this.metinlbl.Size = new System.Drawing.Size(260, 22);
+            this.metinlbl.TabIndex = 15;
+            this.metinlbl.Text = "Yeniden oynamak ister misiniz?";
+            this.metinlbl.Visible = false;
+            // 
+            // sonuclbl8
+            // 
+            this.sonuclbl8.AutoSize = true;
+            this.sonuclbl8.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonuclbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuclbl8.Location = new System.Drawing.Point(230, 272);
+            this.sonuclbl8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonuclbl8.Name = "sonuclbl8";
+            this.sonuclbl8.Size = new System.Drawing.Size(58, 18);
+            this.sonuclbl8.TabIndex = 14;
+            this.sonuclbl8.Text = "----------";
+            this.sonuclbl8.Visible = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.LightCyan;
+            this.label26.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label26.Location = new System.Drawing.Point(228, 58);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(257, 29);
+            this.label26.TabIndex = 13;
+            this.label26.Text = "SAYI TAHMİN OYUNU";
+            // 
+            // tahmintxt
+            // 
+            this.tahmintxt.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.tahmintxt.Location = new System.Drawing.Point(331, 171);
+            this.tahmintxt.Margin = new System.Windows.Forms.Padding(2);
+            this.tahmintxt.Name = "tahmintxt";
+            this.tahmintxt.Size = new System.Drawing.Size(103, 20);
+            this.tahmintxt.TabIndex = 12;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label27.Location = new System.Drawing.Point(252, 172);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(60, 22);
+            this.label27.TabIndex = 11;
+            this.label27.Text = "Sayı : ";
+            // 
+            // tahminbtn
+            // 
+            this.tahminbtn.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.tahminbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.tahminbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tahminbtn.Location = new System.Drawing.Point(287, 217);
+            this.tahminbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.tahminbtn.Name = "tahminbtn";
+            this.tahminbtn.Size = new System.Drawing.Size(96, 36);
+            this.tahminbtn.TabIndex = 10;
+            this.tahminbtn.Text = "Tahmin et";
+            this.tahminbtn.UseVisualStyleBackColor = false;
+            this.tahminbtn.Click += new System.EventHandler(this.tahminbtn_Click);
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox10.Controls.Add(this.sonuclbl9);
+            this.groupBox10.Controls.Add(this.label28);
+            this.groupBox10.Controls.Add(this.sayitxt9);
+            this.groupBox10.Controls.Add(this.label29);
+            this.groupBox10.Controls.Add(this.label30);
+            this.groupBox10.Controls.Add(this.hesaplabtn9);
+            this.groupBox10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBox10.Location = new System.Drawing.Point(551, 117);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(402, 331);
+            this.groupBox10.TabIndex = 22;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Örnek 9";
+            this.groupBox10.Visible = false;
+            // 
+            // sonuclbl9
+            // 
+            this.sonuclbl9.AutoSize = true;
+            this.sonuclbl9.BackColor = System.Drawing.Color.LemonChiffon;
+            this.sonuclbl9.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sonuclbl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonuclbl9.Location = new System.Drawing.Point(205, 231);
+            this.sonuclbl9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.sonuclbl9.Name = "sonuclbl9";
+            this.sonuclbl9.Size = new System.Drawing.Size(76, 24);
+            this.sonuclbl9.TabIndex = 13;
+            this.sonuclbl9.Text = "-----------";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Silver;
+            this.label28.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label28.Location = new System.Drawing.Point(118, 231);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(75, 24);
+            this.label28.TabIndex = 12;
+            this.label28.Text = "Sonuç :";
+            // 
+            // sayitxt9
+            // 
+            this.sayitxt9.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.sayitxt9.Location = new System.Drawing.Point(192, 118);
+            this.sayitxt9.Margin = new System.Windows.Forms.Padding(2);
+            this.sayitxt9.Name = "sayitxt9";
+            this.sayitxt9.Size = new System.Drawing.Size(92, 20);
+            this.sayitxt9.TabIndex = 11;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label29.ForeColor = System.Drawing.Color.DarkRed;
+            this.label29.Location = new System.Drawing.Point(55, 50);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(314, 26);
+            this.label29.TabIndex = 10;
+            this.label29.Text = "Sayıyı İkilik Tabana Çevirme";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Silver;
+            this.label30.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label30.Location = new System.Drawing.Point(118, 117);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(55, 24);
+            this.label30.TabIndex = 9;
+            this.label30.Text = "Sayı :";
+            // 
+            // hesaplabtn9
+            // 
+            this.hesaplabtn9.BackColor = System.Drawing.Color.Gold;
+            this.hesaplabtn9.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.hesaplabtn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hesaplabtn9.Location = new System.Drawing.Point(153, 171);
+            this.hesaplabtn9.Margin = new System.Windows.Forms.Padding(2);
+            this.hesaplabtn9.Name = "hesaplabtn9";
+            this.hesaplabtn9.Size = new System.Drawing.Size(79, 37);
+            this.hesaplabtn9.TabIndex = 8;
+            this.hesaplabtn9.Text = "Hesapla";
+            this.hesaplabtn9.UseVisualStyleBackColor = false;
+            this.hesaplabtn9.Click += new System.EventHandler(this.hesaplabtn9_Click);
             // 
             // groupBox7
             // 
@@ -846,11 +1650,9 @@
             this.groupBox7.Controls.Add(this.number1txt);
             this.groupBox7.Controls.Add(this.calcbtn);
             this.groupBox7.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox7.Location = new System.Drawing.Point(528, 111);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Location = new System.Drawing.Point(633, 109);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox7.Size = new System.Drawing.Size(1052, 625);
+            this.groupBox7.Size = new System.Drawing.Size(789, 508);
             this.groupBox7.TabIndex = 20;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Örnek 6";
@@ -861,10 +1663,9 @@
             this.root21lbl.AutoSize = true;
             this.root21lbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.root21lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.root21lbl.Location = new System.Drawing.Point(549, 345);
-            this.root21lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.root21lbl.Location = new System.Drawing.Point(412, 280);
             this.root21lbl.Name = "root21lbl";
-            this.root21lbl.Size = new System.Drawing.Size(79, 25);
+            this.root21lbl.Size = new System.Drawing.Size(65, 20);
             this.root21lbl.TabIndex = 19;
             this.root21lbl.Text = "Root 2 :";
             this.root21lbl.Visible = false;
@@ -874,10 +1675,9 @@
             this.root22lbl.AutoSize = true;
             this.root22lbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.root22lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.root22lbl.Location = new System.Drawing.Point(676, 346);
-            this.root22lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.root22lbl.Location = new System.Drawing.Point(507, 281);
             this.root22lbl.Name = "root22lbl";
-            this.root22lbl.Size = new System.Drawing.Size(54, 25);
+            this.root22lbl.Size = new System.Drawing.Size(39, 20);
             this.root22lbl.TabIndex = 16;
             this.root22lbl.Text = "------";
             this.root22lbl.Visible = false;
@@ -887,10 +1687,9 @@
             this.root11lbl.AutoSize = true;
             this.root11lbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.root11lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.root11lbl.Location = new System.Drawing.Point(549, 281);
-            this.root11lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.root11lbl.Location = new System.Drawing.Point(412, 228);
             this.root11lbl.Name = "root11lbl";
-            this.root11lbl.Size = new System.Drawing.Size(79, 25);
+            this.root11lbl.Size = new System.Drawing.Size(65, 20);
             this.root11lbl.TabIndex = 20;
             this.root11lbl.Text = "Root 1 :";
             this.root11lbl.Visible = false;
@@ -900,10 +1699,9 @@
             this.root12lbl.AutoSize = true;
             this.root12lbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.root12lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.root12lbl.Location = new System.Drawing.Point(676, 282);
-            this.root12lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.root12lbl.Location = new System.Drawing.Point(507, 229);
             this.root12lbl.Name = "root12lbl";
-            this.root12lbl.Size = new System.Drawing.Size(54, 25);
+            this.root12lbl.Size = new System.Drawing.Size(39, 20);
             this.root12lbl.TabIndex = 17;
             this.root12lbl.Text = "------";
             this.root12lbl.Visible = false;
@@ -913,10 +1711,9 @@
             this.result2lbl.AutoSize = true;
             this.result2lbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.result2lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.result2lbl.Location = new System.Drawing.Point(676, 218);
-            this.result2lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.result2lbl.Location = new System.Drawing.Point(507, 177);
             this.result2lbl.Name = "result2lbl";
-            this.result2lbl.Size = new System.Drawing.Size(54, 25);
+            this.result2lbl.Size = new System.Drawing.Size(39, 20);
             this.result2lbl.TabIndex = 18;
             this.result2lbl.Text = "------";
             this.result2lbl.Visible = false;
@@ -926,10 +1723,9 @@
             this.resultlbl.AutoSize = true;
             this.resultlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.resultlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.resultlbl.Location = new System.Drawing.Point(549, 217);
-            this.resultlbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.resultlbl.Location = new System.Drawing.Point(412, 176);
             this.resultlbl.Name = "resultlbl";
-            this.resultlbl.Size = new System.Drawing.Size(82, 25);
+            this.resultlbl.Size = new System.Drawing.Size(67, 20);
             this.resultlbl.TabIndex = 15;
             this.resultlbl.Text = "Result : ";
             this.resultlbl.Visible = false;
@@ -940,10 +1736,9 @@
             this.label18.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.ForeColor = System.Drawing.Color.Maroon;
-            this.label18.Location = new System.Drawing.Point(167, 121);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(125, 98);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(501, 29);
+            this.label18.Size = new System.Drawing.Size(396, 25);
             this.label18.TabIndex = 14;
             this.label18.Text = "Calculating 2nd Degree root of Equation";
             // 
@@ -952,10 +1747,9 @@
             this.label19.AutoSize = true;
             this.label19.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(115, 345);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Location = new System.Drawing.Point(86, 280);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(131, 29);
+            this.label19.Size = new System.Drawing.Size(103, 25);
             this.label19.TabIndex = 11;
             this.label19.Text = "Number 3:";
             // 
@@ -964,10 +1758,9 @@
             this.label20.AutoSize = true;
             this.label20.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(115, 279);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Location = new System.Drawing.Point(86, 227);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(131, 29);
+            this.label20.Size = new System.Drawing.Size(103, 25);
             this.label20.TabIndex = 12;
             this.label20.Text = "Number 2:";
             // 
@@ -976,10 +1769,9 @@
             this.label21.AutoSize = true;
             this.label21.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(115, 214);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Location = new System.Drawing.Point(86, 174);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(131, 29);
+            this.label21.Size = new System.Drawing.Size(103, 25);
             this.label21.TabIndex = 13;
             this.label21.Text = "Number 1:";
             // 
@@ -987,30 +1779,27 @@
             // 
             this.number3txt.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.number3txt.Font = new System.Drawing.Font("Microsoft JhengHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number3txt.Location = new System.Drawing.Point(336, 346);
-            this.number3txt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.number3txt.Location = new System.Drawing.Point(252, 281);
             this.number3txt.Name = "number3txt";
-            this.number3txt.Size = new System.Drawing.Size(151, 25);
+            this.number3txt.Size = new System.Drawing.Size(114, 21);
             this.number3txt.TabIndex = 8;
             // 
             // number2txt
             // 
             this.number2txt.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.number2txt.Font = new System.Drawing.Font("Microsoft JhengHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number2txt.Location = new System.Drawing.Point(336, 284);
-            this.number2txt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.number2txt.Location = new System.Drawing.Point(252, 231);
             this.number2txt.Name = "number2txt";
-            this.number2txt.Size = new System.Drawing.Size(151, 25);
+            this.number2txt.Size = new System.Drawing.Size(114, 21);
             this.number2txt.TabIndex = 9;
             // 
             // number1txt
             // 
             this.number1txt.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.number1txt.Font = new System.Drawing.Font("Microsoft JhengHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number1txt.Location = new System.Drawing.Point(336, 223);
-            this.number1txt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.number1txt.Location = new System.Drawing.Point(252, 181);
             this.number1txt.Name = "number1txt";
-            this.number1txt.Size = new System.Drawing.Size(151, 25);
+            this.number1txt.Size = new System.Drawing.Size(114, 21);
             this.number1txt.TabIndex = 10;
             // 
             // calcbtn
@@ -1018,416 +1807,13 @@
             this.calcbtn.BackColor = System.Drawing.Color.SandyBrown;
             this.calcbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.calcbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.calcbtn.Location = new System.Drawing.Point(152, 432);
-            this.calcbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calcbtn.Location = new System.Drawing.Point(114, 351);
             this.calcbtn.Name = "calcbtn";
-            this.calcbtn.Size = new System.Drawing.Size(311, 55);
+            this.calcbtn.Size = new System.Drawing.Size(233, 45);
             this.calcbtn.TabIndex = 7;
             this.calcbtn.Text = "Calculate";
             this.calcbtn.UseVisualStyleBackColor = false;
             this.calcbtn.Click += new System.EventHandler(this.calcbtn_Click);
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.Color.RosyBrown;
-            this.groupBox9.Controls.Add(this.label22);
-            this.groupBox9.Controls.Add(this.sonlbl);
-            this.groupBox9.Controls.Add(this.hayirbtn);
-            this.groupBox9.Controls.Add(this.evetbtn);
-            this.groupBox9.Controls.Add(this.groupBox10);
-            this.groupBox9.Controls.Add(this.metinlbl);
-            this.groupBox9.Controls.Add(this.sonuclbl8);
-            this.groupBox9.Controls.Add(this.label26);
-            this.groupBox9.Controls.Add(this.tahmintxt);
-            this.groupBox9.Controls.Add(this.label27);
-            this.groupBox9.Controls.Add(this.tahminbtn);
-            this.groupBox9.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox9.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.groupBox9.Location = new System.Drawing.Point(395, 50);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox9.Size = new System.Drawing.Size(1008, 583);
-            this.groupBox9.TabIndex = 10;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Örnek 8";
-            this.groupBox9.Visible = false;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(212, 142);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(450, 29);
-            this.label22.TabIndex = 19;
-            this.label22.Text = "1 ile 10 arasında tutulan sayıyı bulunuz";
-            // 
-            // sonlbl
-            // 
-            this.sonlbl.AutoSize = true;
-            this.sonlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonlbl.ForeColor = System.Drawing.Color.Maroon;
-            this.sonlbl.Location = new System.Drawing.Point(309, 377);
-            this.sonlbl.Name = "sonlbl";
-            this.sonlbl.Size = new System.Drawing.Size(70, 24);
-            this.sonlbl.TabIndex = 18;
-            this.sonlbl.Text = "----------";
-            this.sonlbl.Visible = false;
-            // 
-            // hayirbtn
-            // 
-            this.hayirbtn.BackColor = System.Drawing.Color.DarkKhaki;
-            this.hayirbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hayirbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hayirbtn.Location = new System.Drawing.Point(467, 481);
-            this.hayirbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hayirbtn.Name = "hayirbtn";
-            this.hayirbtn.Size = new System.Drawing.Size(56, 38);
-            this.hayirbtn.TabIndex = 17;
-            this.hayirbtn.Text = "H";
-            this.hayirbtn.UseVisualStyleBackColor = false;
-            this.hayirbtn.Visible = false;
-            this.hayirbtn.Click += new System.EventHandler(this.hayirbtn_Click);
-            // 
-            // evetbtn
-            // 
-            this.evetbtn.BackColor = System.Drawing.Color.DarkKhaki;
-            this.evetbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.evetbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.evetbtn.Location = new System.Drawing.Point(392, 481);
-            this.evetbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.evetbtn.Name = "evetbtn";
-            this.evetbtn.Size = new System.Drawing.Size(52, 38);
-            this.evetbtn.TabIndex = 16;
-            this.evetbtn.Text = "E";
-            this.evetbtn.UseVisualStyleBackColor = false;
-            this.evetbtn.Visible = false;
-            this.evetbtn.Click += new System.EventHandler(this.evetbtn_Click);
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox10.Controls.Add(this.sonuclbl9);
-            this.groupBox10.Controls.Add(this.label28);
-            this.groupBox10.Controls.Add(this.sayitxt9);
-            this.groupBox10.Controls.Add(this.label29);
-            this.groupBox10.Controls.Add(this.label30);
-            this.groupBox10.Controls.Add(this.hesaplabtn9);
-            this.groupBox10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox10.Location = new System.Drawing.Point(560, 30);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox10.Size = new System.Drawing.Size(536, 407);
-            this.groupBox10.TabIndex = 22;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Örnek 9";
-            this.groupBox10.Visible = false;
-            // 
-            // sonuclbl9
-            // 
-            this.sonuclbl9.AutoSize = true;
-            this.sonuclbl9.BackColor = System.Drawing.Color.LemonChiffon;
-            this.sonuclbl9.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonuclbl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl9.Location = new System.Drawing.Point(273, 284);
-            this.sonuclbl9.Name = "sonuclbl9";
-            this.sonuclbl9.Size = new System.Drawing.Size(101, 29);
-            this.sonuclbl9.TabIndex = 13;
-            this.sonuclbl9.Text = "-----------";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Silver;
-            this.label28.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label28.Location = new System.Drawing.Point(157, 284);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(93, 29);
-            this.label28.TabIndex = 12;
-            this.label28.Text = "Sonuç :";
-            // 
-            // sayitxt9
-            // 
-            this.sayitxt9.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sayitxt9.Location = new System.Drawing.Point(256, 145);
-            this.sayitxt9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sayitxt9.Name = "sayitxt9";
-            this.sayitxt9.Size = new System.Drawing.Size(121, 22);
-            this.sayitxt9.TabIndex = 11;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label29.ForeColor = System.Drawing.Color.DarkRed;
-            this.label29.Location = new System.Drawing.Point(73, 62);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(383, 31);
-            this.label29.TabIndex = 10;
-            this.label29.Text = "Sayıyı İkilik Tabana Çevirme";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Silver;
-            this.label30.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label30.Location = new System.Drawing.Point(157, 144);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(71, 29);
-            this.label30.TabIndex = 9;
-            this.label30.Text = "Sayı :";
-            // 
-            // hesaplabtn9
-            // 
-            this.hesaplabtn9.BackColor = System.Drawing.Color.Gold;
-            this.hesaplabtn9.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hesaplabtn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn9.Location = new System.Drawing.Point(204, 210);
-            this.hesaplabtn9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hesaplabtn9.Name = "hesaplabtn9";
-            this.hesaplabtn9.Size = new System.Drawing.Size(105, 46);
-            this.hesaplabtn9.TabIndex = 8;
-            this.hesaplabtn9.Text = "Hesapla";
-            this.hesaplabtn9.UseVisualStyleBackColor = false;
-            this.hesaplabtn9.Click += new System.EventHandler(this.hesaplabtn9_Click);
-            // 
-            // metinlbl
-            // 
-            this.metinlbl.AutoSize = true;
-            this.metinlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.metinlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.metinlbl.Location = new System.Drawing.Point(295, 431);
-            this.metinlbl.Name = "metinlbl";
-            this.metinlbl.Size = new System.Drawing.Size(321, 26);
-            this.metinlbl.TabIndex = 15;
-            this.metinlbl.Text = "Yeniden oynamak ister misiniz?";
-            this.metinlbl.Visible = false;
-            // 
-            // sonuclbl8
-            // 
-            this.sonuclbl8.AutoSize = true;
-            this.sonuclbl8.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonuclbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl8.Location = new System.Drawing.Point(307, 335);
-            this.sonuclbl8.Name = "sonuclbl8";
-            this.sonuclbl8.Size = new System.Drawing.Size(70, 24);
-            this.sonuclbl8.TabIndex = 14;
-            this.sonuclbl8.Text = "----------";
-            this.sonuclbl8.Visible = false;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.LightCyan;
-            this.label26.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label26.Location = new System.Drawing.Point(304, 71);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(323, 36);
-            this.label26.TabIndex = 13;
-            this.label26.Text = "SAYI TAHMİN OYUNU";
-            // 
-            // tahmintxt
-            // 
-            this.tahmintxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.tahmintxt.Location = new System.Drawing.Point(441, 210);
-            this.tahmintxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tahmintxt.Name = "tahmintxt";
-            this.tahmintxt.Size = new System.Drawing.Size(136, 22);
-            this.tahmintxt.TabIndex = 12;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label27.Location = new System.Drawing.Point(336, 212);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(73, 26);
-            this.label27.TabIndex = 11;
-            this.label27.Text = "Sayı : ";
-            // 
-            // tahminbtn
-            // 
-            this.tahminbtn.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.tahminbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.tahminbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tahminbtn.Location = new System.Drawing.Point(383, 267);
-            this.tahminbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tahminbtn.Name = "tahminbtn";
-            this.tahminbtn.Size = new System.Drawing.Size(128, 44);
-            this.tahminbtn.TabIndex = 10;
-            this.tahminbtn.Text = "Tahmin et";
-            this.tahminbtn.UseVisualStyleBackColor = false;
-            this.tahminbtn.Click += new System.EventHandler(this.tahminbtn_Click);
-            // 
-            // changelbl
-            // 
-            this.changelbl.AutoSize = true;
-            this.changelbl.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.changelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.changelbl.Location = new System.Drawing.Point(93, 379);
-            this.changelbl.Name = "changelbl";
-            this.changelbl.Size = new System.Drawing.Size(69, 20);
-            this.changelbl.TabIndex = 16;
-            this.changelbl.Text = "----------";
-            // 
-            // passwordtxt
-            // 
-            this.passwordtxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.passwordtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.passwordtxt.Location = new System.Drawing.Point(429, 206);
-            this.passwordtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.passwordtxt.Name = "passwordtxt";
-            this.passwordtxt.Size = new System.Drawing.Size(139, 30);
-            this.passwordtxt.TabIndex = 15;
-            this.passwordtxt.UseSystemPasswordChar = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Beige;
-            this.label8.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(303, 62);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(128, 39);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "LOGIN";
-            // 
-            // usernametxt
-            // 
-            this.usernametxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.usernametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.usernametxt.Location = new System.Drawing.Point(429, 153);
-            this.usernametxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.usernametxt.Name = "usernametxt";
-            this.usernametxt.Size = new System.Drawing.Size(139, 30);
-            this.usernametxt.TabIndex = 13;
-            // 
-            // passwordlbl
-            // 
-            this.passwordlbl.AutoSize = true;
-            this.passwordlbl.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.passwordlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.passwordlbl.Location = new System.Drawing.Point(167, 208);
-            this.passwordlbl.Name = "passwordlbl";
-            this.passwordlbl.Size = new System.Drawing.Size(145, 29);
-            this.passwordlbl.TabIndex = 12;
-            this.passwordlbl.Text = "Password : ";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(167, 155);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(151, 29);
-            this.label17.TabIndex = 11;
-            this.label17.Text = "Username : ";
-            // 
-            // girisbtn
-            // 
-            this.girisbtn.BackColor = System.Drawing.Color.SlateBlue;
-            this.girisbtn.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.girisbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.girisbtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.girisbtn.Location = new System.Drawing.Point(299, 281);
-            this.girisbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.girisbtn.Name = "girisbtn";
-            this.girisbtn.Size = new System.Drawing.Size(139, 48);
-            this.girisbtn.TabIndex = 10;
-            this.girisbtn.Text = "Login";
-            this.girisbtn.UseVisualStyleBackColor = false;
-            this.girisbtn.Click += new System.EventHandler(this.girisbtn_Click);
-            // 
-            // kenar2txt
-            // 
-            this.kenar2txt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.kenar2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kenar2txt.Location = new System.Drawing.Point(269, 176);
-            this.kenar2txt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.kenar2txt.Name = "kenar2txt";
-            this.kenar2txt.Size = new System.Drawing.Size(137, 26);
-            this.kenar2txt.TabIndex = 17;
-            // 
-            // kenar1txt
-            // 
-            this.kenar1txt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.kenar1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kenar1txt.Location = new System.Drawing.Point(269, 113);
-            this.kenar1txt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.kenar1txt.Name = "kenar1txt";
-            this.kenar1txt.Size = new System.Drawing.Size(137, 26);
-            this.kenar1txt.TabIndex = 16;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(125, 239);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(125, 29);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "3. kenar : ";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(125, 176);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(125, 29);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "2. kenar : ";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(125, 113);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(125, 29);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "1. kenar : ";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(83, 46);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(359, 38);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "ÜÇGEN ÇEŞİTİ BULMA";
-            // 
-            // hesaplabtn3
-            // 
-            this.hesaplabtn3.BackColor = System.Drawing.Color.Goldenrod;
-            this.hesaplabtn3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hesaplabtn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn3.Location = new System.Drawing.Point(213, 366);
-            this.hesaplabtn3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hesaplabtn3.Name = "hesaplabtn3";
-            this.hesaplabtn3.Size = new System.Drawing.Size(124, 52);
-            this.hesaplabtn3.TabIndex = 11;
-            this.hesaplabtn3.Text = "Hesapla";
-            this.hesaplabtn3.UseVisualStyleBackColor = false;
-            this.hesaplabtn3.Click += new System.EventHandler(this.hesaplabtn3_Click);
             // 
             // groupBox5
             // 
@@ -1439,139 +1825,23 @@
             this.groupBox5.Controls.Add(this.label16);
             this.groupBox5.Controls.Add(this.hesaplabtn4);
             this.groupBox5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox5.Location = new System.Drawing.Point(715, 128);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Location = new System.Drawing.Point(750, 131);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox5.Size = new System.Drawing.Size(586, 375);
+            this.groupBox5.Size = new System.Drawing.Size(440, 305);
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Örnek4";
             this.groupBox5.Visible = false;
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox15.Controls.Add(this.label43);
-            this.groupBox15.Controls.Add(this.sonuclbl14);
-            this.groupBox15.Controls.Add(this.label40);
-            this.groupBox15.Controls.Add(this.sayitxt14);
-            this.groupBox15.Controls.Add(this.label41);
-            this.groupBox15.Controls.Add(this.hesaplabtn14);
-            this.groupBox15.Controls.Add(this.label42);
-            this.groupBox15.Controls.Add(this.yontemcmbx);
-            this.groupBox15.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox15.Location = new System.Drawing.Point(524, 2);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox15.Size = new System.Drawing.Size(460, 398);
-            this.groupBox15.TabIndex = 27;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Örnek 14";
-            this.groupBox15.Visible = false;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.Gold;
-            this.label43.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label43.Location = new System.Drawing.Point(147, 37);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(159, 26);
-            this.label43.TabIndex = 14;
-            this.label43.Text = "FAKTÖRİYEL";
-            // 
-            // sonuclbl14
-            // 
-            this.sonuclbl14.AutoSize = true;
-            this.sonuclbl14.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonuclbl14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl14.Location = new System.Drawing.Point(211, 199);
-            this.sonuclbl14.Name = "sonuclbl14";
-            this.sonuclbl14.Size = new System.Drawing.Size(64, 24);
-            this.sonuclbl14.TabIndex = 13;
-            this.sonuclbl14.Text = "---------";
-            this.sonuclbl14.Visible = false;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label40.Location = new System.Drawing.Point(101, 199);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(80, 24);
-            this.label40.TabIndex = 12;
-            this.label40.Text = "Sonuç : ";
-            // 
-            // sayitxt14
-            // 
-            this.sayitxt14.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sayitxt14.Location = new System.Drawing.Point(215, 92);
-            this.sayitxt14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sayitxt14.Name = "sayitxt14";
-            this.sayitxt14.Size = new System.Drawing.Size(135, 22);
-            this.sayitxt14.TabIndex = 11;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label41.Location = new System.Drawing.Point(121, 90);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(60, 24);
-            this.label41.TabIndex = 10;
-            this.label41.Text = "Sayı : ";
-            // 
-            // hesaplabtn14
-            // 
-            this.hesaplabtn14.BackColor = System.Drawing.Color.Salmon;
-            this.hesaplabtn14.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hesaplabtn14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn14.Location = new System.Drawing.Point(163, 257);
-            this.hesaplabtn14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hesaplabtn14.Name = "hesaplabtn14";
-            this.hesaplabtn14.Size = new System.Drawing.Size(96, 46);
-            this.hesaplabtn14.TabIndex = 9;
-            this.hesaplabtn14.Text = "Hesapla";
-            this.hesaplabtn14.UseVisualStyleBackColor = false;
-            this.hesaplabtn14.Click += new System.EventHandler(this.hesaplabtn14_Click);
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label42.Location = new System.Drawing.Point(92, 140);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(90, 24);
-            this.label42.TabIndex = 8;
-            this.label42.Text = "Yöntem : ";
-            // 
-            // yontemcmbx
-            // 
-            this.yontemcmbx.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.yontemcmbx.FormattingEnabled = true;
-            this.yontemcmbx.Items.AddRange(new object[] {
-            "For",
-            "While"});
-            this.yontemcmbx.Location = new System.Drawing.Point(215, 145);
-            this.yontemcmbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.yontemcmbx.Name = "yontemcmbx";
-            this.yontemcmbx.Size = new System.Drawing.Size(135, 24);
-            this.yontemcmbx.TabIndex = 7;
             // 
             // sonuclbl4
             // 
             this.sonuclbl4.AutoSize = true;
             this.sonuclbl4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sonuclbl4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl4.Location = new System.Drawing.Point(303, 226);
+            this.sonuclbl4.Location = new System.Drawing.Point(227, 184);
+            this.sonuclbl4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.sonuclbl4.Name = "sonuclbl4";
-            this.sonuclbl4.Size = new System.Drawing.Size(125, 33);
+            this.sonuclbl4.Size = new System.Drawing.Size(102, 27);
             this.sonuclbl4.TabIndex = 11;
             this.sonuclbl4.Text = "----------";
             // 
@@ -1580,9 +1850,10 @@
             this.label14.AutoSize = true;
             this.label14.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(47, 226);
+            this.label14.Location = new System.Drawing.Point(35, 184);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(236, 33);
+            this.label14.Size = new System.Drawing.Size(190, 27);
             this.label14.TabIndex = 10;
             this.label14.Text = "Ödenecek Tutar : ";
             // 
@@ -1590,10 +1861,10 @@
             // 
             this.saattxt.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.saattxt.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.saattxt.Location = new System.Drawing.Point(308, 176);
-            this.saattxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.saattxt.Location = new System.Drawing.Point(231, 143);
+            this.saattxt.Margin = new System.Windows.Forms.Padding(2);
             this.saattxt.Name = "saattxt";
-            this.saattxt.Size = new System.Drawing.Size(121, 30);
+            this.saattxt.Size = new System.Drawing.Size(92, 26);
             this.saattxt.TabIndex = 9;
             // 
             // label15
@@ -1602,9 +1873,10 @@
             this.label15.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label15.ForeColor = System.Drawing.Color.Maroon;
-            this.label15.Location = new System.Drawing.Point(84, 80);
+            this.label15.Location = new System.Drawing.Point(63, 65);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(477, 45);
+            this.label15.Size = new System.Drawing.Size(378, 36);
             this.label15.TabIndex = 8;
             this.label15.Text = "OTOPARK ÜCRET TARİFESİ";
             // 
@@ -1613,9 +1885,10 @@
             this.label16.AutoSize = true;
             this.label16.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(193, 176);
+            this.label16.Location = new System.Drawing.Point(145, 143);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(89, 33);
+            this.label16.Size = new System.Drawing.Size(74, 27);
             this.label16.TabIndex = 7;
             this.label16.Text = "Saat : ";
             // 
@@ -1624,10 +1897,10 @@
             this.hesaplabtn4.BackColor = System.Drawing.Color.Linen;
             this.hesaplabtn4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.hesaplabtn4.Font = new System.Drawing.Font("Microsoft YaHei UI", 13F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn4.Location = new System.Drawing.Point(305, 299);
-            this.hesaplabtn4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hesaplabtn4.Location = new System.Drawing.Point(229, 243);
+            this.hesaplabtn4.Margin = new System.Windows.Forms.Padding(2);
             this.hesaplabtn4.Name = "hesaplabtn4";
-            this.hesaplabtn4.Size = new System.Drawing.Size(123, 43);
+            this.hesaplabtn4.Size = new System.Drawing.Size(92, 35);
             this.hesaplabtn4.TabIndex = 6;
             this.hesaplabtn4.Text = "Hesapla";
             this.hesaplabtn4.UseVisualStyleBackColor = false;
@@ -1642,11 +1915,9 @@
             this.groupBox8.Controls.Add(this.label24);
             this.groupBox8.Controls.Add(this.hesaplabtn7);
             this.groupBox8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox8.Location = new System.Drawing.Point(13, 18);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Location = new System.Drawing.Point(618, 106);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox8.Size = new System.Drawing.Size(605, 375);
+            this.groupBox8.Size = new System.Drawing.Size(454, 305);
             this.groupBox8.TabIndex = 21;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Örnek 7";
@@ -1657,9 +1928,10 @@
             this.sonuclbl7.AutoSize = true;
             this.sonuclbl7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sonuclbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl7.Location = new System.Drawing.Point(212, 196);
+            this.sonuclbl7.Location = new System.Drawing.Point(159, 159);
+            this.sonuclbl7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.sonuclbl7.Name = "sonuclbl7";
-            this.sonuclbl7.Size = new System.Drawing.Size(68, 26);
+            this.sonuclbl7.Size = new System.Drawing.Size(59, 22);
             this.sonuclbl7.TabIndex = 9;
             this.sonuclbl7.Text = "-------";
             this.sonuclbl7.Visible = false;
@@ -1667,10 +1939,10 @@
             // nottxt
             // 
             this.nottxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.nottxt.Location = new System.Drawing.Point(257, 144);
-            this.nottxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nottxt.Location = new System.Drawing.Point(193, 117);
+            this.nottxt.Margin = new System.Windows.Forms.Padding(2);
             this.nottxt.Name = "nottxt";
-            this.nottxt.Size = new System.Drawing.Size(128, 22);
+            this.nottxt.Size = new System.Drawing.Size(97, 20);
             this.nottxt.TabIndex = 8;
             // 
             // label23
@@ -1678,9 +1950,10 @@
             this.label23.AutoSize = true;
             this.label23.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(164, 142);
+            this.label23.Location = new System.Drawing.Point(123, 115);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(70, 26);
+            this.label23.Size = new System.Drawing.Size(59, 22);
             this.label23.TabIndex = 7;
             this.label23.Text = "Not : ";
             // 
@@ -1689,9 +1962,10 @@
             this.label24.AutoSize = true;
             this.label24.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(25, 65);
+            this.label24.Location = new System.Drawing.Point(19, 53);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(490, 26);
+            this.label24.Size = new System.Drawing.Size(413, 22);
             this.label24.TabIndex = 6;
             this.label24.Text = "Öğrencinin Notuna Göre Geçti-Kaldı Kontrolü";
             // 
@@ -1700,311 +1974,14 @@
             this.hesaplabtn7.BackColor = System.Drawing.Color.Gold;
             this.hesaplabtn7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.hesaplabtn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn7.Location = new System.Drawing.Point(207, 258);
-            this.hesaplabtn7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hesaplabtn7.Location = new System.Drawing.Point(155, 210);
+            this.hesaplabtn7.Margin = new System.Windows.Forms.Padding(2);
             this.hesaplabtn7.Name = "hesaplabtn7";
-            this.hesaplabtn7.Size = new System.Drawing.Size(120, 42);
+            this.hesaplabtn7.Size = new System.Drawing.Size(90, 34);
             this.hesaplabtn7.TabIndex = 5;
             this.hesaplabtn7.Text = "Hesapla";
             this.hesaplabtn7.UseVisualStyleBackColor = false;
             this.hesaplabtn7.Click += new System.EventHandler(this.hesaplabtn7_Click);
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.Color.MistyRose;
-            this.groupBox12.Controls.Add(this.groupBox15);
-            this.groupBox12.Controls.Add(this.sonuclbl11);
-            this.groupBox12.Controls.Add(this.label32);
-            this.groupBox12.Controls.Add(this.groupBox8);
-            this.groupBox12.Controls.Add(this.sayitxt11);
-            this.groupBox12.Controls.Add(this.label33);
-            this.groupBox12.Controls.Add(this.hesaplabtn11);
-            this.groupBox12.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox12.Location = new System.Drawing.Point(644, 762);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox12.Size = new System.Drawing.Size(617, 369);
-            this.groupBox12.TabIndex = 24;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Örnek 11";
-            this.groupBox12.Visible = false;
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.BackColor = System.Drawing.Color.Olive;
-            this.groupBox14.Controls.Add(this.label25);
-            this.groupBox14.Controls.Add(this.sonuclbl13);
-            this.groupBox14.Controls.Add(this.groupBox13);
-            this.groupBox14.Controls.Add(this.hesaplabtn13);
-            this.groupBox14.Controls.Add(this.paratxt);
-            this.groupBox14.Controls.Add(this.label37);
-            this.groupBox14.Controls.Add(this.dparabirimicmbx);
-            this.groupBox14.Controls.Add(this.label38);
-            this.groupBox14.Controls.Add(this.parabirimicmbx);
-            this.groupBox14.Controls.Add(this.label39);
-            this.groupBox14.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox14.Location = new System.Drawing.Point(686, 769);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox14.Size = new System.Drawing.Size(735, 427);
-            this.groupBox14.TabIndex = 26;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Örnek 13";
-            this.groupBox14.Visible = false;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label25.Location = new System.Drawing.Point(281, 238);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(85, 25);
-            this.label25.TabIndex = 16;
-            this.label25.Text = "Sonuç : ";
-            // 
-            // sonuclbl13
-            // 
-            this.sonuclbl13.AutoSize = true;
-            this.sonuclbl13.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonuclbl13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl13.Location = new System.Drawing.Point(400, 238);
-            this.sonuclbl13.Name = "sonuclbl13";
-            this.sonuclbl13.Size = new System.Drawing.Size(75, 25);
-            this.sonuclbl13.TabIndex = 15;
-            this.sonuclbl13.Text = "---------";
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.BackColor = System.Drawing.Color.NavajoWhite;
-            this.groupBox13.Controls.Add(this.label36);
-            this.groupBox13.Controls.Add(this.sonuclbl12);
-            this.groupBox13.Controls.Add(this.label34);
-            this.groupBox13.Controls.Add(this.metintxt);
-            this.groupBox13.Controls.Add(this.label35);
-            this.groupBox13.Controls.Add(this.hesaplabtn12);
-            this.groupBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox13.Location = new System.Drawing.Point(634, 38);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox13.Size = new System.Drawing.Size(381, 314);
-            this.groupBox13.TabIndex = 25;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Örnek 12";
-            this.groupBox13.Visible = false;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Goldenrod;
-            this.label36.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label36.Location = new System.Drawing.Point(69, 42);
-            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(213, 26);
-            this.label36.TabIndex = 10;
-            this.label36.Text = "Sesli Harf Kontrolü";
-            // 
-            // sonuclbl12
-            // 
-            this.sonuclbl12.AutoSize = true;
-            this.sonuclbl12.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonuclbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl12.Location = new System.Drawing.Point(181, 145);
-            this.sonuclbl12.Name = "sonuclbl12";
-            this.sonuclbl12.Size = new System.Drawing.Size(82, 25);
-            this.sonuclbl12.TabIndex = 9;
-            this.sonuclbl12.Text = "----------";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label34.Location = new System.Drawing.Point(83, 145);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(80, 25);
-            this.label34.TabIndex = 8;
-            this.label34.Text = "Sonuç :";
-            // 
-            // metintxt
-            // 
-            this.metintxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.metintxt.Location = new System.Drawing.Point(187, 96);
-            this.metintxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.metintxt.Name = "metintxt";
-            this.metintxt.Size = new System.Drawing.Size(125, 22);
-            this.metintxt.TabIndex = 7;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label35.Location = new System.Drawing.Point(83, 96);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(76, 25);
-            this.label35.TabIndex = 6;
-            this.label35.Text = "Metin : ";
-            // 
-            // hesaplabtn12
-            // 
-            this.hesaplabtn12.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hesaplabtn12.Location = new System.Drawing.Point(155, 196);
-            this.hesaplabtn12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hesaplabtn12.Name = "hesaplabtn12";
-            this.hesaplabtn12.Size = new System.Drawing.Size(105, 49);
-            this.hesaplabtn12.TabIndex = 5;
-            this.hesaplabtn12.Text = "Hesapla";
-            this.hesaplabtn12.UseVisualStyleBackColor = true;
-            this.hesaplabtn12.Click += new System.EventHandler(this.hesaplabtn12_Click);
-            // 
-            // hesaplabtn13
-            // 
-            this.hesaplabtn13.BackColor = System.Drawing.Color.Gold;
-            this.hesaplabtn13.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hesaplabtn13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn13.Location = new System.Drawing.Point(405, 287);
-            this.hesaplabtn13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hesaplabtn13.Name = "hesaplabtn13";
-            this.hesaplabtn13.Size = new System.Drawing.Size(105, 46);
-            this.hesaplabtn13.TabIndex = 14;
-            this.hesaplabtn13.Text = "Hesapla";
-            this.hesaplabtn13.UseVisualStyleBackColor = false;
-            this.hesaplabtn13.Click += new System.EventHandler(this.hesaplabtn13_Click);
-            // 
-            // paratxt
-            // 
-            this.paratxt.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.paratxt.Location = new System.Drawing.Point(405, 94);
-            this.paratxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.paratxt.Name = "paratxt";
-            this.paratxt.Size = new System.Drawing.Size(121, 22);
-            this.paratxt.TabIndex = 13;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label37.Location = new System.Drawing.Point(109, 186);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(257, 25);
-            this.label37.TabIndex = 12;
-            this.label37.Text = "Dönüştürülecek Para Birimi :";
-            // 
-            // dparabirimicmbx
-            // 
-            this.dparabirimicmbx.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.dparabirimicmbx.FormattingEnabled = true;
-            this.dparabirimicmbx.Items.AddRange(new object[] {
-            "USD",
-            "EURO",
-            "STERLIN",
-            "TL"});
-            this.dparabirimicmbx.Location = new System.Drawing.Point(405, 186);
-            this.dparabirimicmbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dparabirimicmbx.Name = "dparabirimicmbx";
-            this.dparabirimicmbx.Size = new System.Drawing.Size(121, 24);
-            this.dparabirimicmbx.TabIndex = 9;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label38.Location = new System.Drawing.Point(303, 94);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(64, 25);
-            this.label38.TabIndex = 11;
-            this.label38.Text = "Para :";
-            // 
-            // parabirimicmbx
-            // 
-            this.parabirimicmbx.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.parabirimicmbx.FormattingEnabled = true;
-            this.parabirimicmbx.Items.AddRange(new object[] {
-            "USD",
-            "EURO",
-            "STERLIN",
-            "TL"});
-            this.parabirimicmbx.Location = new System.Drawing.Point(405, 140);
-            this.parabirimicmbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.parabirimicmbx.Name = "parabirimicmbx";
-            this.parabirimicmbx.Size = new System.Drawing.Size(121, 24);
-            this.parabirimicmbx.TabIndex = 10;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label39.Location = new System.Drawing.Point(191, 140);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(176, 25);
-            this.label39.TabIndex = 8;
-            this.label39.Text = "Girilen Para Birimi :";
-            // 
-            // sonuclbl11
-            // 
-            this.sonuclbl11.AutoSize = true;
-            this.sonuclbl11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sonuclbl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonuclbl11.Location = new System.Drawing.Point(237, 201);
-            this.sonuclbl11.Name = "sonuclbl11";
-            this.sonuclbl11.Size = new System.Drawing.Size(96, 25);
-            this.sonuclbl11.TabIndex = 9;
-            this.sonuclbl11.Text = "------------";
-            this.sonuclbl11.Visible = false;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label32.ForeColor = System.Drawing.Color.Maroon;
-            this.label32.Location = new System.Drawing.Point(112, 60);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(367, 29);
-            this.label32.TabIndex = 8;
-            this.label32.Text = "MÜKEMMEL SAYI KONTROLÜ";
-            // 
-            // sayitxt11
-            // 
-            this.sayitxt11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.sayitxt11.Location = new System.Drawing.Point(275, 153);
-            this.sayitxt11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sayitxt11.Name = "sayitxt11";
-            this.sayitxt11.Size = new System.Drawing.Size(140, 22);
-            this.sayitxt11.TabIndex = 7;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label33.Location = new System.Drawing.Point(184, 153);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(67, 25);
-            this.label33.TabIndex = 6;
-            this.label33.Text = "Sayı : ";
-            // 
-            // hesaplabtn11
-            // 
-            this.hesaplabtn11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.hesaplabtn11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.hesaplabtn11.Location = new System.Drawing.Point(248, 270);
-            this.hesaplabtn11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hesaplabtn11.Name = "hesaplabtn11";
-            this.hesaplabtn11.Size = new System.Drawing.Size(111, 39);
-            this.hesaplabtn11.TabIndex = 5;
-            this.hesaplabtn11.Text = "Hesapla";
-            this.hesaplabtn11.UseVisualStyleBackColor = true;
-            this.hesaplabtn11.Click += new System.EventHandler(this.hesaplabtn11_Click);
             // 
             // panel1
             // 
@@ -2014,9 +1991,37 @@
             this.panel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1753, 90);
+            this.panel1.Size = new System.Drawing.Size(1448, 73);
             this.panel1.TabIndex = 27;
+            // 
+            // oopradiobtn
+            // 
+            this.oopradiobtn.AutoSize = true;
+            this.oopradiobtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.oopradiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.oopradiobtn.Location = new System.Drawing.Point(818, 19);
+            this.oopradiobtn.Margin = new System.Windows.Forms.Padding(2);
+            this.oopradiobtn.Name = "oopradiobtn";
+            this.oopradiobtn.Size = new System.Drawing.Size(61, 24);
+            this.oopradiobtn.TabIndex = 2;
+            this.oopradiobtn.Text = "OOP";
+            this.oopradiobtn.UseVisualStyleBackColor = true;
+            // 
+            // metodradiobtn
+            // 
+            this.metodradiobtn.AutoSize = true;
+            this.metodradiobtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.metodradiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.metodradiobtn.Location = new System.Drawing.Point(633, 19);
+            this.metodradiobtn.Margin = new System.Windows.Forms.Padding(2);
+            this.metodradiobtn.Name = "metodradiobtn";
+            this.metodradiobtn.Size = new System.Drawing.Size(81, 24);
+            this.metodradiobtn.TabIndex = 1;
+            this.metodradiobtn.Text = "Method";
+            this.metodradiobtn.UseVisualStyleBackColor = true;
+            this.metodradiobtn.CheckedChanged += new System.EventHandler(this.metodradiobtn_CheckedChanged);
             // 
             // normalradiobtn
             // 
@@ -2024,57 +2029,38 @@
             this.normalradiobtn.Checked = true;
             this.normalradiobtn.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.normalradiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.normalradiobtn.Location = new System.Drawing.Point(597, 23);
+            this.normalradiobtn.Location = new System.Drawing.Point(448, 19);
+            this.normalradiobtn.Margin = new System.Windows.Forms.Padding(2);
             this.normalradiobtn.Name = "normalradiobtn";
-            this.normalradiobtn.Size = new System.Drawing.Size(95, 29);
+            this.normalradiobtn.Size = new System.Drawing.Size(77, 24);
             this.normalradiobtn.TabIndex = 0;
             this.normalradiobtn.TabStop = true;
             this.normalradiobtn.Text = "Normal";
             this.normalradiobtn.UseVisualStyleBackColor = true;
             // 
-            // metodradiobtn
-            // 
-            this.metodradiobtn.AutoSize = true;
-            this.metodradiobtn.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.metodradiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.metodradiobtn.Location = new System.Drawing.Point(844, 23);
-            this.metodradiobtn.Name = "metodradiobtn";
-            this.metodradiobtn.Size = new System.Drawing.Size(99, 29);
-            this.metodradiobtn.TabIndex = 1;
-            this.metodradiobtn.Text = "Method";
-            this.metodradiobtn.UseVisualStyleBackColor = true;
-            // 
-            // oopradiobtn
-            // 
-            this.oopradiobtn.AutoSize = true;
-            this.oopradiobtn.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.oopradiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.oopradiobtn.Location = new System.Drawing.Point(1091, 23);
-            this.oopradiobtn.Name = "oopradiobtn";
-            this.oopradiobtn.Size = new System.Drawing.Size(78, 29);
-            this.oopradiobtn.TabIndex = 2;
-            this.oopradiobtn.Text = "OOP";
-            this.oopradiobtn.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1753, 987);
+            this.ClientSize = new System.Drawing.Size(1448, 837);
+            this.Controls.Add(this.groupBox15);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox14);
+            this.Controls.Add(this.groupBox13);
+            this.Controls.Add(this.groupBox9);
+            this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox12);
+            this.Controls.Add(this.groupBox11);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox11);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tüm Uygulamalar";
@@ -2085,30 +2071,30 @@
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox15.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

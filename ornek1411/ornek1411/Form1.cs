@@ -17,6 +17,8 @@ namespace ornek1411
             InitializeComponent();
         }
 
+
+
         #region ornek1
 
         #region Örnek1 - Metotlar
@@ -60,6 +62,9 @@ namespace ornek1411
             groupBox15.Visible = false;
         }
 
+        int faktoriyel = 1;
+
+
         private void hesaplabtn_Click(object sender, EventArgs e)
         {
             //Klavyeden girilen a ve b sayısı 50’den büyük olduğunda c = a + b işlemi yapan değilse bu sayılar uygun değil yazdıran program
@@ -91,7 +96,7 @@ namespace ornek1411
 
             #region Metod
 
-            if (metodradiobtn.Checked == true)
+            else if (metodradiobtn.Checked == true)
             {
 
                 int a = Convert.ToInt32(atxt.Text);
@@ -121,16 +126,29 @@ namespace ornek1411
 
         #region Metotlar - Örnek2
 
-        public static int faktoriyelMetot(int sayi)
+        public int faktoriyelMetot(int sayi) //For
         {
-            //static metot
-            int faktoriyel = 1;
             for (int i = 1; i <= sayi; i++)
             {
                 faktoriyel = faktoriyel * i;
             }
             return faktoriyel;
         }
+
+        public int faktoriyelMetot2(int sayi) //While
+        {
+            int i = 1;
+            while (i <= sayi)
+            {
+                faktoriyel = faktoriyel * i;
+                i++;
+            }
+            return faktoriyel;
+
+
+        }
+
+
         #endregion
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -171,11 +189,9 @@ namespace ornek1411
                 {
                     sonuc = (sayi / 2) - 1;
                     label4.Text = Convert.ToString(sonuc);
-
                 }
                 else if (sayi < 5)
                 {
-
                     int faktoriyel = 1;
                     for (int i = 1; i <= sayi; i++)
                     {
@@ -206,7 +222,7 @@ namespace ornek1411
 
                 }
                 else if (sayi < 5)
-                    label4.Text = ($"{faktoriyelMetot(sayi)}");
+                    label4.Text = Convert.ToString(faktoriyelMetot(sayi));
             }
             #endregion
 
@@ -565,7 +581,7 @@ namespace ornek1411
 
         public float deltaSifirdanBuyuk2(float val1, float val2, float val3)
         {
-           return (float)(((-1) * val2 + Math.Sqrt(deltaHesaplama(val1, val2, val3))) / (2 * val1));
+            return (float)(((-1) * val2 + Math.Sqrt(deltaHesaplama(val1, val2, val3))) / (2 * val1));
         }
 
         public float deltaSifiraEsit(float val1, float val2)
@@ -640,7 +656,7 @@ namespace ornek1411
 
             #region Metot
 
-            if (metodradiobtn.Checked == true)
+            else if (metodradiobtn.Checked == true)
             {
                 normalradiobtn.Checked = false;
                 oopradiobtn.Checked = false;
@@ -721,6 +737,47 @@ namespace ornek1411
 
         }
 
+
+        #region Metot - Örnek 7
+
+        public void harfNotu(byte not) //metot1
+        {
+            sonuclbl7.Text = (not <= 100 && not >= 85) ? "A - Geçtiniz" :
+                              (not < 85 && not >= 70) ? "B - Geçtiniz" :
+                              (not < 70 && not >= 55) ? "C - Geçtiniz" :
+                              (not < 55 && not >= 45) ? "D - Kaldınız" : "F - Kaldınız";
+
+        }
+
+
+        public string notdonustur(string not)
+        {
+            string sonuc = "";
+
+            int val;
+            if (!Int32.TryParse(not, out val))
+                sonuc = "Geçersiz Not";
+            else
+            {
+                int notyeni = int.Parse(not);
+
+                if (notyeni <= 100 && notyeni > 85)
+                    sonuclbl7.Text = "A - Geçtiniz";
+                else if (notyeni < 86 && notyeni > 69)
+                    sonuclbl7.Text = "B - Geçtiniz";
+                else if (notyeni < 69 && notyeni > 54)
+                    sonuclbl7.Text = "C - Geçtiniz";
+                else if (notyeni < 55 && notyeni >= 45)
+                    sonuclbl7.Text = "D - Kaldınız";
+                else
+                    sonuclbl7.Text = "F - Kaldınız";
+            }
+
+            return sonuclbl7.Text;
+        }
+
+        #endregion
+
         private void hesaplabtn7_Click(object sender, EventArgs e)
         {
             //sınav notunu giriniz
@@ -730,13 +787,51 @@ namespace ornek1411
             //55-45 ise D
             //45< ise F
 
-            byte not;
-            not = Convert.ToByte(nottxt.Text);
-            sonuclbl.Show();
-            sonuclbl.Text = (not <= 100 && not >= 85) ? "A - Geçtiniz" :
-                          (not < 85 && not >= 70) ? "B - Geçtiniz" :
-                          (not < 70 && not >= 55) ? "C - Geçtiniz" :
-                          (not < 55 && not >= 45) ? "D - Kaldınız" : "F - Kaldınız";
+            #region Normal
+            if (normalradiobtn.Checked == true)
+            {
+                metodradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                byte not;
+                not = Convert.ToByte(nottxt.Text);
+                sonuclbl7.Show();
+                sonuclbl7.Text = (not <= 100 && not >= 85) ? "A - Geçtiniz" :
+                              (not < 85 && not >= 70) ? "B - Geçtiniz" :
+                              (not < 70 && not >= 55) ? "C - Geçtiniz" :
+                              (not < 55 && not >= 45) ? "D - Kaldınız" : "F - Kaldınız";
+            }
+            #endregion
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+
+                //byte not;
+                //not = Convert.ToByte(nottxt.Text);
+                //sonuclbl7.Show();
+                //harfNotu(not);
+
+                string not;
+                not = nottxt.Text;
+                sonuclbl7.Show();
+                notdonustur(not);
+            }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+            }
+            #endregion
+
         }
 
         #endregion
@@ -766,54 +861,100 @@ namespace ornek1411
         byte sayi = 7;
         byte tahmin;
 
-        private void tahminbtn_Click(object sender, EventArgs e)
+        #region Metotlar - Örnek8
+
+        public void VisibleEnabledKisa()
         {
+            tahmintxt.Clear();
+            tahmintxt.Enabled = false;
 
-            tahmin = Convert.ToByte(tahmintxt.Text);
+            metinlbl.Show();
+            evetbtn.Show();
+            hayirbtn.Show();
 
+            tahminbtn.Enabled = false;
+        }
+
+        public string Dogru()
+        {
+            sonuclbl8.Show();
+            return sonuclbl8.Text = $"Tebrikler bildiniz {sayac} kerede!"; ;
+        }
+
+        public void TahminKucuk()
+        {
+            sayac++;
+            sonuclbl8.Show();
+            sonuclbl8.Text = "Girdiğiniz sayı tuttuğunuz sayıdan küçüktür. Tekrar sayı giriniz!";
+            tahmintxt.Clear();
+        }
+
+
+        public void TahminBuyuk()
+        {
+            sayac++;
+            sonuclbl8.Show();
+            sonuclbl8.Text = "Girdiğiniz sayı tuttuğunuz sayıdan büyüktür. Tekrar sayı giriniz!";
+            tahmintxt.Clear();
+        }
+
+        public int sayiTahmin(byte tahmin)
+        {
             if (tahmin >= 1 && tahmin <= 10)
             {
                 if (sayac >= 3)
                 {
                     sonlbl.Show();
                     if (sayi == tahmin)
-                    {
-                        sonuclbl8.Show();
-                        sonuclbl8.Text = $"Tebrikler bildiniz {sayac} kerede!";
-                    }
+                        Dogru();
                     sonlbl.Text = "Tahmin hakkınız bitti!";
-
-                    tahmintxt.Clear();
-                    tahmintxt.Enabled = false;
-
-                    metinlbl.Show();
-                    evetbtn.Show();
-                    hayirbtn.Show();
-
-                    tahminbtn.Enabled = false;
+                    VisibleEnabledKisa();
 
                 }
                 else
                 {
                     if (sayi > tahmin)
-                    {
-                        sayac++;
-                        sonuclbl8.Show();
-                        sonuclbl8.Text = "Girdiğiniz sayı tuttuğunuz sayıdan küçüktür. Tekrar sayı giriniz!";
-                        tahmintxt.Clear();
-                    }
+                        TahminKucuk();
                     if (sayi < tahmin)
-                    {
-                        sayac++;
-                        sonuclbl8.Show();
-                        sonuclbl8.Text = "Girdiğiniz sayı tuttuğunuz sayıdan büyüktür. Tekrar sayı giriniz!";
-                        tahmintxt.Clear();
+                        TahminBuyuk();
 
-                    }
                     else if (sayi == tahmin)
                     {
-                        sonuclbl8.Show();
-                        sonuclbl8.Text = $"Tebrikler bildiniz {sayac} kerede!";
+                        Dogru();
+                        VisibleEnabledKisa();
+
+                    }
+                }
+            }
+
+            return tahmin;
+
+        }
+
+        #endregion
+
+        private void tahminbtn_Click(object sender, EventArgs e)
+        {
+            #region Normal
+
+            if (normalradiobtn.Checked == true)
+            {
+                metodradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                tahmin = Convert.ToByte(tahmintxt.Text);
+
+                if (tahmin >= 1 && tahmin <= 10)
+                {
+                    if (sayac >= 3)
+                    {
+                        sonlbl.Show();
+                        if (sayi == tahmin)
+                        {
+                            sonuclbl8.Show();
+                            sonuclbl8.Text = $"Tebrikler bildiniz {sayac} kerede!";
+                        }
+                        sonlbl.Text = "Tahmin hakkınız bitti!";
 
                         tahmintxt.Clear();
                         tahmintxt.Enabled = false;
@@ -823,14 +964,73 @@ namespace ornek1411
                         hayirbtn.Show();
 
                         tahminbtn.Enabled = false;
+
+                    }
+                    else
+                    {
+                        if (sayi > tahmin)
+                        {
+                            sayac++;
+                            sonuclbl8.Show();
+                            sonuclbl8.Text = "Girdiğiniz sayı tuttuğunuz sayıdan küçüktür. Tekrar sayı giriniz!";
+                            tahmintxt.Clear();
+                        }
+                        if (sayi < tahmin)
+                        {
+                            sayac++;
+                            sonuclbl8.Show();
+                            sonuclbl8.Text = "Girdiğiniz sayı tuttuğunuz sayıdan büyüktür. Tekrar sayı giriniz!";
+                            tahmintxt.Clear();
+
+                        }
+                        else if (sayi == tahmin)
+                        {
+                            sonuclbl8.Show();
+                            sonuclbl8.Text = $"Tebrikler bildiniz {sayac} kerede!";
+
+                            tahmintxt.Clear();
+                            tahmintxt.Enabled = false;
+
+                            metinlbl.Show();
+                            evetbtn.Show();
+                            hayirbtn.Show();
+
+                            tahminbtn.Enabled = false;
+                        }
                     }
                 }
+                else
+                {
+                    tahmintxt.Clear();
+                    MessageBox.Show("Belirlenen aralık dışında sayı giriyorsunuz. Tekrar sayı giriniz!");
+                }
             }
-            else
+
+
+            #endregion
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
             {
-                tahmintxt.Clear();
-                MessageBox.Show("Belirlenen aralık dışında sayı giriyorsunuz. Tekrar sayı giriniz!");
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                tahmin = Convert.ToByte(tahmintxt.Text);
+                sayiTahmin(tahmin);
+
             }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+            }
+            #endregion
+
         }
 
         private void evetbtn_Click(object sender, EventArgs e)
@@ -874,18 +1074,68 @@ namespace ornek1411
 
         }
 
-        private void hesaplabtn9_Click(object sender, EventArgs e)
+        #region Metot - Örnek 9 
+
+        public string ikilikTaban(string sayi)
         {
-            //girilen sayıyı ikilik tabana çevirme
-            string sayi = Convert.ToString(sayitxt9.Text);
-            string sonuc = " ";
+            string sonuc = "";
             int sayi2 = int.Parse(sayi);
 
             for (; sayi2 > 0; sayi2 /= 2)
-            {
-                sonuc = sayi2 % 2 + sonuc; //sonucu başa yazarsan 10 un karşılığı 1010 yerin 0101 yazdırır
-            }
+                sonuc = sayi2 % 2 + sonuc; //1010
+
             sonuclbl9.Text = $"{sonuc}";
+
+            return sonuc;
+
+        }
+
+        #endregion
+
+        private void hesaplabtn9_Click(object sender, EventArgs e)
+        {
+            //girilen sayıyı ikilik tabana çevirme
+
+            #region Normal
+            if (normalradiobtn.Checked == true)
+            {
+                metodradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                string sayi = Convert.ToString(sayitxt9.Text);
+                string sonuc = " ";
+                int sayi2 = int.Parse(sayi);
+
+                for (; sayi2 > 0; sayi2 /= 2)
+                {
+                    sonuc = sayi2 % 2 + sonuc; //sonucu başa yazarsan 10 un karşılığı 1010 yerin 0101 yazdırır
+                }
+                sonuclbl9.Text = $"{sonuc}";
+            }
+            #endregion
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                string sayi = Convert.ToString(sayitxt9.Text);
+                ikilikTaban(sayi);
+
+            }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+            }
+            #endregion
+
         }
 
         #endregion
@@ -910,17 +1160,66 @@ namespace ornek1411
             groupBox15.Visible = false;
 
         }
+        #region Metot - Örnek 10
+        public void diziGoster(int[] dizi)
+        {
+            dizi = new int[50];
+
+            for (int i = 0; i < dizi.GetLength(0); i++)
+            {
+                if (i % 2 == 0)
+                {
+                    dizi[i] = i;
+                    continue;
+                }
+
+                listBox1.Items.Add(i);
+            }
+
+        }
+        #endregion
 
         private void hesaplabtn10_Click(object sender, EventArgs e)
         {
             //1 den 50 ye kadar olan tek sayılar
-            for (int i = 0; i < 50; i++)
-            {
-                if (i % 2 == 0)
-                    continue;
 
-                listBox1.Items.Add(i);
+            #region Normal 
+            if (normalradiobtn.Checked == true)
+            {
+                metodradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                for (int i = 0; i < 50; i++)
+                {
+                    if (i % 2 == 0)
+                        continue;
+
+                    listBox1.Items.Add(i);
+                }
             }
+            #endregion
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                int[] dizi = new int[50];
+                diziGoster(dizi);
+            }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+            }
+            #endregion
+
         }
         #endregion
 
@@ -942,13 +1241,28 @@ namespace ornek1411
 
         }
 
-        private void hesaplabtn11_Click(object sender, EventArgs e)
-        {
-            //girilen sayının mükemmel sayı olup olmadığı kontrolü
+        #region Metot - Örnek11
 
+        void YazdirMukemmel()
+        {
             int toplam = 0;
 
-            int sayi = Convert.ToInt32(sayitxt11.Text);
+            if (sayi == toplam)
+            {
+                sonuclbl11.Show();
+                sonuclbl11.Text = "Sayı mükemmel sayıdır";
+            }
+            else
+            {
+                sonuclbl11.Show();
+                sonuclbl11.Text = "Sayı mükemmel sayı değildir";
+            }
+        }
+
+
+        int HesaplaMukemmel(int sayi)
+        {
+            int toplam = 0;
 
             for (int sayac = 1; sayac < sayi; sayac++)
             {
@@ -958,18 +1272,68 @@ namespace ornek1411
                 }
             }
 
-            if (sayi == toplam)
+            return toplam;
+        }
+
+        #endregion
+
+
+        private void hesaplabtn11_Click(object sender, EventArgs e)
+        {
+            //girilen sayının mükemmel sayı olup olmadığı kontrolü
+
+            int sayi = Convert.ToInt32(sayitxt11.Text);
+
+            #region Normal
+            if (normalradiobtn.Checked == true)
             {
-                sonuclbl11.Show();
-                sonuclbl11.Text = "Sayı mükemmel sayıdır";
-                //sayitxt.Clear();
+                metodradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+                int toplam = 0;
+
+
+                for (int sayac = 1; sayac < sayi; sayac++)
+                {
+                    if (sayi % sayac == 0)
+                    {
+                        toplam += sayac;
+                    }
+                }
+
+                if (sayi == toplam)
+                {
+                    sonuclbl11.Show();
+                    sonuclbl11.Text = "Sayı mükemmel sayıdır";
+                }
+                else
+                {
+                    sonuclbl11.Show();
+                    sonuclbl11.Text = "Sayı mükemmel sayı değildir";
+                }
             }
-            else
+            #endregion
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
             {
-                sonuclbl11.Show();
-                sonuclbl11.Text = "Sayı mükemmel sayı değildir";
-                //sayitxt.Clear();
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                HesaplaMukemmel(sayi);
+                YazdirMukemmel();
             }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+            }
+            #endregion
+
         }
 
         private void radioButton7_CheckedChanged_1(object sender, EventArgs e)
@@ -1016,11 +1380,11 @@ namespace ornek1411
 
         }
 
-        private void hesaplabtn12_Click(object sender, EventArgs e)
+        #region Metot
+
+        int sesliHarfKontrol(string metin)
         {
-            //girilen metinde sesli harf kontrolü
-            string metin = Convert.ToString(metintxt.Text);
-            byte sayac = 0;
+            byte sayac2 = 0;
 
             for (byte i = 0; i < metin.Length; i++)
             {
@@ -1028,35 +1392,112 @@ namespace ornek1411
                 switch (s)
                 {
                     case "a":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "e":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "ı":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "i":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "u":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "ü":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "o":
-                        sayac++;
+                        sayac2++;
                         break;
                     case "ö":
-                        sayac++;
+                        sayac2++;
                         break;
                     default:
                         break;
                 }
             }
 
-            sonuclbl12.Text = $"{sayac}";
+            sonuclbl12.Text = $"{sayac2}";
+
+            return sayac2;
+        }
+
+
+        #endregion
+
+        private void hesaplabtn12_Click(object sender, EventArgs e)
+        {
+            //girilen metinde sesli harf kontrolü
+            string metin = Convert.ToString(metintxt.Text);
+            byte sayac = 0;
+
+            #region Normal
+            if (normalradiobtn.Checked == true)
+            {
+                metodradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                for (byte i = 0; i < metin.Length; i++)
+                {
+                    string s = metin.Substring(i, 1);
+                    switch (s)
+                    {
+                        case "a":
+                            sayac++;
+                            break;
+                        case "e":
+                            sayac++;
+                            break;
+                        case "ı":
+                            sayac++;
+                            break;
+                        case "i":
+                            sayac++;
+                            break;
+                        case "u":
+                            sayac++;
+                            break;
+                        case "ü":
+                            sayac++;
+                            break;
+                        case "o":
+                            sayac++;
+                            break;
+                        case "ö":
+                            sayac++;
+                            break;
+                        default:
+                            break;
+                    }
+                }
+
+                sonuclbl12.Text = $"{sayac}";
+            }
+            #endregion
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                sesliHarfKontrol(metin);
+            }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+            }
+            #endregion
         }
         #endregion
 
@@ -1081,39 +1522,33 @@ namespace ornek1411
             groupBox15.Visible = false;
         }
 
-        private void hesaplabtn13_Click(object sender, EventArgs e)
+        #region Metot - Örnek 13
+
+        float usd = 0.0f;
+        float euro = 0.0f;
+        float sterlin = 0.0f;
+        float tl = 0.0f;
+
+        public void ParaBirimiSecimi()
         {
-            //Para birimi 1.USD, 2. EURO, 3-STERLIN, 4.TL
-            //Para miktarı
-            //Kur
-            //Dönüşecek para birimi
-            //Sonuç
-
-            //1 para birimi için 3 farklı kur var
-
-            float usd = 0.0f;
-            float euro = 0.0f;
-            float sterlin = 0.0f;
-            float tl = 0.0f;
-
             switch (parabirimicmbx.Text)
             {
-                case "USD": //USD
+                case "USD": 
                     euro = 15.3f;
                     sterlin = 15.4f;
                     tl = 11.8f;
                     break;
-                case "EURO"://EURO
+                case "EURO":
                     usd = 20.2f;
                     sterlin = 13.9f;
                     tl = 14.5f;
                     break;
-                case "STERLIN"://STERLIN
+                case "STERLIN":
                     usd = 15.1f;
                     euro = 16.76f;
                     tl = 15.3f;
                     break;
-                case "TL"://TL
+                case "TL":
                     usd = 12.9f;
                     euro = 16.3f;
                     sterlin = 13.8f;
@@ -1121,8 +1556,10 @@ namespace ornek1411
                 default:
                     break;
             }
+        }
 
-            float miktar = Convert.ToSingle(paratxt.Text);
+        public void DonusturulecekParaBirimi(float miktar)
+        {
             float sonuc = 0;
 
             switch (dparabirimicmbx.Text)
@@ -1150,33 +1587,127 @@ namespace ornek1411
 
         #endregion
 
+        private void hesaplabtn13_Click(object sender, EventArgs e)
+        {
+            //Para birimi 1.USD, 2. EURO, 3-STERLIN, 4.TL
+            //Para miktarı
+            //Kur
+            //Dönüşecek para birimi
+            //Sonuç
+
+            //1 para birimi için 3 farklı kur var
+
+            float miktar = Convert.ToSingle(paratxt.Text);
+            float sonuc = 0;
+
+            #region Normal
+            if (normalradiobtn.Checked == true)
+            {
+                switch (parabirimicmbx.Text)
+                {
+                    case "USD": //USD
+                        euro = 15.3f;
+                        sterlin = 15.4f;
+                        tl = 11.8f;
+                        break;
+                    case "EURO"://EURO
+                        usd = 20.2f;
+                        sterlin = 13.9f;
+                        tl = 14.5f;
+                        break;
+                    case "STERLIN"://STERLIN
+                        usd = 15.1f;
+                        euro = 16.76f;
+                        tl = 15.3f;
+                        break;
+                    case "TL"://TL
+                        usd = 12.9f;
+                        euro = 16.3f;
+                        sterlin = 13.8f;
+                        break;
+                    default:
+                        break;
+                }
+
+              
+                switch (dparabirimicmbx.Text)
+                {
+                    case "USD":
+                        sonuc = miktar / usd;
+                        sonuclbl13.Text = $"{sonuc}";
+                        break;
+                    case "DOLAR":
+                        sonuc = miktar / euro;
+                        sonuclbl13.Text = $"{sonuc}";
+                        break;
+                    case "STERLIN":
+                        sonuc = miktar / sterlin;
+                        sonuclbl13.Text = $"{sonuc}";
+                        break;
+                    case "TL":
+                        sonuc = miktar / tl;
+                        sonuclbl13.Text = $"{sonuc}";
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            #endregion
+
+
+            #region Metot
+
+            if (metodradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+
+                ParaBirimiSecimi();
+                DonusturulecekParaBirimi(miktar);
+            }
+
+            #endregion
+
+            #region OOP
+            if (oopradiobtn.Checked == true)
+            {
+                normalradiobtn.Checked = false;
+                oopradiobtn.Checked = false;
+            }
+            #endregion
+
+        }
+
+        #endregion
+
         #region ornek14
 
         private void hesaplabtn14_Click(object sender, EventArgs e)
         {
+
             //faktöriyel hesabı -- for ve while ile
             int sayi = Convert.ToInt32(sayitxt14.Text);
-            int faktoriyel = 1;
+
+            sonuclbl14.Visible = true;
+            sayitxt14.Clear();
+            sonuclbl14.Text = "";
+
 
             if (yontemcmbx.Text == "For")
             {
-                for (int i = 1; i <= sayi; i++)
-                {
-                    faktoriyel = faktoriyel * i;
-                }
-                sonuclbl14.Show();
-                sonuclbl14.Text = $"{faktoriyel}";
+                //sonuclbl14.Text = "";
+
+                sonuclbl14.Text = Convert.ToString(faktoriyelMetot(sayi));
             }
-            else if (yontemcmbx.Text == "While")
+            if (yontemcmbx.Text == "While")
             {
-                int j = 1;
-                while (j <= sayi)
-                {
-                    faktoriyel = faktoriyel * j;
-                    j++;
-                }
-                sonuclbl14.Show();
-                sonuclbl14.Text = $"{faktoriyel}";
+                //sonuclbl14.Text = "";
+                //sayitxt14.Clear();
+
+                //sonuclbl14.Visible = true;
+
+                sonuclbl14.Text = Convert.ToString(faktoriyelMetot2(sayi));
             }
         }
 
@@ -1203,6 +1734,11 @@ namespace ornek1411
         #endregion
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metodradiobtn_CheckedChanged(object sender, EventArgs e)
         {
 
         }

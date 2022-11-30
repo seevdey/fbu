@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\bin\Debug\notuygulamasison.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\bin\Debug\notuygulamasison.exe
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\bin\Debug\notuygulamasison.pdb
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\obj\Debug\notuygulamasison.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\obj\Debug\notuygulamasison.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\obj\Debug\notuygulamasison.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\obj\Debug\notuygulamasison.exe
+C:\Users\sevdenur.yilmaz\Desktop\notuygulamasison\notuygulamasison\obj\Debug\notuygulamasison.pdb
