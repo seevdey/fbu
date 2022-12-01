@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopform0112", "oopform0112\oopform0112.csproj", "{B7B79B59-D823-4614-A7D6-315F0B5B7A2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B79B59-D823-4614-A7D6-315F0B5B7A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B79B59-D823-4614-A7D6-315F0B5B7A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B79B59-D823-4614-A7D6-315F0B5B7A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B79B59-D823-4614-A7D6-315F0B5B7A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1213DB9-9B30-4666-AF45-14C539C19E7D}
+	EndGlobalSection
+EndGlobal

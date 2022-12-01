@@ -1,0 +1,11 @@
+D:\oop4form0112\oop4form0112\bin\Debug\oop4form0112.exe.config
+D:\oop4form0112\oop4form0112\bin\Debug\oop4form0112.exe
+D:\oop4form0112\oop4form0112\bin\Debug\oop4form0112.pdb
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.csproj.AssemblyReference.cache
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.csproj.SuggestedBindingRedirects.cache
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.Form1.resources
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.Properties.Resources.resources
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.csproj.GenerateResource.cache
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.csproj.CoreCompileInputs.cache
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.exe
+D:\oop4form0112\oop4form0112\obj\Debug\oop4form0112.pdb

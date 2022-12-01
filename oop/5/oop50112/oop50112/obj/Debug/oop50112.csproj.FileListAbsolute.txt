@@ -1,0 +1,8 @@
+D:\oop50112\oop50112\bin\Debug\oop50112.exe.config
+D:\oop50112\oop50112\bin\Debug\oop50112.exe
+D:\oop50112\oop50112\bin\Debug\oop50112.pdb
+D:\oop50112\oop50112\obj\Debug\oop50112.csproj.AssemblyReference.cache
+D:\oop50112\oop50112\obj\Debug\oop50112.csproj.SuggestedBindingRedirects.cache
+D:\oop50112\oop50112\obj\Debug\oop50112.csproj.CoreCompileInputs.cache
+D:\oop50112\oop50112\obj\Debug\oop50112.exe
+D:\oop50112\oop50112\obj\Debug\oop50112.pdb
