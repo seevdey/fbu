@@ -1,8 +1,0 @@
-D:\oop40112\oop40112\bin\Debug\oop40112.exe.config
-D:\oop40112\oop40112\bin\Debug\oop40112.exe
-D:\oop40112\oop40112\bin\Debug\oop40112.pdb
-D:\oop40112\oop40112\obj\Debug\oop40112.csproj.AssemblyReference.cache
-D:\oop40112\oop40112\obj\Debug\oop40112.csproj.SuggestedBindingRedirects.cache
-D:\oop40112\oop40112\obj\Debug\oop40112.csproj.CoreCompileInputs.cache
-D:\oop40112\oop40112\obj\Debug\oop40112.exe
-D:\oop40112\oop40112\obj\Debug\oop40112.pdb
