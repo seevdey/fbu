@@ -1,8 +1,0 @@
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\bin\Debug\oop70212.exe.config
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\bin\Debug\oop70212.exe
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\bin\Debug\oop70212.pdb
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\obj\Debug\oop70212.csproj.AssemblyReference.cache
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\obj\Debug\oop70212.csproj.SuggestedBindingRedirects.cache
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\obj\Debug\oop70212.csproj.CoreCompileInputs.cache
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\obj\Debug\oop70212.exe
-C:\Users\sevdenur.yilmaz\Desktop\oop70212\oop70212\obj\Debug\oop70212.pdb

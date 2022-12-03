@@ -9,3 +9,13 @@ C:\Users\sevdenur.yilmaz\Desktop\oop7form0212\oop7form0212\obj\Debug\oop7form021
 C:\Users\sevdenur.yilmaz\Desktop\oop7form0212\oop7form0212\obj\Debug\oop7form0212.csproj.CoreCompileInputs.cache
 C:\Users\sevdenur.yilmaz\Desktop\oop7form0212\oop7form0212\obj\Debug\oop7form0212.exe
 C:\Users\sevdenur.yilmaz\Desktop\oop7form0212\oop7form0212\obj\Debug\oop7form0212.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\bin\Debug\oop7form0212.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\bin\Debug\oop7form0212.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\bin\Debug\oop7form0212.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.csprojAssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.Form1.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\07 - override-virtual-protected\oop7form0212\oop7form0212\obj\Debug\oop7form0212.pdb
