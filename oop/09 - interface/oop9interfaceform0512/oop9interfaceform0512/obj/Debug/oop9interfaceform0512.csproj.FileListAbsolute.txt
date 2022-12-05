@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\bin\Debug\oop9interfaceform0512.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\bin\Debug\oop9interfaceform0512.exe
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\bin\Debug\oop9interfaceform0512.pdb
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.exe
+C:\Users\sevdenur.yilmaz\Desktop\oop9interfaceform0512\oop9interfaceform0512\obj\Debug\oop9interfaceform0512.pdb
