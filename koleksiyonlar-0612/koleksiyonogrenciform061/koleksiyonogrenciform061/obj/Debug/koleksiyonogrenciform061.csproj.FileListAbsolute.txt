@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\bin\Debug\koleksiyonogrenciform061.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\bin\Debug\koleksiyonogrenciform061.exe
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\bin\Debug\koleksiyonogrenciform061.pdb
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.exe
+C:\Users\sevdenur.yilmaz\Desktop\koleksiyonogrenciform061\koleksiyonogrenciform061\obj\Debug\koleksiyonogrenciform061.pdb
