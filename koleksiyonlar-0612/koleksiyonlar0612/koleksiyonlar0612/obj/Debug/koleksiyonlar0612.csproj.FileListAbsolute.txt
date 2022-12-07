@@ -6,3 +6,11 @@ C:\Users\sevdenur.yilmaz\Desktop\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\k
 C:\Users\sevdenur.yilmaz\Desktop\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.csproj.CoreCompileInputs.cache
 C:\Users\sevdenur.yilmaz\Desktop\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.exe
 C:\Users\sevdenur.yilmaz\Desktop\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.pdb
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\bin\Debug\koleksiyonlar0612.exe.config
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\bin\Debug\koleksiyonlar0612.exe
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\bin\Debug\koleksiyonlar0612.pdb
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.csproj.AssemblyReference.cache
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.csproj.SuggestedBindingRedirects.cache
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.csproj.CoreCompileInputs.cache
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.exe
+D:\06.12\koleksiyonlar0612\koleksiyonlar0612\obj\Debug\koleksiyonlar0612.pdb

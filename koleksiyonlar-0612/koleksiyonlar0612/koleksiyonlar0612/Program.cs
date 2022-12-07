@@ -58,6 +58,7 @@ namespace koleksiyonlar0612
             #endregion
 
             #region Hashtable
+            //Hastable da sıra yok
 
             //Hastbale da referans kullanıyoruz
             //Hashtable ogrenciler = new Hashtable();
@@ -120,49 +121,96 @@ namespace koleksiyonlar0612
 
             #region Microsoft Örneği
 
-            Hashtable openwith = new Hashtable();
-            openwith.Add("txt", "notepad.exe");
-            openwith.Add("bmp", "paint.exe");
-            openwith.Add("jpg", "paint.exe");
-            openwith.Add("rtf", "wordpad.exe");
+            //Hashtable openwith = new Hashtable();
+            //openwith.Add("txt", "notepad.exe");
+            //openwith.Add("bmp", "paint.exe");
+            //openwith.Add("jpg", "paint.exe");
+            //openwith.Add("rtf", "wordpad.exe");
 
-            //key olarak olan kaydı tekrar eklemedi. Zaten bu kayıt mevcut dedi
-            try
-            {
-                openwith.Add("doc", "winword");
-                openwith.Add("txt", "winword");
-            }
-            catch (Exception) 
-            {
-                //Var olanı tekrar ekleyemezsin
-                Console.WriteLine("Anahtar kelime olarak \"txt\" bulunmaktadır");
-            }
+            ////key olarak olan kaydı tekrar eklemedi. Zaten bu kayıt mevcut dedi
+            //try
+            //{
+            //    openwith.Add("doc", "winword");
+            //    openwith.Add("txt", "winword");
+            //}
+            //catch (Exception) 
+            //{
+            //    //Var olanı tekrar ekleyemezsin
+            //    Console.WriteLine("Anahtar kelime olarak \"txt\" bulunmaktadır");
+            //}
 
-            Console.WriteLine("Anahtar rtf nin değeri : " + openwith["rtf"]);
+            //Console.WriteLine("Anahtar rtf nin değeri : " + openwith["rtf"]);
 
-            //rtf key değeri olan kaydın değerini word.exe yaptım
-            openwith["rtf"] = "word.exe"; //rtf nin yerine word.exe yazdım //var olanı güncelledim
+            ////rtf key değeri olan kaydın değerini word.exe yaptım
+            //openwith["rtf"] = "word.exe"; //rtf nin yerine word.exe yazdım //var olanı güncelledim
 
-            //xls anahtarı değeri excel olarak atadım
-            /*openwith["xls"] = "excel.exe";*/ //atadım olmadığını görünce içeri ekledi //olmayana göre yaptım
+            ////xls anahtarı değeri excel olarak atadım
+            ///*openwith["xls"] = "excel.exe";*/ //atadım olmadığını görünce içeri ekledi //olmayana göre yaptım
 
-            if (!openwith.ContainsKey("xls")) //xls içeriyor mu kontrol et, yoksa ekle
-                openwith["xls"] = "excel.exe";
+            //if (!openwith.ContainsKey("xls")) //xls içeriyor mu kontrol et, yoksa ekle
+            //    openwith["xls"] = "excel.exe";
 
 
-            //Console.WriteLine("\nKey Değerleri ");
-            //foreach (string key in openwith.Keys)
-            //    Console.WriteLine(key);
+            ////Console.WriteLine("\nKey Değerleri ");
+            ////foreach (string key in openwith.Keys)
+            ////    Console.WriteLine(key);
 
-            //Console.WriteLine("\nValue Değerleri ");
-            //foreach (string value in openwith.Values)
-            //    Console.WriteLine(value);
+            ////Console.WriteLine("\nValue Değerleri ");
+            ////foreach (string value in openwith.Values)
+            ////    Console.WriteLine(value);
 
-            //Value ve Key değerlerinin ikisini de aynı anda getiriyoruz
-            //DictionaryEntry kullandığım anda Hastable ın hem key ini hem value sini görüntüleyebiliyorum
-            Console.WriteLine("\nKEY \t\t VALUE");
-            foreach (DictionaryEntry de in openwith)
-                Console.WriteLine($"Key : {de.Key} \t Value : {de.Value}");
+            ////Value ve Key değerlerinin ikisini de aynı anda getiriyoruz
+            ////DictionaryEntry kullandığım anda Hastable ın hem key ini hem value sini görüntüleyebiliyorum
+            //Console.WriteLine("\nKEY \t\t VALUE");
+            //foreach (DictionaryEntry de in openwith)
+            //    Console.WriteLine($"Key : {de.Key} \t Value : {de.Value}");
+
+            #endregion
+
+            #region SortedList
+
+            //SortedListList --> /Hastable ın sıralanmış hali
+
+            //SortedList sehirler = new SortedList();
+            //sehirler.Add("D", "Denizli");
+            //sehirler.Add("A", "Adana");
+            //sehirler.Add("B", "Bursa");
+            //Console.WriteLine("Tüm elemanlar");
+            //Console.WriteLine("-------------------------");
+
+            ////ICollection interface i kullanarak değişkene key ya da value ları atabilirim
+            ////ICollection tipindeki değişkenlere key ve value değerlerini atabilirim
+            //ICollection Keys = sehirler.Keys;
+            //foreach (string key in Keys)
+            //    Console.WriteLine($"{key} ile başlayan şehir : {sehirler[key]}");
+
+            #endregion
+
+            #region SortedList
+
+            //SortedListte sıra var
+
+            //SortedList islem = new SortedList();
+            //islem.Add(4, "toplama");
+            //islem.Add(3, "çıkarma ");
+            //islem.Add(2, "çarpma");
+            //islem.Add(1, "bölme");
+            //islem.Add(0, "-");
+
+            ////IDictionaryEnumerator --> bu arayüzde tanımladığın zaman MoveNext metodunu kullanarak soldan sağa gezinmemizi sağlıyor
+            ////IDictionaryEnumerator ara yüzünü kullanarak koleksiyonda soldan sağa doğru move metoduyla ilerlememizi sağlar.
+            //// Sadece ileri hareket sağlıyor. Geriye hareket yok
+
+            //for la sadece key değerlerini alabiliyoruz. Bu yüzden DictionaryEntry kullanmıştık yukarıdaki örnekte
+            //foreach te sadece key ya da sadece value değerlerini atayabiliyoruz
+
+            //IDictionaryEnumerator ara = islem.GetEnumerator();
+            //string goster = string.Empty; //bu şekilde string e boş değer verebiliyoruz
+            //while (ara.MoveNext())
+            //{
+            //    goster = ara.Value.ToString();
+            //    Console.WriteLine($"islem değerleri : {ara.Key} {goster}");
+            //}
 
             #endregion
 

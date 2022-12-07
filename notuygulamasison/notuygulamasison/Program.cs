@@ -8,8 +8,6 @@ namespace notuygulamasison
 {
     internal class Program
     {
-
-
         //A, B, C nin dışında bir not sistemi olursa dinamik olarak tanımlıyoruz
         //A, B, C nin dışında bir not sistemi olmadığı için static olarak tanımladık
         //Bir iş tek yapılıyorsa static, yapılmıyorsa dinamik

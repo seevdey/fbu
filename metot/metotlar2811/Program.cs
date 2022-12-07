@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace metotlar2811
     class Program
     {
         //static demek 1 tane olması demek. 2.si olmayacak. Tek metot her yerde aynı
-        //Yemek yapmaya başlarken ilk yağ ve soğan sabit. Bnu tüm yemeklede kullanıyorum :)
+        //Yemek yapmaya başlarken ilk yağ ve soğan sabit. Bnu tüm yemekle de kullanıyorum :)
 
         //static kaldırınca dinamik oluyor
         //static varsa static
@@ -38,32 +39,22 @@ namespace metotlar2811
 
         static string parabirimi(int tl, float dolar, float euro)
         {
-            //string usd = "10";
-            //string euro = "15";
-
-            //string sonuc, sonuc2;
-            ////int sonuc = 0;
-            ////int sonuc2 = 0;
-
-            //sonuc = tl / usd;
-            //sonuc2 = tl / euro;
-
             return ($" Anapara : {tl / dolar} dolar ,{tl / euro} euro ");
-
         }
 
         //geriye değer döndürüyorsan return
         //void geriye değer döndürmeyen demek
-        //void de return kullanılır ama yanına bir değişken almaz
+        //void de return kullanılır ama yanına bir değişken almaz, programı bitirmesi için kullanılır
 
         //ÖR:
         //öğrenci notunu ekranda göster --> void
         //Öğrencilerin notlarının ortalamasını istiyorsan --> return
 
-        //for ve mtod veri tutmaz
+        //for ve metod veri tutmaz
 
         static void EkranaDegerYaz(object mesaj, int sayitekrari)
         {
+            //var, object --> ne geliyosa kabulüm
             //Geriye değer döndürmüyorsa void kullan
 
             if (sayitekrari > 10)
@@ -143,7 +134,7 @@ namespace metotlar2811
         static int islem(string islemtipi, params int[] sayilar)
         {
             //params koyduğum zaman dizi içindeki parametreleri istediğin kadar sayı verebiliyoruz
-            //params dinamik olmasını sağllıyor
+            //params dinamik olmasını sağlıyor
 
             if (islemtipi == "Toplama")
             {
@@ -192,11 +183,10 @@ namespace metotlar2811
                 2 ye ayrılır. 
                 1.Statik
                 2.Dinamik 
-                Dinamik ve statik metotların aynı sııfta birbirlerinden hiçbir farkları yoktur
+                Dinamik ve statik metotların aynı sınıfta birbirlerinden hiçbir farkları yoktur
                 Kullanım olarak 2'ye ayrılırlar
                 1. Değer Döndüren
                 2. Değer Döndürmeyen
-                
              */
 
             #endregion
@@ -308,7 +298,7 @@ namespace metotlar2811
 
             #region Metota Dizi Gönderme
 
-            //int [] dizi = { 1, 2, 3, 4, 5, 6};
+            //int[] dizi = { 1, 2, 3, 4, 5, 6 };
             //dizigoster(dizi);
 
             #endregion
@@ -316,7 +306,7 @@ namespace metotlar2811
             #region dizilermetot
 
             //int[] dizi = { 1, 2, 3, 4, 5, 6 };
-            //string [] dizi1 = {"Sizce", "Bu ", "Sınıf", "Başarır", "mı?" };
+            //string[] dizi1 = { "Sizce", "Bu ", "Sınıf", "Başarır", "mı?" };
             //tumdiziler(dizi);
             //Console.WriteLine("------------------------");
             //tumdiziler(dizi1);
@@ -342,7 +332,7 @@ namespace metotlar2811
 
             #region Değişken Güncelleme
 
-            //int i = 1; 
+            //int i = 1;
             //degistir(i); //Değişken kalıcı hafızada olmadığı için değişmiyor
             //yazdegisken(i);
 
@@ -359,11 +349,11 @@ namespace metotlar2811
 
             #region Değişken Güncelleme Yeni - out
 
-            //out a başlangıç değeri de atabilirsin ama ref e aşlangıç değeri atamadan yazamasın
+            //out a başlangıç değeri de atabilirsin ama ref e başlangıç değeri atamadan yazamasın
             //Değişkenin başlangıç değeri yoksa out paramteresi kullan  <-- Kalıcı hafızaya aktarabilmek için
 
             //int ii;
-            //degistir2(out ii); 
+            //degistir2(out ii);
             //yazdegisken(ii);
 
             #endregion
@@ -501,7 +491,6 @@ namespace metotlar2811
 
             return ortalama;
         }
-
 
         public int buyukkucuk(int a)
         {

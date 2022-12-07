@@ -1,0 +1,8 @@
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\bin\Debug\metotlar2811.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\bin\Debug\metotlar2811.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\bin\Debug\metotlar2811.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\obj\Debug\metotlar2811.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\obj\Debug\metotlar2811.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\obj\Debug\metotlar2811.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\obj\Debug\metotlar2811.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\metot\metotlar2811\obj\Debug\metotlar2811.pdb
