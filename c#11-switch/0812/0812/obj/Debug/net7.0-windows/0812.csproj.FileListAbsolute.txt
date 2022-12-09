@@ -1,0 +1,17 @@
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\_0812.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.AssemblyInfoInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.AssemblyInfo.cs
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\bin\Debug\net7.0-windows\0812.exe
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\bin\Debug\net7.0-windows\0812.deps.json
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\bin\Debug\net7.0-windows\0812.runtimeconfig.json
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\bin\Debug\net7.0-windows\0812.dll
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\bin\Debug\net7.0-windows\0812.pdb
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.dll
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\refint\0812.dll
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.pdb
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\0812.genruntimeconfig.cache
+C:\Users\sevdenur.yilmaz\Desktop\0812\0812\obj\Debug\net7.0-windows\ref\0812.dll
