@@ -1,0 +1,11 @@
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\bin\Debug\football-score-pred.exe.config
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\bin\Debug\football-score-pred.exe
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\bin\Debug\football-score-pred.pdb
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football-score-pred.csproj.AssemblyReference.cache
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football-score-pred.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football_score_pred.Form1.resources
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football_score_pred.Properties.Resources.resources
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football-score-pred.csproj.GenerateResource.cache
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football-score-pred.csproj.CoreCompileInputs.cache
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football-score-pred.exe
+C:\Users\sevde\source\repos\football-score-pred\football-score-pred\obj\Debug\football-score-pred.pdb
