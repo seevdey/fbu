@@ -12,8 +12,10 @@ namespace oop50112
      * 2.Encapsulation(Kapsülleme)
      * 3.Inheritance(Kalıtım)
      * 4.Polimorfizm(Çok Biçimlilik)
-     * */
+    */
 
+    
+    //ÖR: Metod kullanarak Encapsulation yapıyoruz
     class Kitap
     {
         public string Ad;
@@ -38,7 +40,7 @@ namespace oop50112
             else
             {
                 //ArgumentException kullanarak kendi hatamı oluşturdum
-                throw new ArgumentException("Kitap Adı içerisinde harften başka birkarakter olamaz"); 
+                throw new ArgumentException("Kitap Adı içerisinde harften başka bir karakter olamaz"); 
 
                 //kitabın isminde 1 tane bile rakam olursa hataya düşer ve hatayı ekrana yazdırır
             }

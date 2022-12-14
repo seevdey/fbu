@@ -50,7 +50,7 @@ namespace oopders40112
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
     internal class Program

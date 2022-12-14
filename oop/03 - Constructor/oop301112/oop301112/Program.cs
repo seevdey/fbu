@@ -11,12 +11,10 @@ namespace oop301112
     {
         static void Main(string[] args)
         {
-
             using (Oyuncu o1 = new Oyuncu()) //parametresiz nesne oluşturunca parametresiz metot çalışacak
             {
                 Console.WriteLine(o1.BilgiVer());
                 Console.WriteLine("---------------------------------");
-
             }
 
             using (Oyuncu o2 = new Oyuncu("Cenk", "Beşiktaş", 9))//parametreli nesne oluşturunca parametreli metot çalışacak

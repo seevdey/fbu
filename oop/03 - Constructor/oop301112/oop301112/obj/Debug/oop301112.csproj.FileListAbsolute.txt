@@ -6,3 +6,11 @@ C:\Users\sevdenur.yilmaz\Desktop\oop301112\oop301112\obj\Debug\oop301112.csproj.
 C:\Users\sevdenur.yilmaz\Desktop\oop301112\oop301112\obj\Debug\oop301112.csproj.CoreCompileInputs.cache
 C:\Users\sevdenur.yilmaz\Desktop\oop301112\oop301112\obj\Debug\oop301112.exe
 C:\Users\sevdenur.yilmaz\Desktop\oop301112\oop301112\obj\Debug\oop301112.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\bin\Debug\oop301112.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\bin\Debug\oop301112.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\bin\Debug\oop301112.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\obj\Debug\oop301112.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\obj\Debug\oop301112.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\obj\Debug\oop301112.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\obj\Debug\oop301112.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\03 - Constructor\oop301112\oop301112\obj\Debug\oop301112.pdb

@@ -6,3 +6,11 @@ C:\Users\sukran.nisancioglu\source\repos\oopders40112\oopders40112\obj\Debug\oop
 C:\Users\sukran.nisancioglu\source\repos\oopders40112\oopders40112\obj\Debug\oopders40112.csproj.CoreCompileInputs.cache
 C:\Users\sukran.nisancioglu\source\repos\oopders40112\oopders40112\obj\Debug\oopders40112.exe
 C:\Users\sukran.nisancioglu\source\repos\oopders40112\oopders40112\obj\Debug\oopders40112.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\bin\Debug\oopders40112.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\bin\Debug\oopders40112.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\bin\Debug\oopders40112.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\obj\Debug\oopders40112.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\obj\Debug\oopders40112.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\obj\Debug\oopders40112.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\obj\Debug\oopders40112.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\04 - enum-nested class\oopders40112\oopders40112\obj\Debug\oopders40112.pdb
