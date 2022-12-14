@@ -1,0 +1,8 @@
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\bin\Debug\geometriksekilmetot0612.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\bin\Debug\geometriksekilmetot0612.exe
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\bin\Debug\geometriksekilmetot0612.pdb
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\obj\Debug\geometriksekilmetot0612.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\obj\Debug\geometriksekilmetot0612.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\obj\Debug\geometriksekilmetot0612.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\obj\Debug\geometriksekilmetot0612.exe
+C:\Users\sevde\OneDrive\Masaüstü\geometriksekilmetot0612\geometriksekilmetot0612\obj\Debug\geometriksekilmetot0612.pdb
