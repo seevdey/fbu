@@ -346,16 +346,267 @@ Subsquery (Alt Sorgular)
 --Beverages kategorisine ait ürünleri listele
 --select * from Products where CategoryID = (select CategoryID from Categories where CategoryName = 'Beverages')
 
---Nancy, Andrew ya da Janet tarafýndan alýnmýþ ve Speedy Express ile taþýnmamýþ sipariþleri listele
+--Nancy, Andrew ya da Janet tarafýndan alýnmýþ ve Speedy Express ile taþýnmamýþ sipariþleri listele --shippers, orders, employees
+--select OrderID, EmployeeID, ShipVia from Orders where EmployeeID in(
+--	select EmployeeID from Employees where FirstName in('Nancy', 'Andrew', 'Janet')
+--	and
+--	ShipVia != (select ShipperID from Shippers where CompanyName = 'Speedy Express')
+--) order by EmployeeID desc
 
-select * from Orders where EmployeeID in(
-	select EmployeeID from Employees where FirstName in('Nancy', 'Andrew', 'Janet')
-	and
-	ShipVia != (select ShipperID from Shippers where CompanyName = 'Speedy Express')
-) order by EmployeeID desc
 
---select * from Orders
---select * from shippers
+--15 DECEMBER 2022
+
+--alt sorguyu kþulda deðil select te de kullanabilirim
+--Products tablosun yerine p harfi kullan
+--iki tane SuppliersID var mutlaka birine nick vermen gerekiyor. Birbirinden ayýrmak için p.SuppliersID demek Products tablosundan SupplierID yi klullanýyorum demek
+--select ProductName, (select CompanyName from Suppliers where SupplierID = p.SupplierID) as [Tedarikçi Adý] from Products p 
+
+--ürünler tablosundaki ürünlerin toplam satýþ miktarý sorgulayan sorgu
+--select ProductID, ProductName, (select sum(Quantity) from [Order Details] o where o.ProductID = p.ProductID) as [Satýþ Miktarý] from Products p 
+
+--3 numaralý ürünün satýþ yapýldýðý müþterinin ýd lerini listele
+--order da order id yi al
+--select CustomerID from Orders Where OrderID in (
+--select OrderID from [Order Details] where ProductID = 3)
+
+--2 numaralý nakliyecinin taþýdýðý 4 numaralý personelin satýþ yaptýðý müþterilerin bilgilerini listele
+--select * from Customers o where CustomerID in(select CustomerID from Orders where ShipVia = 2 and EmployeeID = 4)
+
+--JOIN
+--Ýki tabloyu birbirine baðlamak için kullanýlýr
+--iki kümenin kesiþimleri olan kayýtlarý getiriyor
+
+--1. INNER JOIN
+--tabloda null olmayann deðerleri getiriyoruz
+--burda kesiþim CategoryID oluyor
+-- on p.CategoryID = c.CategoryID --> bunun üzerinden baðla
+--select ProductName, CategoryName from Products p inner join Categories c on p.CategoryID = c.CategoryID
+
+--ürünlerle, supplier i baðla
+--select * from Products p inner join Suppliers s on p.SupplierID = s.SupplierID
+
+--hangi personel hangi müþteriye hangi tarihte satýþ yapmýþtýr (soruda bana söylüyor)
+--çalýþaný al ordera git orderdan customera git
+--select e.FirstName + ' '  + e.LastName + ' ' as [Ad Soyad], c.ContactName, o.OrderDate
+--from Employees e
+--inner join Orders o on e.EmployeeID = o.EmployeeID 
+--inner join Customers c on o.CustomerID = c.CustomerID
+
+--hangi personel hangi kategoriden hangi ürünleri satmýþtýr
+--order detail, order, product, employee
+--select e.FirstName + ' '  + e.LastName + ' ' as [Ad Soyad], p.ProductName, c.CategoryName from Employees e
+--inner join Orders o on o.EmployeeID = e.EmployeeID
+--inner join [Order Details] od on o.OrderID = od.OrderID
+--inner join Products p on p.ProductID = od.ProductID
+--inner join Categories c on c.CategoryID = p.CategoryID 
+
+--beverage kategorisine ait stoklarda bulunan ürünleri raporlayýnýz
+--select * from Products p
+--inner join Categories c on c.CategoryID = p.CategoryID where p.UnitsInStock != 0 and c.CategoryName = 'Beverages'
+
+--ÖDEV : Nancy Andrew ve Janet tarafýndan müþterilerden alýnmýþ sipariþlerin Speedy Express ile taþýnmamýþ olan sipariþlerin toplam ne kadarlýk kargo ödemesi yapýlmýþtýr 
+--Employees, Shippers, Order
+--select  e.FirstName, sum(o.Freight) as [Kargo Toplamý] from Orders o
+--inner join Employees e on e.EmployeeID = o.EmployeeID
+--inner join Shippers s on s.ShipperID = o.ShipVia
+--where e.FirstName in('Nancy', 'Andrew', 'Janet') and s.CompanyName != 'Speedy Express'
+--group by e.FirstName
+
+
+--LEFT JOIN / RIGHT JOIN
+--soldaki tablo Categories, soldaki tabloyu baz aldý
+--Products saðdaki tablo
+--select ProductName from Categories c left join Products p on p.CategoryID = c.CategoryID --77 kayýt var Maske yok -- Categories tablosunu baz aldý
+--select ProductName from Categories c right join Products p on p.CategoryID = c.CategoryID --78 kayýt var Maske de aldý --Product tablosunu baz aldý
+
+
+--1. Hangi ürün hangi nakliye firmasýyla taþýnmýþtýr
+--select o.OrderID, p.ProductName,  sh.CompanyName from Products p
+--inner join [Order Details] od on p.ProductID = od.ProductID
+--inner join Orders o on o.OrderID = od.OrderID
+--inner join Shippers sh on sh.ShipperID = o.ShipVia
+
+
+--2. Hangi tedarikçiden toplam kaç tl lik ürün satýlmýþtýr
+--select s.SupplierID, s.CompanyName, ((1-od.Discount) * (od.UnitPrice*od.Quantity)) as Ciro  from Suppliers s
+--left join Products p on s.SupplierID = p.SupplierID
+--left join [Order Details] od on od.ProductID = p.ProductID
+
+
+--3. Kategorilerin toplam satýþ raporlarý 
+--select c.CategoryName, sum(Quantity) as [Toplam Satýþ] from Categories c 
+--inner join Products p on p.CategoryID = c.CategoryID
+--inner join [Order Details] od on od.ProductID = p.ProductID
+--group by c.CategoryName
+
+
+--4. Hangi personel hangi ürünü toplam kaç dolarlýk satmýþtýr
+--select  e.FirstName + ' '  + e.LastName + ' ' as [Ad Soyad], p.ProductName, sum(((1-od.Discount) * (od.UnitPrice*od.Quantity))) as Ciro 
+--from Employees e 
+--inner join Orders o on o.EmployeeID = e.EmployeeID
+--inner join [Order Details] od on od.OrderID = o.OrderID
+--inner join Products p on p.ProductID = od.ProductID
+--group by e.FirstName, e.LastName, p.ProductName
+
+--16 DECEMBER 2022
+
+--SQL de Aggregate fonksiyonlarla hesaplama yaptýðýmýz sütunlara where cümlesinde koþul ifadesi veremeyiz 
+--Koþul ifadesi verebilmek için HAVING kelimesini kullanýrýz
+
+--Quantity için where kulananamam çünkü baþýnda aggregate var ama Quantity için illa da kulanmak istersen HAVING kullanabilirsin
+--SELECT p.ProductName, sum(Quantity) as [Siparis Miktarý] FROM [Order Details] od
+--INNER JOIN Products p ON p.ProductID = od.ProductID
+--GROUP BY p.ProductName
+--HAVING sum(Quantity) > 1200 --sipariþ miktarý 1200 den büyük olanlarý listele
+--ORDER BY [Siparis Miktarý] desc
+
+--SQL de yanlýþ alt sorgu yazarsan döngüyü kýramazsýn c# taki gibi. 
+--Alt alta sorgularý birbirine baðlarken önceden küçük küçük planlayýp sonra birleþtirmen lazým.
+
+--250 den fazla sipariþ taþýmýþ olan kargo firmalarýnýn adlarýný, telno ve sipariþ miktarlarýný raporla
+--Shippers, Orders
+--select s.CompanyName, s.Phone, count(o.ShipVia) as [Sipariþ Miktarý] from Orders o
+--inner join Shippers s on s.ShipperID = o.ShipVia
+--group by s.CompanyName, s.Phone
+--having count(o.ShipVia) > 250
+--order by [Sipariþ Miktarý] desc
+
+--birleþtirme fonksiyonu 
+--union
+--select CompanyName, Phone, 'Suppliers' from Suppliers 
+--union 
+--select CompanyName, Phone, 'Customers' from Customers
+
+--kesiþimde intersect
+--INTERSECT operatörü, yalnýzca her iki input kümesinde bulunan satýrlarý döndürür. 
+--select UnitPrice,ProductID from [Order Details]
+--intersect
+--select UnitPrice, ProductID from Products
+--order by UnitPrice
+
+--fark kümesi
+--except
+
+--Order Details te olup Products ta olmayanlar
+--select UnitPrice, ProductID  from [Order Details]
+--except 
+--select UnitPrice, ProductID  from Products
+--order by UnitPrice
+
+
+--select * from [Order Details] where ProductID = 33
+--select * from Products where ProductID = 33
+
+
+
+--ASLA KULLANMA!!!!! fazla kayýtta yormuþ olursun
+--sorgu sürdükçe RAM þiþer
+--cross koin kartezyen çarpýmý
+--8 kategoriyi 78 ürünle çarptý toplam 624
+--1 kategori 78 ürün demek
+--select ProductName, CategoryName from Products cross join Categories 
+
+--kayýt ekleme
+--insert into Shippers(CompanyName, Phone)
+--values('Furkan Kargo', 11111189)
+
+--kayýt ekleme, 2.yol
+--insert into Shippers
+--values('Göktug Kargo', 89)
+
+--select * from Shippers
+
+
+--çalýþan tablsouna kendini ekle
+--insert into Employees
+
 --select * from Employees
 
---*shippers, orders, *employees
+
+
+--ikisi de ShipperID 5 deðerini getirir 
+
+--identity oturum bazlý çalýþmýyor, tablo bazýnda çalýþýyor
+--genellikle identity kullanýlýr
+--son ShipperID 5 ise herkes 6 yý alýyor
+--select @@IDENTITY --@@demel globali iþaret ediyor demek, aþaðýdaki herkes globali kullanmýþ oluyor
+
+----oturum bazlý çalýþýr
+--select SCOPE_IDENTITY()
+
+--select * from Shippers
+
+
+--id si 5 olan verinin telefonunu güncelle
+--update Shippers
+--set Phone = '212 333 22 44'
+--where ShipperID = 5
+
+--select * from Shippers
+
+
+---çalýþanlar tablosundaki dg tarihini nancy i 01011967 yap  ,city i kastamonu yap
+--select * from Employees 
+--update Employees
+--set BirthDate = '1997-01-01', City = 'Kastamonu'
+--where FirstName = 'Nancy'
+
+
+--yanlýþlýkla bütün ürülerin fiyatýný 50 yaptým. baþýna begin trans koyarsam geri alma þansým var
+--sonuna rollback tran
+--update yaparken baþýna begin tran koymalýsýn
+
+--select * from Products
+--select*from Employees
+
+/*
+--1. çalýþtýracaðýn yer
+--begin tran
+--update Products set UnitPrice = 50
+
+--2. çalýþtýracaðýn yer --geri almak için
+--rollback tran
+*/
+
+--begin tran
+--update Products set UnitPrice = 50
+----update Employees set FirstName = 'Sevde'
+
+--rollback tran
+
+
+--DELETE ve TRUNCATE i asla kullanmýyorsun
+--4 den büyük olan ShipperID leri sil
+--delete from Shippers where ShipperID > 4
+
+
+/*
+	delete ile silmeyeceksin ama delete i kullanacaksýn
+	tablonun sonuna del sütunu ekle, bit olarak tanýmlayacaksýn hepsi 0 olacak
+	sen bir butona sil dediðin zaman gelip bu sütunu 1 yapacaksýn
+	geri almak istediðinde 0 yap
+	göster dediðin zamanda 0 larý göstereceksin
+	kullanýcý da görmediði için siliniþ zannedecek oysaki o veri silinmemiþ olacak
+*/
+
+
+--Müþteri senden tablo isterse create view kullanabilirsin
+
+--Amerikalýlar diye view var yani sanal tablo. Ben bunu çaðýrdýðým zaman amerikalý müþterilerim otomatik olarak geliyor
+--create view Amerikalýlar 
+--as
+--Select c.CustomerID, c.CompanyName, o.OrderID, o.OrderDate from Orders o
+--inner join Customers c on c.CustomerID = o.CustomerID
+--where c.Country = 'USA'
+
+--kontrol
+--select * from Amerikalýlar
+
+--bu tablo Views altýnda oluþuyor
+
+
+select * from Amerikalýlar a
+inner join Orders o on a.OrderID = o.OrderID
+
+select * from Amerikalýlar
+
