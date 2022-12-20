@@ -873,4 +873,171 @@ Subsquery (Alt Sorgular)
 
 --select * from Customers
 
+--T-SQL
+
+--20 DECEMBER 2022
+
+--nesned stored procedure yaptým
+--clientta yapacaðýn iþleri store prodecure da yapacaksýn
+--böylelikle clienti aþaðýdaki bilgileri almak için kullanacaksýn
+
+--create proc KategoriEkle1New
+--(
+--	@ad nvarchar(20),
+--	@sonid int Output
+--	--eðer procedure içinden bir deðeri dýþarý çýkarmak istersek output kelimesini kullanýrýz
+--)
+--as insert into Categories (CategoryName) values (@ad);
+--set @sonid = SCOPE_IDENTITY();
+----category ekliyosun ama son id yi scope identity ile alýyorum
+
+--go
+
+--create proc UrunEkleyici
+--(
+--	@urunadi nvarchar(20),
+--	@katAdi nvarchar(15) --kategoriAdi
+--)
+--as 
+--declare @katid int --declare deðiþken tanýmlamak
+
+--if not exists (select CategoryName from Categories where CategoryName = @katAdi) --kategori adindan kategori var mi --yokken burasý çalýþýr --kateogirAdi oluþturuyorum
+--begin 
+--exec KategoriEkle1New @katAdi, @katid output --yoksa kategoriye ekle
+--end
+
+--else --sütlü tatlýlar varsa  çalýþýr --id sini çekiyorum
+--begin
+--select @katid=CategoryID from Categories where CategoryName = @katAdi
+--end
+
+--insert into Products(ProductName, CategoryID) --Product tablosuna ekleme yapýyorum
+--values(@urunadi, @katid)
+
+----server tarafý tamam
+
+
+----client tarafý
+----exec UrunEkleyici 'Fýrýnda Sütlaç', 'Sütlü TatlýlarYeni' --biri kategori diðeri ürün olmak üzere 2 tane row yaptým
+--exec UrunEkleyici 'Sütlü Nuriye', 'Sütlü TatlýlarYeni' --bir kolon çalýþtý Sütlü Nuriye Product tablosuna eklendi
+
+--select * from Products
+--select * from Categories
+
+
+--id yi almýyoruz böyle bir kayýt zaten var diyoruz. Üsttteki örnekten farký bu
+--create proc KategoriEkle2New
+--(
+--	@ad nvarchar(50),
+--	@tanim nvarchar(100)
+--)
+--as 
+--if not exists (select * from Categories where CategoryName = @ad) --CategoryName yoksa ekle
+--begin
+--insert into Categories (CategoryName, Description) values (@ad, @tanim);
+--end
+
+--else --varsa burasý çalýþsýn
+--begin
+--print 'Böyle bir kayýt zaten var'
+--end
+
+--bu procedure ün client tarafýnda kullanýlmasý
+--KategoriEkle2New 'ilaçlar', 'Apranax, Asprin'    --bu kaydý 2. kez çalýþtýrýrsan else kýsmý çalýþýr
+
+--select * from Categories --kontrol saðlýyoruz
+
+
+
+--girilen ürün kodunu bul seç o ürünün stoðuna dediði kadar ekle store procedure ü yazýnýz
+--var olan ürünün miktarýný istediðim stok miktarý kadar artýracaðým
+
+--create proc Kontrol
+--(
+--	@id int,
+--	@stok int
+--)
+--as
+--if exists(select ProductID from Products where ProductID = @id)
+--begin
+--update Products 
+--set UnitsInStock += @stok where ProductID = @id
+--end
+--else
+--begin
+--print 'Böyle bir kayýt yok'
+--end
+
+--Kontrol 5, 8
+
+--select * from Products
+
+
+--ürün adý girilecek ve girilen ürün adýný silen procedure
+--create proc UrunSil
+--(
+--	@isim nvarchar(20)
+--)
+--as 
+--if exists (select ProductName from Products where ProductName = @isim)
+--begin
+--delete from Products where ProductName = @isim
+--end
+--else
+--begin
+--print 'Böyle bir kayýt yok'
+--end
+
+
+--------------------------------------FONKSIYONLAR--------------------------------------
+
+--1-Scaler Valued Fonksiyonlar geriye tek satýr deðer döndürenler
+--2-Table Valued Fonksiyonlar geriye bir tablo deðer döndürür
+
+--create function ToplamaYap
+--(
+--@s1 int,
+--@s2 int
+--)
+--returns int
+--as
+--begin return @s1+@s2
+--end
+
+
+--select dbo.ToplamaYap(10,20) as 'Toplama'
+
+
+--mevduat faizini hesaplayan function
+--create function MevduatFaizi
+--(
+--	@anapara int,
+--	@faizorani int,
+--	@gun int
+--)
+--returns int 
+--as 
+--begin return (@anapara * @faizorani * @gun) /36500
+--end
+
+--select dbo.MevduatFaizi (1000, 15, 30) as 'Mevduat Faizi'
+
+--mail oluþturucu
+--isminin soldan 3 harfi, soyadýnýn sondan 3 harf al, araya nokta koy
+
+alter function MailOlustur
+(
+	@isim nvarchar(50),
+	@soyisim nvarchar(50)
+)
+returns nvarchar
+as 
+begin return left(@isim, 3) + '.' + right(@soyisim,3) + '@hotmail.com' 
+end
+
+
+select FirstName, LastName, dbo.MailOlustur(FirstName, LastName) from Employees
+
+
+
 
