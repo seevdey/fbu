@@ -763,7 +763,6 @@ Subsquery (Alt Sorgular)
 --select * from Shippers
 
 
-
 --ürünlerin fiyatlarına zam yap. zamyapıcı procedure oluştur. Zam yapıcı 5 dediğim zaman bütün ürünlerin fiyatına 5 ekleyecek
 --create proc ZamYap3
 --(
@@ -804,7 +803,7 @@ Subsquery (Alt Sorgular)
 --where s.CompanyName = @kargoFirmasi and o.Freight > @min and o.Freight < @max
 
 
---o.Freight @min between @max
+--o.Freight between @min and @max
 
 
 --select * from Orders
@@ -815,7 +814,7 @@ Subsquery (Alt Sorgular)
 
 
  --klavyeden girilen calisanId si tarafından alınmış siparişleri listele
- --dışardan kaç adet çalışan id si bilinmemektedir
+ --dışardan kaç adet çalışan id si girildiği bilinmemektedir
 
  --select * from Shippers
 
@@ -869,7 +868,7 @@ Subsquery (Alt Sorgular)
 --set @sorgu  = ('select c.ContactName from Customers c inner join Orders o on o.CustomerID = c.CustomerID where c.ContactName like (''%' + @param + '%'')  ')
 --Execute(@sorgu)
 
---SiparisleriListele10 'ar, an'
+--SiparisleriListele10 'ar'
 
 --select * from Customers
 
@@ -877,7 +876,7 @@ Subsquery (Alt Sorgular)
 
 --20 DECEMBER 2022
 
---nesned stored procedure yaptım
+--nested stored procedure yaptım
 --clientta yapacağın işleri store prodecure da yapacaksın
 --böylelikle clienti aşağıdaki bilgileri almak için kullanacaksın
 
@@ -889,7 +888,7 @@ Subsquery (Alt Sorgular)
 --)
 --as insert into Categories (CategoryName) values (@ad);
 --set @sonid = SCOPE_IDENTITY();
-----category ekliyosun ama son id yi scope identity ile alıyorum
+------category ekliyosun ama son id yi scope identity ile alıyorum
 
 --go
 
@@ -918,7 +917,7 @@ Subsquery (Alt Sorgular)
 
 
 ----client tarafı
-----exec UrunEkleyici 'Fırında Sütlaç', 'Sütlü TatlılarYeni' --biri kategori diğeri ürün olmak üzere 2 tane row yaptım
+--exec UrunEkleyici 'Fırında Sütlaç', 'Sütlü TatlılarYeni' --biri kategori diğeri ürün olmak üzere 2 tane row yaptım
 --exec UrunEkleyici 'Sütlü Nuriye', 'Sütlü TatlılarYeni' --bir kolon çalıştı Sütlü Nuriye Product tablosuna eklendi
 
 --select * from Products
@@ -958,12 +957,12 @@ Subsquery (Alt Sorgular)
 --	@stok int
 --)
 --as
---if exists(select ProductID from Products where ProductID = @id)
+--if exists(select ProductID from Products where ProductID = @id) --ProductID varsa 
 --begin
 --update Products 
---set UnitsInStock += @stok where ProductID = @id
+--set UnitsInStock += @stok where ProductID = @id --güncellemek istediğimiz kısım
 --end
---else
+--else --yoksa
 --begin
 --print 'Böyle bir kayıt yok'
 --end
@@ -996,8 +995,8 @@ Subsquery (Alt Sorgular)
 
 --create function ToplamaYap
 --(
---@s1 int,
---@s2 int
+--	@s1 int,
+--	@s2 int
 --)
 --returns int
 --as
@@ -1022,22 +1021,102 @@ Subsquery (Alt Sorgular)
 
 --select dbo.MevduatFaizi (1000, 15, 30) as 'Mevduat Faizi'
 
+
 --mail oluşturucu
 --isminin soldan 3 harfi, soyadının sondan 3 harf al, araya nokta koy
 
-alter function MailOlustur
-(
-	@isim nvarchar(50),
-	@soyisim nvarchar(50)
-)
-returns nvarchar
-as 
-begin return left(@isim, 3) + '.' + right(@soyisim,3) + '@hotmail.com' 
-end
+--create function MailOlustur
+--(
+--	@isim nvarchar(50),
+--	@soyisim nvarchar(50)
+--)
+--returns nvarchar(50)
+--as 
+--begin return lower(left(@isim, 3)) + '.' + right(@soyisim, 3) + '@hotmail.com' 
+--end
 
 
-select FirstName, LastName, dbo.MailOlustur(FirstName, LastName) from Employees
+--select FirstName, LastName, dbo.MailOlustur(FirstName, LastName) as [Mail Adresi] from Employees
 
 
+----------------------------------------20.12 ÇALIŞMA----------------------------------------
+ --ID’si verilen müşterinin toplam ne kadarlık alışveriş yaptığını (fiyat olarak) bulan procedure
+
+ --alter proc YapilanAlisveris
+ --(
+	--@id nchar(5)
+ --)
+ --as
+ --select SUM((1-Discount) * (od.UnitPrice*Quantity)) as [Toplam Alışveriş] from [Order Details] od
+ --inner join Orders o on o.OrderID = od.OrderID
+ --inner join Customers c  on c.CustomerID = o.CustomerID
+ --where c.CustomerID = @id
+
+ --YapilanAlisveris 'ALFKI'
+
+ --select * from Customers
+
+
+ --İki tarih arasında bulunan siparişler
+-- create proc TarihAraligi
+-- (
+--	 @baslangicTarihi datetime,
+--	 @bitisTarihi datetime
+-- )
+-- as
+-- select OrderID, OrderDate from Orders 
+-- where OrderDate between @baslangicTarihi and @bitisTarihi
+
+--TarihAraligi '1996-07-04','1997-03-19'
+
+
+--ID si verilen müşteri, en son hangi ürünü almış..?
+--create proc HangiUrun
+--(
+--	@id nchar(5)
+--)
+--as
+--select  * from [Order Details] od --top 1 ??
+--inner join Products p on p.ProductID = od.ProductID
+--inner join Orders o on od.OrderID = o.OrderID
+--inner join Customers c  on c.CustomerID = o.CustomerID
+--where c.CustomerID = @id 
+
+--HangiUrun 'QUICK'
+
+
+--ID si verilen çalışan, en çok kime ürün satmış..?
+select * from Employees e
+inner join Orders o on o.EmployeeID = e.EmployeeID
+inner join [Order Details] od on od.OrderID = o.OrderID
+inner join Customers c on c.CustomerID = o.CustomerID
+inner join Products p on p.ProductID = od.ProductID
+
+--ID  si verilen müşteriyle ne kadar süredir çalışıyoruz..?
+--ID si verilen kategorinin içinde en çok satan 5 ürün..?
+--ID si verilen tedarikçi bana hangi ürünleri sağlıyor..?
+
+--table value function ile tablo birleştirme
+
+--create function EmployeeEkle()
+--returns @contacts TABLE(
+
+--firstName nvarchar(10),
+--lastName nvarchar(20),
+--title nvarchar(30)
+
+--)
+--as
+--begin
+--	insert into @contacts
+--	select
+--	firstName,
+--	lastName,
+--	title
+--	from Employees
+--	return;
+--end;
+
+--select * from EmployeeEkle();
 
 
