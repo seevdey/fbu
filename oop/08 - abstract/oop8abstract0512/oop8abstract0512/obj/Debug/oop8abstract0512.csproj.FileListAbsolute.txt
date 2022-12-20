@@ -6,3 +6,11 @@ C:\Users\sevdenur.yilmaz\Desktop\oop8abstract0512\oop8abstract0512\obj\Debug\oop
 C:\Users\sevdenur.yilmaz\Desktop\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.csproj.CoreCompileInputs.cache
 C:\Users\sevdenur.yilmaz\Desktop\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.exe
 C:\Users\sevdenur.yilmaz\Desktop\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\bin\Debug\oop8abstract0512.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\bin\Debug\oop8abstract0512.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\bin\Debug\oop8abstract0512.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\oop\08 - abstract\oop8abstract0512\oop8abstract0512\obj\Debug\oop8abstract0512.pdb

@@ -11,8 +11,10 @@ namespace oop9interface0512
          *  Sanaldırlar içlerinde kod yok sadece tanım mevcuttur
          *  Kullanım zorunluluğu yok ama çok çok çok önemle kullanılmasını isteriz
          *  Örnek verecek olursak bir yemek yapımındaki malzeme listesine bir interface(arayüz) denir
+         *  Örnek verecek olursak; kitapta içindekiler. İçindekiler indeksi interface oluyor
          *  oop ta class açarken ilk başta interface oluştur
          *  interface tanımında ne varsa class ta onu kullanmakla yükümlüyüz
+         *  
     */
 
     internal class Program

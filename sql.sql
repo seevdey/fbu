@@ -605,8 +605,272 @@ Subsquery (Alt Sorgular)
 --bu tablo Views altında oluşuyor
 
 
-select * from Amerikalılar a
-inner join Orders o on a.OrderID = o.OrderID
+--select * from Amerikalılar a
+--inner join Orders o on a.OrderID = o.OrderID
 
-select * from Amerikalılar
+--select * from Amerikalılar
+
+
+--19 DECEMBER 2022
+--Speedy Express ile taşınmış Nancy'nin almış olduğu pzt günleri ya da 'Dumon' ya da 'Alfki' id li müşteriler tarafından verilmiş olan siparişleri listeleyen view i tasarla,
+--taşıyanın ismi çalışanın ilk adı ve 
+--order id, order date, firstname, customerid,
+--view in ismi ; Nancy nin siparişleri
+
+--select * from Shippers
+--select * from Employees
+--select * from Orders --order date ve customer id 
+
+--create view [Nancy'nin Siparişleri]
+--as
+--select o.OrderID, o.OrderDate, e.FirstName, c.CustomerID, s.CompanyName from Shippers s 
+--inner join Orders o on s.ShipperID = o.ShipVia
+--inner join Employees e on e.EmployeeID = o.EmployeeID
+--inner join Customers c on c.CustomerID = o.CustomerID
+--where DATENAME(WEEKDAY, OrderDate) = 'Monday'
+--and c.CustomerID in('DUMON', 'ALFKI')
+--and e.FirstName = 'Nancy' 
+--and s.CompanyName = 'Speedy Express'
+
+
+--hangi ürünü hangi müşterinin hangi personelden ismi detaylı satış raporu
+--select * from Products
+--select * from Customers
+--select * from Employees
+--select * from Orders
+--select * from [Order Details]
+
+--create view [Detaylı Satış Raporu]
+--as 
+--select p.ProductName, c.ContactName, e.FirstName + ' ' + e.LastName as [Ad Soyad], o.EmployeeID from 
+--Products p
+--inner join [Order Details] od on od.ProductID = p.ProductID
+--inner join Orders o on  o.OrderID = od.OrderID
+--inner join Employees e on o.EmployeeID = e.EmployeeID
+--inner join Customers c on c.CustomerID = o.CustomerID
+
+
+--select * from [Detaylı Satış Raporu]
+
+--left join kullanarak
+--select p.ProductName, c.ContactName, e.FirstName + ' ' + e.LastName as [Ad Soyad], o.EmployeeID from 
+--Products p
+--left join [Order Details] od on od.ProductID = p.ProductID
+--left join Orders o on  o.OrderID = od.OrderID
+--left join Employees e on o.EmployeeID = e.EmployeeID
+--left join Customers c on c.CustomerID = o.CustomerID
+
+
+--VIEW ORNEGI
+--create view KategoriEkleme
+--as
+--select * from Categories
+--go 
+--insert into KategoriEkleme(CategoryName, [Description])
+--values('Sütlü Tatlılar', 'Süt iyidir')
+
+--select * from KategoriEkleme
+
+
+
+--View içinde join varsa INSERT yapılamaz
+--View içinde ilişkili tablolara kayıt eklenemez.
+--create view KategoriUrunleri
+--as
+--select p.ProductName, c.CategoryName from Categories c
+--inner join Products p on p.CategoryID = c.CategoryID
+--go
+--insert into KategoriUrunleri(ProductName, CategoryName)
+--values ('Sütlü Nuriye', 'Sütlü Tatlılar')
+
+
+
+--View içinde order by kullandığında top kelimesini kullanmak zorundasın
+--create view FiyataGoreUrunler
+--as
+--select top 77 ProductName, UnitPrice from Products 
+--order by UnitPrice desc
+
+--select * from FiyataGoreUrunler
+
+
+
+--verdiğim koşula göre çalışmasını istiyorum 
+--create view FileBaslayanKargolar
+--as
+--select * from Shippers s 
+--where CompanyName like 'F%'
+--with check option --insert işlemi yaparken bu kurala göre yap 
+
+--yani burdaki view içerisinde insert yapacağım
+--insert into FileBaslayanKargolar(CompanyName)
+--values('Fly Kargo')
+
+--insert into FileBaslayanKargolar(CompanyName)
+--values('Zly Kargo') --ekleyemiyorum. koşula göre ekleme yapabiliyorum
+----verdiğim koşula göre insert edebiliyorum
+
+--select * from Shippers
+
+
+--shipper dan yaptığın view da telefonu kitle ben onu alter table shipper table drop kolon yapamayacağım
+--shipperdaki telefon sütununu kitle yani o sütunu silemeyeceğim
+
+--select * from Shippers
+
+--create view TumKargolarim
+--with schemabinding
+--as 
+--select CompanyName, Phone from dboShippers
+
+--select * from TumKargolarim
+
+--alter table Shippers drop column Phone --kolondan değer silinmediği, kilitlendiği kontrolü
+
+
+
+--view kilitleme -sağa tıklayınca design açık olmayacak
+--ben view kodlarını göremiycem
+
+--alter view Amerikalilar
+--with encryption 
+--select CompanyName, Phone from dbo.Shippers
+
+
+--STORED PROCEDURE
+--ado da arayüz tanımlayacağımız zaman. 1. çeşit sql client tarafına sql yazmak
+--clientta hiç sql olmayıp client a sql veriyosun. SQL i server da kullanıyosun. Sql de update delete komutlarını çalıştıranlara da store procedure deniyor
+--clienta resmen boş biir kutuya çeviriyoruz
+--STORED PROCEDURE --> server tarafından bu işi yapmaya sağlayan procedurelerimiz 
+
+--dopper da elle sql oluşturuyosun.
+
+--bunu serverda yazıyorum, clienttan bu yetkiyi almalısın
+--create proc KategoriEkle
+--(
+--@ad nvarchar(20),
+--@tel nvarchar(20)
+--)
+--as insert into Shippers(CompanyName, Phone)
+--values(@ad, @tel)
+
+
+----bunu clientta çalıştırıyorum
+----çok güvenli
+----client ta sql i patlatamazsın
+--KategoriEkle 'Yurtiçi Kargo', '11111111111'
+
+--select * from Shippers
+
+
+
+--ürünlerin fiyatlarına zam yap. zamyapıcı procedure oluştur. Zam yapıcı 5 dediğim zaman bütün ürünlerin fiyatına 5 ekleyecek
+--create proc ZamYap3
+--(
+--@miktar money
+--)
+--as update Products
+--set UnitPrice += @miktar
+
+--ZamYap3 5
+
+--select * from Products
+
+
+--dışardan girilen kategori adına ait ürünleri listele
+--create proc KategoriyeGoreUrunler
+--(
+--@kategoriAdi nvarchar(20)
+--)
+--as select  p.ProductName from Categories c
+--inner join Products p on p.CategoryID = c.CategoryID
+--where c.CategoryName = @kategoriAdi
+
+--KategoriyeGoreUrunler 'Beverages'
+
+
+
+--dışardan girilen kargo firması tarafından taşınmış, kargo ücreti min ve max değerleri verilen siparişleri listeleyen bir prosedür, ismi sipariş getirici
+--orderid, company name, freight
+
+--create proc SiparisGetirici
+--(
+--@kargoFirmasi nvarchar(20),
+--@min int,
+--@max int
+--)
+--as select o.OrderID, s.CompanyName, o.Freight from Orders o 
+--inner join Shippers s on s.ShipperID = o.ShipVia
+--where s.CompanyName = @kargoFirmasi and o.Freight > @min and o.Freight < @max
+
+
+--o.Freight @min between @max
+
+
+--select * from Orders
+--select * from Shippers
+
+--SiparisGetirici 'Speedy Express', 10, 100
+
+
+
+ --klavyeden girilen calisanId si tarafından alınmış siparişleri listele
+ --dışardan kaç adet çalışan id si bilinmemektedir
+
+ --select * from Shippers
+
+--create proc CalisanaGoreSiparisGetir
+--(
+--	@param nvarchar(max)
+--)
+--as
+--declare @sorgu nvarchar(max) --değişken tanımlama --içerde kullanacağım değişken
+--set @sorgu  = ('select OrderID, OrderDate, EmployeeID from Orders where EmployeeID in (' + @param + ') order by EmployeeID')
+--Execute(@sorgu)
+
+--dinamik bir sorgu oluşturmuş olduk
+--sql deki sorguyu dinamik bir şekilde kullandım
+--bütün işi server da yapacağız. Client ta sorgu çalıştırmayacağız
+
+--CalisanaGoreSiparisGetir '1,5,4'
+--CalisanaGoreSiparisGetir '1,5,4,9,8'
+
+
+--ürünleridetayli getir isimli procedure. Ürünleri detaylı getirde dışarıdan firma girilecek tedarikçinin firmasının ismini alacaksın. 
+--girilen firmanın ürünlerinde önce burada stok miktarı min max stok, sonra min max ücret, tedarikçi ismi içinde ltd olan firmalar gelecek
+--create proc UrunleriDetayliGetir3
+--(
+--	@firmaGir nvarchar(30),
+--	@stokMin int,
+--	@stokMax int,
+--	@ucretMin int,
+--	@ucretMax int
+--)
+--as 
+--select s.CompanyName, p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock from Products p
+--inner join Suppliers s on p.SupplierID = s.SupplierID
+--where s.CompanyName like '%' + @firmaGir + '%'
+--and p.UnitsInStock between @stokMin and @stokMax
+--and p.UnitPrice between @ucretMin and @ucretMax
+
+
+--UrunleriDetayliGetir3 'Ltd', 10, 80, 20 , 100
+
+--select * from Suppliers
+
+
+--dışardan girilen karakterlerin içerisinde barındıran müşteri adına sahip müşterilerce verilmiş siparişleri listeleyen bir procedure tasarla
+--alter proc SiparisleriListele10
+--(
+--	@param nvarchar(max)
+--)
+--as
+--declare @sorgu nvarchar(max) --değişken tanımlama --içerde kullanacağım değişken
+--set @sorgu  = ('select c.ContactName from Customers c inner join Orders o on o.CustomerID = c.CustomerID where c.ContactName like (''%' + @param + '%'')  ')
+--Execute(@sorgu)
+
+--SiparisleriListele10 'ar, an'
+
+--select * from Customers
+
 

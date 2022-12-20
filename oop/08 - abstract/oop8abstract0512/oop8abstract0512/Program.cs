@@ -35,16 +35,19 @@ namespace oop8abstract0512
     public class Ogrenci : Kisi
     {
         public int Sınıf;
+        public string Bolum;
         public override string Meslek
         {
             get { return "Öğrenci"; }
         }
 
-        public virtual void Yaz()
+        public override void Yaz()
         {
             Console.WriteLine("Adı Soyadı : " + AdSoyad);
             Console.WriteLine("Mesleği : " + Meslek);
             Console.WriteLine("Sınıfı : " + Sınıf);
+            Console.WriteLine("Bölümü : " + Bolum);
+
         }
     }
 
@@ -57,7 +60,7 @@ namespace oop8abstract0512
             get { return "Öğretmen"; }
         }
 
-        public virtual void Yaz()
+        public override void Yaz()
         {
             Console.WriteLine("Adı Soyadı : " + AdSoyad);
             Console.WriteLine("Mesleği : " + Meslek);
@@ -69,7 +72,7 @@ namespace oop8abstract0512
     //sealed --> koruma altına almak
     //Ortak sınıflarda kullanılan sınıflar sealed olur
     //Ör : Müşteri bakiyesi --> sealed 
-    //ortak kullanılan parametreik sınıflarda sealed kullan
+    //ortak kullanılan parametrik sınıflarda sealed kullan
     //sealed class Patron
     //{
 
@@ -91,6 +94,7 @@ namespace oop8abstract0512
             Ogrenci ogrenci = new Ogrenci();
             ogrenci.AdSoyad = "Eren Turk Yılmaz";
             ogrenci.Sınıf = 216;
+            ogrenci.Bolum = "Bilgisayar Mühendisi";
             ogrenci.Yaz();
 
             Console.WriteLine("--------------------");
@@ -106,6 +110,8 @@ namespace oop8abstract0512
             //Alan abstract sa sınıfı da abstract olmak zorunda
             //Abstract sınıflar sealed olamaz
             //static metotlar abstract olamaz
+
+            //abstract sınıftaki abstract bir alan türeyen bir sınıfta obverride ile mutlaka değşitirilmelidir
 
             Console.ReadLine();
         }
