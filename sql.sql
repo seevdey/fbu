@@ -1120,3 +1120,277 @@ inner join Products p on p.ProductID = od.ProductID
 --select * from EmployeeEkle();
 
 
+--------------------------------------21 DECEMBER 2022--------------------------------------
+
+--çalþýþanlarýn ilk adý son adý ve yaþý
+--yaþý fonksiyon olarak kullan
+--yaþ hesaplayýcý function
+
+
+--alter function YasHesapla
+--(
+--	@dogumTarihi datetime
+--)
+--returns int
+--as 
+--begin
+--return datediff(YEAR, @dogumTarihi, getdate())
+--end
+
+--select FirstName, LastName, dbo.YasHesapla(BirthDate) as [Yaþ] from Employees
+
+--select * from Employees
+
+
+
+ --ürünün ismi, ürünün fiyatý ve ürünün kdv li fiyatý. kdv ni nfiyatýný fonksiyondan al
+ --create function KdvHesaplama
+ --(
+	--@hesapla int
+ --)
+ --returns int
+ --as
+ --begin
+ --return @hesapla * 1.18 
+ --end
+
+ --select  ProductName, UnitPrice, dbo.KdvHesaplama(UnitPrice) as [Kdv li Fiyat] from Products
+
+
+ -------------------------------------TABLE VALUED FUNCTION--------------------------------------
+ --tablo fonksiyonlarýnýn bana kattýðý þey bu bunun içine ekleyebildiðimizi ekleyelim tekrar kullanmamýz gerektiðinde kullanalým
+ --1 kere yaz tekrar yazma
+
+ --dýþarýdan girilen çalýþanýn adýna göre sipariþin tarihini listeleme listesini listele
+-- create function SiparisBilgisi
+-- (
+--	@ad varchar(20)
+-- )
+-- returns table
+-- as 
+-- return select o.OrderID, o.OrderDate, e.FirstName + ' ' +  e.LastName as [Ad Soyad] from Orders o inner join Employees e on e.EmployeeID = o.EmployeeID
+-- where e.FirstName = @ad
+
+
+--select OrderDate, [Ad Soyad] from dbo.SiparisBilgisi('Janet')
+
+
+--dýþarýdan girilen kargo firmasýnýn taþýmýþ olduuðu sipariþleri listeleyen fonk tasarla
+
+--create function KargoSiparisler
+--(
+--	@kargoFirmasý nvarchar(50)
+--)
+--returns table 
+--as 
+--return select * from Orders o inner join Shippers s on o.ShipVia = s.ShipperID
+--where s.CompanyName = @kargoFirmasý
+
+--select * from dbo.KargoSiparisler('Speedy Express')
+
+--select * from Shippers
+
+
+--eðer sipariþte kargo ücretim 600 den fazlaysa sipariþ tablosundaki sipariþ sayýsý 
+--sipariþ tablosu 600 den büyükleri listele ama listelerken sipariþ tablosu toplam 20 tane sipariþ bulunmaktadýr bunnu printle ekrana yazdýr
+--yoksa yüksek ödemeli kargo ücreti 
+--sipariþ sayýsýný ekrana yazdýrýrken 2 yöntem kullan cast ve convert yöntemi kullan 2 adet print olacak
+
+--select * from Orders
+
+--declare @sorgu INT = 1 
+--if exists (select count(Freight) from Orders where Freight > 600)
+--begin
+--set @sorgu  = (select count(Freight) from Orders where Freight > 600) 
+--print cast ( @sorgu as varchar) + ' tane sipariþ bulunmaktadýr'
+--print Convert (varchar(10), @sorgu) + ' tane sipariþ bulunmaktadýr'
+--end
+--else
+--begin
+--print 'Yüksek ödemeli kargo ücreti'
+--end
+
+
+ -------------------------------------TRIGGER (TETÝKLEYÝCÝLER)--------------------------------------
+ -- 1-DML Triggerlar (select, insert, update, delete)
+ -- 2-DDL Triggerlar (create, alter, drop)
+
+
+ ------------------------------------ -- 1-DML Triggerlar (select, insert, update, delete)-------------------------------------
+
+ --trigger bomba, 10 kere düþün 1 kere yaz
+ 
+ --bu trigger buraya kayýr aldýðý an listeleme yapýyor
+ --Shippers ý tetikledim
+ --create Trigger Tetikci
+ --on Shippers 
+ --after insert as select * from Shippers 
+
+ ----çalýþtýrdýðým anda tabloyu listelemesi gerekiyor
+ --insert into Shippers values('ABCD Kargo', '212 450 45 45')
+
+
+--yaptýðýmýz trigger ý disable etme / enable ile de pasif yapabilirsin
+-- disable Trigger Tetikci on Shippers
+-- insert into Shippers values('DC Kargo', '212 450 45 49')
+
+--drop trigger Tetikci --Trigger silme
+
+
+--kategori tablosunda bir güncelleme gerçekleþtiði zaman ekrana güncelleme baþarýyla gerçekleþtirildi yazan trigger
+--create trigger CategoriesUpdate3
+--on Categories 
+--after update as 
+--print ('Güncelleme baþarýlý')
+
+--select * from Categories
+
+
+--kategoriler tablosuna eklenen son kaydýn detaylarýný gösteren bir trigger tasarla
+--inserted tablosu : triggerýn baðlý bulunduðu son kaydý üzerine alan tablodur
+--create trigger KategorilerSonKayýt
+--on Categories 
+--after insert
+--as 
+--declare @id int
+--select @id = CategoryID
+--from inserted 
+--select *  from Categories where  @id = CategoryID
+
+
+--insert into Categories(CategoryName) values('deneme')
+
+
+----------------1. ÖDEV----------trigger
+--iki tablo oluþumu var; inserted deleted
+--bu soruda deleted deðil inserted kullanacaksýn
+--order detail tablosundan bir ürün satýþý gerçekleþtiðinde ürün tablosundan satýlan ürün id si tespit edilip ürünler tablosundan satýlan adet kadar düþülür
+--yani testi OrderDetails e insert et . insert ettiðimde 5 özellik 
+--OrderID = 100248 , ProductID = 1 numaralý ürün, Unit rice = 50,  Quantity = 7, Discount = 0
+--çalýþtýrýnca UnitsInStock tan 7 adet düþecek
+
+--create trigger StokMiktarý
+--on [Order Details]
+--after insert
+--as 
+--declare @id int
+--declare @satis int
+--select @id = ProductID, @satis = Quantity from inserted
+--begin
+--UPDATE Products set UnitsInStock -= @satis
+--where ProductID = @id
+--end
+
+--select * from [Order Details]
+
+--select * from Products
+
+--insert into [Order Details] values(10248, 1, 50, 7, 0)
+
+
+----------------2. ÖDEV----------
+--Bir tane yedekdb veri tabaný tablosu oluþtur
+--Shippesrs ýn aynýsý olacak þekilde yedek kargolar tablosu oluþtur
+--delete from Shippers where shipperId > 3 sorgusunu çalýþtýrdýðýnýzda 3 ten büyük olan kayýtlarý yedek veritabanýndaki yedekkargolar tablosuna atýyor
+
+
+--create database YedeDB
+--go
+--use YedeDB
+--go
+--create table YedekKargo
+--(
+--	ShipperID int primary key identity (1,1) not null,
+--	CompanyName nvarchar(20) not null,
+--	Phone nvarchar(24) not null
+--)
+
+--create trigger YedekTabloyaEkle
+--on Shippers 
+--after delete
+--as 
+--begin
+--set identity_insert YedeDb.dbo.YedekKargo on
+--insert into YedeDB.Dbo.YedekKargo(ShipperId, CompanyName, Phone)
+--select * from deleted 
+--end
+
+
+--delete from Shippers where ShipperID > 3
+
+--select * from YedeDB.dbo.YedekKargo
+
+
+--select * from Shippers
+
+--insert into Shippers
+--values ('name4', '2324')
+
+
+----------------3. ÖDEV----------
+--ürünlerden herhangi bir tanesi ürünler tablosundan silinmeye çalýþýldýðý zaman silinmesin ancak Discontinued deðeri true deðeri atansýn (eðer bir deðer Discounted deðeri true ise o ürün artýk satýþta deðil demektir)
+--instead of delete kullan (after insert yerine)
+--iþlem yapýlmadan bir önceki adýmdýr 
+--ürünü delete ederek test et --> delete from Products where ProductName = 'Maske' --> bunu silemeyeceðim Discounted ý true olacak
+
+--0 satýþta olan
+
+--drop trigger UrunTablosundanSil
+
+--create trigger UrunTablosundanSil
+--on Products 
+--instead of delete 
+--as 
+----SET NOCOUNT ON
+--declare @id int
+--select @id = ProductID from deleted
+--begin
+--update Products set Discontinued = 'true' -- 0 deðerini 1 yapýyor
+--where ProductID = @id
+--end
+
+--select * from Products
+
+--insert into Products(ProductName, Discontinued)
+--values ('Maske5', 0)
+
+--delete from Products where ProductName = 'Maske5'
+
+--------------------------
+--bir tabloyu baþka bir veri tabanýna kopyalama
+--SELECT * INTO YedeDB.dbo.B --YedeDB databaseine B adýnda tablo ekle
+--FROM Northwind.dbo.Categories --Northwind database indeki Categories tablosunu ekle
+--------------------------
+
+-----------------------------2-DDL Triggerlar (create, alter, drop)----------------------------
+
+--create database için bütün server da engelledim
+--create trigger VeriTabaniEngeli
+--on all server
+--for CREATE_DATABASE
+--as 
+--raiserror ('Veritabaný oluþturma izniniz yoktur', 16, 1) 
+--rollback
+
+--create database sevde --hiçbir þekilde veritabaný oluþturamýyoruz
+
+--drop trigger VeriTabaniEngeli on all server
+
+
+--tablo silmeyi engelle
+--create trigger TabloGuncellemeEngeli
+--on database
+--for ALTER_TABLE
+--as 
+--raiserror ('Tablo düzenleme yetkiniz yoktur', 16, 1) 
+--rollback
+
+----TabloGuncellemeEngeli trigger ýný bu þekilde sil
+--drop trigger TabloGuncellemeEngeli on database
+
+
+--alter table kargofax
+
+
+
+
