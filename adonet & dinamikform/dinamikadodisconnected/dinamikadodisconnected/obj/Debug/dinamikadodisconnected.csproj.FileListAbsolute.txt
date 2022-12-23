@@ -1,0 +1,10 @@
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\bin\Debug\dinamikadodisconnected.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\bin\Debug\dinamikadodisconnected.exe
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\bin\Debug\dinamikadodisconnected.pdb
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.exe
+C:\Users\sevdenur.yilmaz\Desktop\dinamikadodisconnected\dinamikadodisconnected\obj\Debug\dinamikadodisconnected.pdb

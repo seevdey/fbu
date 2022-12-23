@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\bin\Debug\AdonetConnectDinamik.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\bin\Debug\AdonetConnectDinamik.exe
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\bin\Debug\AdonetConnectDinamik.pdb
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.exe
+C:\Users\sevdenur.yilmaz\Desktop\AdonetConnectDinamik\AdonetConnectDinamik\obj\Debug\AdonetConnectDinamik.pdb

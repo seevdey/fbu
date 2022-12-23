@@ -1086,11 +1086,11 @@ Subsquery (Alt Sorgular)
 
 
 --ID si verilen çalýþan, en çok kime ürün satmýþ..?
-select * from Employees e
-inner join Orders o on o.EmployeeID = e.EmployeeID
-inner join [Order Details] od on od.OrderID = o.OrderID
-inner join Customers c on c.CustomerID = o.CustomerID
-inner join Products p on p.ProductID = od.ProductID
+--select * from Employees e
+--inner join Orders o on o.EmployeeID = e.EmployeeID
+--inner join [Order Details] od on od.OrderID = o.OrderID
+--inner join Customers c on c.CustomerID = o.CustomerID
+--inner join Products p on p.ProductID = od.ProductID
 
 --ID  si verilen müþteriyle ne kadar süredir çalýþýyoruz..?
 --ID si verilen kategorinin içinde en çok satan 5 ürün..?
@@ -1341,7 +1341,6 @@ inner join Products p on p.ProductID = od.ProductID
 --on Products 
 --instead of delete 
 --as 
-----SET NOCOUNT ON
 --declare @id int
 --select @id = ProductID from deleted
 --begin
@@ -1392,5 +1391,23 @@ inner join Products p on p.ProductID = od.ProductID
 --alter table kargofax
 
 
+
+
+CREATE TABLE deletedEmployees 
+(
+    EmployeeID int primary key identity(1,1) not null,
+    LastName nvarchar(20) not null,
+    FirstName nvarchar(10) not null,
+)
+go
+create Trigger deleteEmployee
+ON Employees
+AFTER DELETE 
+AS 
+set identity_insert deletedEmployees on;
+INSERT INTO deletedEmployees(EmployeeID, LastName, FirstName) 
+SELECT EmployeeID, LastName, FirstName FROM deleted
+
+select * from deletedEmployees
 
 

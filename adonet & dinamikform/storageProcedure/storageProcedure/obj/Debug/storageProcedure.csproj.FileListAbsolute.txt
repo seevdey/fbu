@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\bin\Debug\storageProcedure.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\bin\Debug\storageProcedure.exe
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\bin\Debug\storageProcedure.pdb
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.exe
+C:\Users\sevdenur.yilmaz\Desktop\storageProcedure\storageProcedure\obj\Debug\storageProcedure.pdb
