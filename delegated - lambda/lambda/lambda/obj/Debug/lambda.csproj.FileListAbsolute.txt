@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\bin\Debug\lambda.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\bin\Debug\lambda.exe
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\bin\Debug\lambda.pdb
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\obj\Debug\lambda.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\obj\Debug\lambda.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\obj\Debug\lambda.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\obj\Debug\lambda.exe
+C:\Users\sevdenur.yilmaz\Desktop\lambda\lambda\obj\Debug\lambda.pdb

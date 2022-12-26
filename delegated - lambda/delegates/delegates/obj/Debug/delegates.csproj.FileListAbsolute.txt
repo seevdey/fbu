@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\bin\Debug\delegates.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\bin\Debug\delegates.exe
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\bin\Debug\delegates.pdb
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\obj\Debug\delegates.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\obj\Debug\delegates.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\obj\Debug\delegates.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\obj\Debug\delegates.exe
+C:\Users\sevdenur.yilmaz\Desktop\delegates\delegates\obj\Debug\delegates.pdb

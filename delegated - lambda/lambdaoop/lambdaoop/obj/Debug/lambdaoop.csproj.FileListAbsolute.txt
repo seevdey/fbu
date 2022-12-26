@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\bin\Debug\lambdaoop.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\bin\Debug\lambdaoop.exe
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\bin\Debug\lambdaoop.pdb
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\obj\Debug\lambdaoop.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\obj\Debug\lambdaoop.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\obj\Debug\lambdaoop.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\obj\Debug\lambdaoop.exe
+C:\Users\sevdenur.yilmaz\Desktop\lambdaoop\lambdaoop\obj\Debug\lambdaoop.pdb

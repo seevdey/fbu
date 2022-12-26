@@ -1,0 +1,11 @@
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\bin\Debug\storagedProcedureTekrari.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\bin\Debug\storagedProcedureTekrari.exe
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\bin\Debug\storagedProcedureTekrari.pdb
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.exe
+C:\Users\sevde\OneDrive\Masaüstü\storagedProcedureTekrari\storagedProcedureTekrari\obj\Debug\storagedProcedureTekrari.pdb

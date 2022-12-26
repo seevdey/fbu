@@ -106,6 +106,8 @@ namespace dinamikadodisconnected
 //yetkiye göre özel ekran
 //kullanıcı yetkinlikleri tut kullanıcı bilgileri olduğu zaman  o kullanıcıda ekranda gözükmesi geerken bilgiler varsa kullanıcıya özel giriŞ oluştur
 
-//dünki ödevi oopta düzenle
+//dünki ödevi oopta düzenle (AdonetConnectDinamik)
 
 //buna benzer uygulama yap
+
+//teams
