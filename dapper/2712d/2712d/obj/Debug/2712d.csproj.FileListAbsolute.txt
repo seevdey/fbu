@@ -1,0 +1,14 @@
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\bin\Debug\2712d.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\bin\Debug\2712d.exe
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\bin\Debug\2712d.pdb
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\bin\Debug\Dapper.dll
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\bin\Debug\Dapper.xml
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\_2712d.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\_2712d.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.csproj.CopyComplete
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.exe
+C:\Users\sevdenur.yilmaz\Desktop\2712d\2712d\obj\Debug\2712d.pdb

@@ -1,0 +1,11 @@
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\bin\Debug\oopeventform.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\bin\Debug\oopeventform.exe
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\bin\Debug\oopeventform.pdb
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.Form1.resources
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.Properties.Resources.resources
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.csproj.GenerateResource.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.exe
+C:\Users\sevdenur.yilmaz\Desktop\oopeventform\oopeventform\obj\Debug\oopeventform.pdb

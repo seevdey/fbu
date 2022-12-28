@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\bin\Debug\oopevent.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\bin\Debug\oopevent.exe
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\bin\Debug\oopevent.pdb
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\obj\Debug\oopevent.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\obj\Debug\oopevent.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\obj\Debug\oopevent.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\obj\Debug\oopevent.exe
+C:\Users\sevdenur.yilmaz\Desktop\oopevent\oopevent\obj\Debug\oopevent.pdb

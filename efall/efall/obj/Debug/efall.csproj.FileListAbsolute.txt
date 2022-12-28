@@ -1,0 +1,13 @@
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\efall.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\efall.exe
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\efall.pdb
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\EntityFramework.dll
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\EntityFramework.xml
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\obj\Debug\efall.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\obj\Debug\efall.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\obj\Debug\efall.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\obj\Debug\efall.csproj.CopyComplete
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\obj\Debug\efall.exe
+C:\Users\sevdenur.yilmaz\Desktop\efall\efall\obj\Debug\efall.pdb

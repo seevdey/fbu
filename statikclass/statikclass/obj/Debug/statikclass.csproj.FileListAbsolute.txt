@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\bin\Debug\statikclass.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\bin\Debug\statikclass.exe
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\bin\Debug\statikclass.pdb
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\obj\Debug\statikclass.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\obj\Debug\statikclass.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\obj\Debug\statikclass.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\obj\Debug\statikclass.exe
+C:\Users\sevdenur.yilmaz\Desktop\statikclass\statikclass\obj\Debug\statikclass.pdb

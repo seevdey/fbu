@@ -1,0 +1,8 @@
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\bin\Debug\particalclass.exe.config
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\bin\Debug\particalclass.exe
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\bin\Debug\particalclass.pdb
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\obj\Debug\particalclass.csproj.AssemblyReference.cache
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\obj\Debug\particalclass.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\obj\Debug\particalclass.csproj.CoreCompileInputs.cache
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\obj\Debug\particalclass.exe
+C:\Users\sevdenur.yilmaz\Desktop\particalclass\particalclass\obj\Debug\particalclass.pdb
