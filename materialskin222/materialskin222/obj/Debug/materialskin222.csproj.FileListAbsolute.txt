@@ -1,0 +1,13 @@
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\bin\Debug\materialskin222.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\bin\Debug\materialskin222.exe
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\bin\Debug\materialskin222.pdb
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\bin\Debug\MaterialSkin.dll
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.csproj.CopyComplete
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.exe
+C:\Users\sevde\OneDrive\Masaüstü\materialskin222\materialskin222\obj\Debug\materialskin222.pdb
