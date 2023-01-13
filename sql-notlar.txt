@@ -1,0 +1,65 @@
+veri tabanı açarken havuzu hesaplamalıyız
+4MB -> 1 gün
+Initial size dolduğunda By 10 Percent,10 Percent artırıyorum diyor. Ama gerçekte bu olmuyor
+Asla buna imkan vermiyoruz
+1.2GB değil 5GB tanımla 5 sene kullan
+
+kullandığınız tabloda her id primary key olmak zorunda
+
+secondary index --> yavaşlatıyor. kullanmamak daha iyi
+sütun sayısı azken sorun olmuyor ama büyüdükçe yavaşlatıyor
+
+nchar(10) ---> hafızada 10 karakter ayırıyor. sen 6 harf girsen bile 10 adet yer ayırtılıyor hafızada
+nvarchar da ne kadar girmek istersen o kadar alıyor. nvarchar hafızada 50 adet gibi yer ayırt etmiyor ne kadar harf girersen o kadar alıyor
+50 den fazla olursa --> nvarchar(MAX) kullan. Örneğin adres alanı varsa
+
+bit --> true, false
+
+
+NOT:
+SQL de 3 tip ilişki bire bir ilişki, bire çok ilişki, çoka çok ilişki
+
+1-1 ilişkiye örnek il id ve ilçedeki id
+1-1 çok az kullanılır
+
+bir şehirde birden çok ilçe var --> bire çok
+Karşılıklı bire çok ilişki = Çoka çok ilişki
+
+Bir il var birden fazla ilçe var , Bir ilçe var birden fazla il var
+
+
+Çoka çok ilişki için ek bir tabloya ihtiyaç duyulur
+İl ile ilçe arasındaki ilişki bire çok ilişki olmalı
+
+'Müşteri' ve 'Adres' tablosu
+Bir müşterinin birden çok adresi olabilir mi --> evet
+bir adreste birden fazla müşteri yaşayabilir mi --> evet
+bu 2 tablo arasında çoka çok ilişki koymamız lazım 
+Önce tablo oluştur sonra ilişki kur 
+
+
+film veritabanının tablo isimlerini ver ve oluştur
+
+--------------------------------------------------
+
+
+Hazır sınıflar var metotlar var
+Metodların db ye ulaşığı bilgilerin tekrar clienta gelmesi
+Burda 2 durum var
+	1. Connected, 2.Disconnected
+	1.Bağlantı her daim var, 2. Bağlantı her daim yok işimi görene kaadr kullanıyorum
+	Operasyon yaşayan her yerde connected olacak
+
+-----------------HASTANE UYG.-----------------
+1.Vezne Giriş 
+2.Muhasebe
+3.Bilgi İşlem
+4.Lab
+5.Doktor
+6.Başhekimlik
+7.Tahsilat
+8.Hasta Yatış
+
+Connected --> 1, 4, 5, 8, 7
+Disconnected --> 2, 3, 6 
+ 	
