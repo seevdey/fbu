@@ -1,0 +1,4 @@
+Id, Adi, Soyadi
+1, Goktug, Yildiz
+2, Ali, Bayazit
+3, Isil, Ozturk
