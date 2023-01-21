@@ -1,0 +1,11 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\bin\Debug\WinForm01.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\bin\Debug\WinForm01.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\bin\Debug\WinForm01.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.csproj.SuggestedBindingRedirects.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm01\WinForm01\obj\Debug\WinForm01.pdb
