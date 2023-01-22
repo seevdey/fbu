@@ -838,4 +838,3 @@
 
 
 ----BULK INSERT mülakatta sorarlar bil
-
