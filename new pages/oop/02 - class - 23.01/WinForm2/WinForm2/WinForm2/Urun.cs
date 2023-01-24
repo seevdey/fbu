@@ -10,7 +10,6 @@ namespace WinForm2
     {
         public string UrunKodu{ get; set; }
         public string UrunAdi { get; set; }
-
         public decimal Fiyati { get; set; }
         public int StokMiktari { get; set; }
         public DateTime UretimTarihi { get; set; }

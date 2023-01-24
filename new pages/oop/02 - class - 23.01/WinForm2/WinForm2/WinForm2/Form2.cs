@@ -41,8 +41,8 @@ namespace WinForm2
             yeni.UretimTarihi = dateTimePicker1.Value;
             yeni.GarantiSuresi = (int)nuGaranti.Value;
 
-            //kolon bilgisi var ve o kolon bilgisine göre datayı girmeme gerekiyor
-            //hangi kolona hangi datanın geleceğinedikkat etmem gerekiyor
+            //kolon bilgisi var ve o kolon bilgisine göre datayı girmem gerekiyor
+            //hangi kolona hangi datanın geleceğine dikkat etmem gerekiyor
             //kolon başlıklarına dikkat et
 
             //burda tanım yaparken soldan sağa girmen gerekiyor
@@ -115,11 +115,42 @@ namespace WinForm2
         Urun secili;
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
+            secili.UrunKodu = txtUrunKodu.Text;
+            secili.UrunAdi = txtUrunAdi.Text;
+            secili.Fiyati = nuFiyati.Value;
+            secili.StokMiktari = (int)nuStok.Value;
+            secili.UretimTarihi = dateTimePicker1.Value;
+            secili.GarantiSuresi = (int)nuGaranti.Value;
+
+            string[] satirBilgisi = { secili.UrunKodu, secili.UrunAdi, secili.Fiyati.ToString(), secili.StokMiktari.ToString(), secili.UretimTarihi.ToString(), secili.GarantiSuresi.ToString() };
+
+            ListViewItem lvi = new ListViewItem(satirBilgisi);
+            lvi.Tag = secili;
+
+            int index = lstUrunListesi.SelectedItems[0].Index;
+            lstUrunListesi.Items.RemoveAt(index);
+            lstUrunListesi.Items.Insert(index, lvi);
+            Temizle();
+            btnKaydet.Enabled = true;
+            btnGuncelle.Enabled = lstUrunListesi.Enabled = false;
 
         }
 
         private void btnsil_Click(object sender, EventArgs e)
         {
+            if (lstUrunListesi.Items.Count > 0) // listView1.SelectedItems[0].Index != -1
+            {
+                int index = lstUrunListesi.SelectedItems[0].Index;
+                lstUrunListesi.Items.RemoveAt(index);
+                Temizle();
+                MessageBox.Show("Ürün silindii");
+                btnKaydet.Enabled = true;
+                btnGuncelle.Enabled = btnsil.Enabled = false;
+            }
+            else
+            {
+                MessageBox.Show("Lütfen silinecek bir ürün seçiniz");
+            }
 
         }
 

@@ -87,7 +87,7 @@ namespace WinForm2
         private void lstKitaplar_DoubleClick(object sender, EventArgs e)
         {
             //SelectedItem --> seçili olan nesneler
-            secili = (Kitap)lstKitaplar.SelectedItem; // sadece Kitap modelime ait olanları aldık
+            secili = (Kitap)lstKitaplar.SelectedItem; // sadece Kitap modeline ait olanları aldık
             // yoksa listbox kendi bilgileri de gelir
 
             txtKitapAdi.Text = secili.KitapAdi; //Collection dan kitap adı geldi
