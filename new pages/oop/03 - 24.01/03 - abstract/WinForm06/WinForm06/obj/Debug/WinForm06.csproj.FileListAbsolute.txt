@@ -1,0 +1,10 @@
+C:\Users\sevde\source\repos\WinForm06\WinForm06\bin\Debug\WinForm06.exe.config
+C:\Users\sevde\source\repos\WinForm06\WinForm06\bin\Debug\WinForm06.exe
+C:\Users\sevde\source\repos\WinForm06\WinForm06\bin\Debug\WinForm06.pdb
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.csproj.AssemblyReference.cache
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.Form1.resources
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.Properties.Resources.resources
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.csproj.GenerateResource.cache
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.csproj.CoreCompileInputs.cache
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.exe
+C:\Users\sevde\source\repos\WinForm06\WinForm06\obj\Debug\WinForm06.pdb
