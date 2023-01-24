@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace WinForm04
 {
-    public abstract class Hayvan
+    public  class Hayvan
     {
         public string Adi { get; set; }
         public string Cinsi { get; set; }

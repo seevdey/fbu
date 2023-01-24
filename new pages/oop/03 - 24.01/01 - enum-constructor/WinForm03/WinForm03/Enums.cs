@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace WinForm03
 {
     public enum Tip { SporAyakkabi, Kundura, Bot, Sandalet }
-
     public enum Cinsiyet {Erkek, Kadin }
-
     public enum Malzeme { Deri, Bez, Suet}
 
     //class gibi bir bağımlılığı yok

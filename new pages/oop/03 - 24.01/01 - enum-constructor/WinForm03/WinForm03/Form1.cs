@@ -38,20 +38,21 @@ namespace WinForm03
             
             /*
              * 24.01
-                Internal
-                Enum
-                Constructor
-                Desctructor
-                using
+                Internal +
+                Enum +
+                Constructor +
+                Desctructor +
+                using + 
                 GC
-                Inheritance
-                Overloading
-                Override
-                void
+                Inheritance +
+                Overloading +
+                Override +
+                void + 
                 Methods
-                Abstract
-                Sealed
-                Virtual
+                Abstract + 
+                Sealed +
+                Virtual + 
+                Polimorfizm + (hem kalıtım hem overriding) KediSesi, KopekSesi
             */
         }
     }
