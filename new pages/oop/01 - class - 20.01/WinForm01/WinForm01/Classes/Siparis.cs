@@ -11,7 +11,6 @@ namespace WinForm01.Classes
         public string SiparisKodu { get; set; }
         public DateTime SiparisTarihi { get; set; }
         public string Adres { get; set; }
-        public int MyProperty { get; set; }
 
         //Bir sınıfın dizi, tip olarak kullanılması söz konusu olabilir
 

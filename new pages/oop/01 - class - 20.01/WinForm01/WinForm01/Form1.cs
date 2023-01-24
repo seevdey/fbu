@@ -34,11 +34,16 @@ namespace WinForm01
             i.Isim = "  sevde    ";
             i.SacRengi = Color.Red;
 
+            //i.Boy = 3.5;
+            //MessageBox.Show(i.Boy.ToString());
+            //i.Kilo = 10;
+            //MessageBox.Show(i.Kilo.ToString());
+
             //MessageBox.Show(i.Isim);
             //MessageBox.Show(i.SacRengi.ToString());
             //MessageBox içine string bir şey ister değer farklı tipteyse ToString() kullan
 
-            //CTRL + SHIFT + R --> elin alışsın ve derle
+            //CTRL + SHIFT + B --> derle
 
             Telefon t = new Telefon();
             t.Marka = "Samsung";
@@ -55,7 +60,7 @@ namespace WinForm01
             //Ondalıklı sayıların default tipi double dır
             //m double ı temsil eder
             //Default ondalıklı sayı tipi double dır
-            //float tipinde olursa f klemen gerekiyor
+            //float tipinde olursa f eklemen gerekiyor
 
 
             //Form1.Design ve burdaki buton aynı şey değil
@@ -77,6 +82,27 @@ namespace WinForm01
 
             //farklı bir metod tanımlamak
             btn.Click += new EventHandler(MesajGonder);
+
+
+            //Urun u = new Urun();
+            //u.UrunAdi = "atmaca";
+            //u.UrunKodu = "777";
+            //u.Stok = 666;
+            //u.Fiyat = 34;
+            //u.SatisiDevamEdiyorMu = false;
+            //u.Kategori = "katgori";
+            //u.UretimTarihi = DateTime.Now;
+            //u.Sat();
+            //u.Agirlik = 5.5;
+            
+
+            //Siparis s = new Siparis();
+            //s.SiparisKodu = "123";
+            //s.SiparisTarihi = DateTime.Now;
+            //s.Adres = "Giresun";
+            //s.Urunler = {u.UrunAdi}, { u.UrunKodu};
+            //MessageBox.Show(s.ToplamUrunSayisi.ToString());
+        
         }
 
         //private void Btn_Click(object sender, EventArgs e)

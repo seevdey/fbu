@@ -36,15 +36,18 @@ namespace WinForm01.Classes
             }
         }
 
-        //Double, arka tarafda double değişkeninin oluşması için oluşturulan class
+        //Double, arka tarafta double değişkeninin oluşması için oluşturulan class
         private double _boy;
         public double Boy { get; set; }
 
         // CTRL + r + e
-        public double _kilo { get => kilo; set => kilo = value; }
-        private double kilo;
 
-        public double Kilo
+        //eski hali
+        public double _kilo { get => kilo; set => kilo = value; }
+
+        private double kilo; //alan
+
+        public double Kilo //özellik
         {
             //kapsüllediğim datayı get ten gönderiyorum
             get { return kilo; }
@@ -55,6 +58,7 @@ namespace WinForm01.Classes
         public byte Yas { get => _yas; set => _yas = value; }
         private byte _yas;
 
+        //Color --> struct(classımsı)
         public Color SacRengi { get => _sacrengi; set => _sacrengi = value; }
         private Color _sacrengi;
 
