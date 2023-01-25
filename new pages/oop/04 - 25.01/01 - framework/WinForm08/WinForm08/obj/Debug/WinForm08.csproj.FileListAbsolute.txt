@@ -1,0 +1,13 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\bin\Debug\WinForm08.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\bin\Debug\WinForm08.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\bin\Debug\WinForm08.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\bin\Debug\Matematik.dll
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\bin\Debug\Matematik.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\WinForm08\obj\Debug\WinForm08.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\Matematik\bin\Debug\Matematik.dll
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\Matematik\bin\Debug\Matematik.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\Matematik\obj\Debug\Matematik.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\Matematik\obj\Debug\Matematik.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\Matematik\obj\Debug\Matematik.dll
+C:\Users\sevde\OneDrive\Masaüstü\WinForm08\Matematik\obj\Debug\Matematik.pdb
