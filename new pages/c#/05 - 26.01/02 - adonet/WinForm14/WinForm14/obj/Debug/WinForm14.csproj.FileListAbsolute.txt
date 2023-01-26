@@ -1,0 +1,10 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\bin\Debug\WinForm14.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\bin\Debug\WinForm14.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\bin\Debug\WinForm14.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm14\WinForm14\obj\Debug\WinForm14.pdb
