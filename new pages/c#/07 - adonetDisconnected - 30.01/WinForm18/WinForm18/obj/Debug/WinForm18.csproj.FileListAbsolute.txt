@@ -1,0 +1,12 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\bin\Debug\WinForm18.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\bin\Debug\WinForm18.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\bin\Debug\WinForm18.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.Form2.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm18\WinForm18\obj\Debug\WinForm18.Form3.resources
