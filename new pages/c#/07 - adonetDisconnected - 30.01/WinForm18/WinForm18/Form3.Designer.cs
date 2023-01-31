@@ -39,6 +39,8 @@ namespace WinForm18
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -59,6 +61,7 @@ namespace WinForm18
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(302, 548);
             this.listBox2.TabIndex = 1;
+            this.listBox2.DoubleClick += new System.EventHandler(this.listBox2_DoubleClick);
             // 
             // textBox1
             // 
@@ -109,11 +112,11 @@ namespace WinForm18
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(814, 74);
+            this.label4.Location = new System.Drawing.Point(756, 74);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(251, 31);
+            this.label4.Size = new System.Drawing.Size(279, 25);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Müşteriler Son Durum";
+            this.label4.Text = "Müşteriler Son Durum(ListBox)";
             // 
             // button1
             // 
@@ -139,11 +142,34 @@ namespace WinForm18
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // listView1
+            // 
+            this.listView1.GridLines = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(1149, 130);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(341, 548);
+            this.listView1.TabIndex = 8;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(1169, 74);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(288, 25);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Müşteriler Son Durum(ListView)";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1141, 776);
+            this.ClientSize = new System.Drawing.Size(1654, 776);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
@@ -174,5 +200,7 @@ namespace WinForm18
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Label label5;
     }
 }

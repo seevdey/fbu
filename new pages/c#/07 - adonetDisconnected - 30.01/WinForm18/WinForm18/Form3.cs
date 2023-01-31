@@ -78,7 +78,7 @@ namespace WinForm18
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlDataAdapter dap = new SqlDataAdapter("select CustomerId, CompanyName from Customers", conn);
+             dap = new SqlDataAdapter("select CustomerId, CompanyName from Customers", conn);
 
             DataSet ds = new DataSet();
             dap.Fill(ds);
@@ -86,6 +86,31 @@ namespace WinForm18
             listBox2.DataSource = ds.Tables[0];
             listBox2.DisplayMember = "CompanyName";
             listBox2.ValueMember = "CustomerId";
+
+            //Kolon başlıklarını oluşturma
+            listView1.Columns.Add("Id");
+            listView1.Columns.Add("Name",150); //genişliğini 150 yap
+
+            //listView1.Columns[1].Width = 150;
+
+            //listbox2 deki tüm kayıtları ekleme
+            //foreach (DataRow item in ds.Tables[0].Rows)
+            //{
+            //    ListViewItem lvi = new ListViewItem();
+            //    lvi.Text = item["CustomerId"].ToString();
+            //    lvi.SubItems.Add(item["CompanyName"].ToString());
+            //    listView1.Items.Add(lvi);
+            //}
+        }
+
+        private void listBox2_DoubleClick(object sender, EventArgs e)
+        {
+            //seçili listbox2 kaydını listview a ekleme
+            ListViewItem lvi = new ListViewItem();
+            lvi.Text = listBox2.SelectedValue.ToString();
+            DataRowView drv = (DataRowView)listBox2.SelectedItem;
+            lvi.SubItems.Add(drv["CompanyName"].ToString());
+            listView1.Items.Add(lvi);
         }
     }
 }
