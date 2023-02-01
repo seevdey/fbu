@@ -1,0 +1,11 @@
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\bin\Debug\WimForm20.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\bin\Debug\WimForm20.exe
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\bin\Debug\WimForm20.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.exe
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WimForm20\WimForm20\obj\Debug\WimForm20.Form2.resources

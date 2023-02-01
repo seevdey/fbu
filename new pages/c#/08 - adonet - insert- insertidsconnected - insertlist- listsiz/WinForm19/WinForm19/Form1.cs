@@ -159,7 +159,6 @@ namespace WinForm19
         }
 
         List<String> lst = new List<string>();
-        List<String> lst2 = new List<string>();
 
         private void button4_Click(object sender, EventArgs e) //Insert-List
         {
@@ -241,6 +240,53 @@ namespace WinForm19
                         string aciklama = dr[1].ToString();
                         dataGridView1.Rows.Add(kategori, aciklama);
                     }
+                    MessageBox.Show("İşlem başarılı");
+                }
+            }
+            else
+            {
+                conn.Close();
+            }
+        }
+
+
+        List<Kategoriler> katList = new List<Kategoriler>();
+        private void button6_Click(object sender, EventArgs e) //Class kullanarak 
+        {
+            string sorgu1 = "select CategoryName, Description from Categories";
+            string sorgu2 = "insert Categories (CategoryName, Description) values (@catName, @desc)";
+
+            SqlCommand cmd1 = new SqlCommand(sorgu1, conn);
+            SqlCommand cmd2 = new SqlCommand(sorgu2, conn);
+
+            cmd2.Parameters.AddWithValue("@catName", textBox1.Text);
+            cmd2.Parameters.AddWithValue("@desc", textBox2.Text);
+
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+                cmd2.ExecuteNonQuery();
+                SqlDataReader dr = cmd1.ExecuteReader();
+
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Kategoriler k = new Kategoriler()
+                        {
+                            //satır satır okuma yapar
+                            KatName = dr[0].ToString(),
+                            KatAciklama = dr[1].ToString()
+                        };
+                        katList.Add(k);
+
+                    }
+                    dataGridView1.DataSource = katList;
+
+                    //sorguda katId gelmediği için 0 gözükmesin diye gizledik. IndexOutofRange hatası alırsın
+                    //ID kolonunu gizleme
+                    dataGridView1.Columns[0].Visible = false;
+
                     MessageBox.Show("İşlem başarılı");
                 }
             }
