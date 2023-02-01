@@ -1,0 +1,10 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\bin\Debug\WinForm19.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\bin\Debug\WinForm19.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\bin\Debug\WinForm19.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm19\WinForm19\obj\Debug\WinForm19.pdb
