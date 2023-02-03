@@ -1,0 +1,11 @@
+C:\Users\sevde\source\repos\WinForm22\WinForm22\bin\Debug\WinForm22.exe.config
+C:\Users\sevde\source\repos\WinForm22\WinForm22\bin\Debug\WinForm22.exe
+C:\Users\sevde\source\repos\WinForm22\WinForm22\bin\Debug\WinForm22.pdb
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.csproj.AssemblyReference.cache
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.Form1.resources
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.Form2.resources
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.Properties.Resources.resources
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.csproj.GenerateResource.cache
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.csproj.CoreCompileInputs.cache
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.exe
+C:\Users\sevde\source\repos\WinForm22\WinForm22\obj\Debug\WinForm22.pdb

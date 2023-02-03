@@ -1,0 +1,12 @@
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\bin\Debug\winform23_delegate.exe.config
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\bin\Debug\winform23_delegate.exe
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\bin\Debug\winform23_delegate.pdb
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.csproj.AssemblyReference.cache
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.Form1.resources
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.Form2.resources
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.Properties.Resources.resources
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.csproj.GenerateResource.cache
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.csproj.CoreCompileInputs.cache
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.exe
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.pdb
+D:\okan hoca ödevleri\OOP_OkanHoca\winform21\winform23_delegate\obj\Debug\winform23_delegate.Form3.resources

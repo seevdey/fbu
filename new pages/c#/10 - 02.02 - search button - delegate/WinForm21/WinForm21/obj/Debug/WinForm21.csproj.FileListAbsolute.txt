@@ -1,0 +1,11 @@
+C:\Users\sevde\source\repos\WinForm21\WinForm21\bin\Debug\WinForm21.exe.config
+C:\Users\sevde\source\repos\WinForm21\WinForm21\bin\Debug\WinForm21.exe
+C:\Users\sevde\source\repos\WinForm21\WinForm21\bin\Debug\WinForm21.pdb
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.csproj.AssemblyReference.cache
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.Form1.resources
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.Properties.Resources.resources
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.csproj.GenerateResource.cache
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.csproj.CoreCompileInputs.cache
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.exe
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.pdb
+C:\Users\sevde\source\repos\WinForm21\WinForm21\obj\Debug\WinForm21.Form2.resources
