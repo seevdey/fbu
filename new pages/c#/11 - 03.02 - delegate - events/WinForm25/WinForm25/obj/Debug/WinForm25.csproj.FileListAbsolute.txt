@@ -1,0 +1,11 @@
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.Form1.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.Form2.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\bin\Debug\WinForm25.exe.config
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\bin\Debug\WinForm25.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\bin\Debug\WinForm25.pdb
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.exe
+C:\Users\sevde\OneDrive\Masaüstü\WinForm25\WinForm25\obj\Debug\WinForm25.pdb
