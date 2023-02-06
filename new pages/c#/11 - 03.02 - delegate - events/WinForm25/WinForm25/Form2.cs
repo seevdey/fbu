@@ -146,10 +146,6 @@ namespace WinForm25
 
                     }
                 }
-                
-                
-
-                
             }
         }
 

@@ -54,19 +54,22 @@ namespace WinForm18
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(287, 65);
+            this.button1.BackColor = System.Drawing.Color.Brown;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(281, 279);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 622);
+            this.button1.Size = new System.Drawing.Size(132, 105);
             this.button1.TabIndex = 2;
             this.button1.Text = "FİYATLARI GETİR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(438, 734);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);

@@ -47,7 +47,7 @@ namespace WinForm18
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(73, 130);
+            this.listBox1.Location = new System.Drawing.Point(34, 119);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(288, 548);
             this.listBox1.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace WinForm18
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(761, 130);
+            this.listBox2.Location = new System.Drawing.Point(722, 119);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(302, 548);
             this.listBox2.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace WinForm18
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(532, 213);
+            this.textBox1.Location = new System.Drawing.Point(493, 202);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(154, 22);
@@ -73,7 +73,7 @@ namespace WinForm18
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(538, 273);
+            this.textBox2.Location = new System.Drawing.Point(499, 262);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(148, 22);
             this.textBox2.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace WinForm18
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(393, 213);
+            this.label1.Location = new System.Drawing.Point(354, 202);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 20);
             this.label1.TabIndex = 4;
@@ -92,7 +92,7 @@ namespace WinForm18
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(378, 270);
+            this.label2.Location = new System.Drawing.Point(339, 259);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 4;
@@ -102,7 +102,7 @@ namespace WinForm18
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(116, 65);
+            this.label3.Location = new System.Drawing.Point(71, 63);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(184, 25);
             this.label3.TabIndex = 5;
@@ -112,7 +112,7 @@ namespace WinForm18
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(756, 74);
+            this.label4.Location = new System.Drawing.Point(730, 63);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(279, 25);
             this.label4.TabIndex = 5;
@@ -122,11 +122,11 @@ namespace WinForm18
             // 
             this.button1.BackColor = System.Drawing.Color.Peru;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(475, 321);
+            this.button1.Location = new System.Drawing.Point(436, 332);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 50);
             this.button1.TabIndex = 6;
-            this.button1.Text = "UPDATE";
+            this.button1.Text = "GÜNCELLE";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -134,7 +134,7 @@ namespace WinForm18
             // 
             this.button2.BackColor = System.Drawing.Color.Khaki;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(475, 433);
+            this.button2.Location = new System.Drawing.Point(436, 422);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 57);
             this.button2.TabIndex = 7;
@@ -146,7 +146,7 @@ namespace WinForm18
             // 
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(1149, 130);
+            this.listView1.Location = new System.Drawing.Point(1110, 119);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(341, 548);
             this.listView1.TabIndex = 8;
@@ -157,7 +157,7 @@ namespace WinForm18
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(1169, 74);
+            this.label5.Location = new System.Drawing.Point(1134, 63);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(288, 25);
             this.label5.TabIndex = 9;
@@ -167,7 +167,8 @@ namespace WinForm18
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1654, 776);
+            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.ClientSize = new System.Drawing.Size(1502, 728);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button2);

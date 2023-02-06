@@ -1,0 +1,15 @@
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFrameworkApp.exe.config
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFrameworkApp.exe
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFrameworkApp.pdb
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.csproj.AssemblyReference.cache
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.Form1.resources
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.Properties.Resources.resources
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.csproj.GenerateResource.cache
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.csproj.CoreCompileInputs.cache
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.exe
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.pdb
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFramework.dll
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFramework.xml
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\CODES\C#\EntityFramework\EntityFrameworkApp\obj\Debug\EntityFrameworkApp.csproj.CopyComplete

@@ -95,7 +95,7 @@ namespace WimForm20
             cmd.Parameters.AddWithValue("@desc", textBox2.Text);
 
             conn.Open();
-            cmd.ExecuteReader();
+            cmd2.ExecuteReader();
 
 
             SqlDataReader dr = cmd2.ExecuteReader();
@@ -221,5 +221,6 @@ namespace WimForm20
 
                 }
             }
+        }
     }
 }

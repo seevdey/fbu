@@ -56,11 +56,6 @@ namespace WinForm18
 
         private void button1_Click(object sender, EventArgs e) //UPDATE
         {
-            //SqlDataAdapter dap = new SqlDataAdapter("UPDATE Customers set CompanyName = @Cname where CustomerID = @id", conn);
-
-            //string sql = null;
-            //sql = "UPDATE Customers set CompanyName = @Cname where CustomerID = @id";
-
             SqlCommand cmd = new SqlCommand("UPDATE Customers set CompanyName = @Cname where CustomerID = @id", conn);
           
             dap.UpdateCommand = cmd;

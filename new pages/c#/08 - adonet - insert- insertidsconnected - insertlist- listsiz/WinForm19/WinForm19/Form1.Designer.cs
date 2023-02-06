@@ -61,7 +61,7 @@ namespace WinForm19
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(300, 45);
             this.button2.TabIndex = 17;
-            this.button2.Text = "Insert";
+            this.button2.Text = "Insert(Connected)";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -164,7 +164,7 @@ namespace WinForm19
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1080, 875);
+            this.ClientSize = new System.Drawing.Size(1047, 811);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
