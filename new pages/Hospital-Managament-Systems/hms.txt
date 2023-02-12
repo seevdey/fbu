@@ -1,0 +1,32 @@
+Patient_Informations +
+Insurances +
+Patient_Information_Details +
+Appointments +
+Polyclinics +
+Doctors +
+Branchs +
+Nurses +
+Prescriptions + 
+Medicines +
+Services +
+Beds +
+Rooms +
+Surgeries +
+Examination+
+Patient_Accompaniment+
+Prescription_Medicine+
+Patient_Discharge+
+
+------YAPILMAYANALR----
+Fees 
+Fee_Diagnoses 
+Diagnoses 
+Patient_Hospitalization 
+Lab_Test
+Examination_LabTest
+Fee_LabTest
+LabReports
+Radiology_Test
+Radiology_Reports
+Examination_Radiology
+Fee_Radiology

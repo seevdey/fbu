@@ -1,3 +1,5 @@
+use HospitalManagamentSystem
+
 -----------------------ÝLAÇLAR---------------------
 insert into Medicines(Medicine_Name,SGK, SGK_Disc, Price)
 values('Hydrocodone',1,'%50',32),('Metformin',1,'%20',45),('Losartan',0,'%70',20),('Antibiotics',1,'%40',22),
@@ -128,6 +130,7 @@ values('Kadýn','Dahiliye - 1'),
 ('Kadýn','Beyin Cerrahisi - 1'),
 ('Erkek','Beyin Cerrahisi - 2')
 
+select * from Services
 
 --------------ROOMS-----------------
 
@@ -192,10 +195,56 @@ select * from Examination
 
 
 -------------------Reçete----------------------
-insert into Prescriptions(Prescription_ID,Examination_ID, Medicine_Piece)
-values  (1,3, 4),
-		(2, 1, 6),
-		(3, 2, 5)
+insert into Prescriptions(Prescription_ID, Medicine_Piece)
+values  (1, 4),
+		(2, 6),
+		(3, 5),
+		(4, 4),
+		(5, 2)
 
 select * from Prescriptions
 
+----------------------------Prescription Medicine-----------------------------
+
+insert into Prescription_Medicine
+values (1, 8),
+		(2, 6),
+		(3, 1),
+		(4, 4),
+		(5, 3)
+
+select * from Prescription_Medicine
+
+
+----------------------Hasta Refakatçi-------------------------------
+
+insert into Patient_Accompaniment(Identification_Number, Acc_Name, Acc_Surname, Start_Date, End_Date, Acc_Address, Acc_Phone, Degree_Proximity)
+values('78172594474', 'Sevinç', 'Tütüncü', '2023-02-05', '2023-02-06', 'Kartal, Ýstanbul', '534-894-5623', 'Annesi'),
+('12510646050', 'Ümran', 'Çörekçi', '2023-01-10', '2023-01-28', 'Baðcýlar, Ýstanbul', '533-697-0456', 'Teyzei'),
+('45063843676', 'Selda', 'Aybar', '2022-12-15', '2022-12-05', 'Üsküdar, Ýstanbul', '545-165-7842', 'Kardeþi'),
+('39952628598', 'Muzaffer', 'Tekelioðlu', '2022-11-10', '2022-11-20', 'Göztepe, Ýstanbul', '536-487-3458', 'Babasý'),
+('57051382630', 'Evran', 'Erberk', '2022-10-24', '2022-10-26', 'Bostancý, Ýstanbul', '542-434-1367', 'Abisi')
+
+select * from  Patient_Accompaniment
+
+
+-----------------------------------Lab Sonuçlarý-----------------------------------
+insert into LabReports
+values (1, 3, 'Covid+'),
+(2, 9, '')
+
+
+
+
+
+
+
+
+---------------------------
+insert into Patient_Discharge (Patient_Discharge_ID, Discharge_Date, Explanation) 
+values 
+(1, '2023-05-07','Monthly check-up'),
+(2, '2023-02-25','Routine'),
+(3, '2023-08-18','Weekly check-up'),
+(4, '2023-10-15','Check-up per 2 month'),
+(5, '2023-02-23','Plaster')

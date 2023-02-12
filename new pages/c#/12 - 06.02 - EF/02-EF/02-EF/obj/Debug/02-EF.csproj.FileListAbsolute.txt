@@ -13,3 +13,18 @@ C:\Users\sevde\OneDrive\Masaüstü\02-EF\02-EF\obj\Debug\02-EF.csproj.CoreCompil
 C:\Users\sevde\OneDrive\Masaüstü\02-EF\02-EF\obj\Debug\02-EF.csproj.CopyComplete
 C:\Users\sevde\OneDrive\Masaüstü\02-EF\02-EF\obj\Debug\02-EF.exe
 C:\Users\sevde\OneDrive\Masaüstü\02-EF\02-EF\obj\Debug\02-EF.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\02-EF.exe.config
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\02-EF.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\02-EF.pdb
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\EntityFramework.dll
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\EntityFramework.xml
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\02-EF.csproj.AssemblyReference.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\_02_EF.Form1.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\_02_EF.Properties.Resources.resources
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\02-EF.csproj.GenerateResource.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\02-EF.csproj.CoreCompileInputs.cache
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\02-EF.csproj.CopyComplete
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\02-EF.exe
+C:\Users\sevde\OneDrive\Belgeler\GitHub\fbu\new pages\c#\12 - 06.02 - EF\02-EF\02-EF\obj\Debug\02-EF.pdb

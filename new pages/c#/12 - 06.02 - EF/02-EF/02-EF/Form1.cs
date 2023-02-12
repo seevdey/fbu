@@ -38,17 +38,39 @@ namespace _02_EF
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
+            //1.YOL
+            ////Boş olması lazım çünkü yeni kayıt oluşturacağım
+            //Kisiler k = new Kisiler();
+            //k.KisiAdi = txtAd.Text;
+            //k.KisiSoyadi = txtSoyad.Text;
+            //k.TelNo = txtTelefon.Text;
 
-            //Boş olması lazım çünkü yeni kayıt oluşturacağım
-            Kisiler k = new Kisiler();
-            k.KisiAdi = txtAd.Text;
-            k.KisiSoyadi = txtSoyad.Text;
-            k.TelNo = txtTelefon.Text;
+            ////Model datayı üstüne alır ama veritabanına yollamadık
+            //db.Kisiler.Add(k);
 
-            //Model datayı üstüne alır ama veritabanına yollamadık
-            db.Kisiler.Add(k);
+            ////db.SaveChanges ile veri tabanına kaydeder
+            //db.SaveChanges();
 
-            //db.SaveChanges ile veri tabanına kaydeder
+
+            //2.YOL
+            //Kisiler k = new Kisiler
+            //{
+            //    KisiAdi = txtAd.Text,
+            //    KisiSoyadi = txtSoyad.Text,
+            //    TelNo = txtTelefon.Text
+
+            //};
+            //db.Kisiler.Add(k);
+            //db.SaveChanges();
+
+
+            //3.YOL
+            db.Kisiler.Add(new Kisiler
+            {
+                KisiAdi = txtAd.Text,
+                KisiSoyadi = txtSoyad.Text,
+                TelNo = txtTelefon.Text
+            });
             db.SaveChanges();
 
             KisileriGetir();
@@ -107,6 +129,21 @@ namespace _02_EF
 
             db.SaveChanges();
             KisileriGetir();
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //Contains --> içeren
+            //StarstWith --> başlayan 
+            dataGridView1.DataSource = db.Kisiler.Where(k => k.KisiAdi.StartsWith(textBox1.Text) || k.KisiSoyadi.StartsWith(textBox1.Text)).ToList();
+
+            //k => k.KisiAdi.StartsWith(textBox1.Text) >>> başlayan ifadeler 'metin%'
+            //k => k.KisiAdi.Contains(textBox1.Text) >>> içeren ifadeler '%metin%'
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
